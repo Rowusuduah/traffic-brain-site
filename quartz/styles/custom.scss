@@ -1,3 +1,26 @@
-@use "./base.scss";
+// Optional polish for Traffic Engineering Brain.
+// Place at quartz/styles/custom.scss (Quartz imports it automatically in recent versions;
+// if not, add: @use "./custom.scss"; to quartz/styles/custom.scss's importer, or just paste
+// these rules into the existing custom.scss). Safe to skip — the config theme already looks good.
 
-// put your custom CSS here!
+// Slightly wider reading column for tables (you have lots of reference tables)
+.center {
+  max-width: 780px;
+}
+
+// Make your MOC / index tables breathe
+article table {
+  font-size: 0.92rem;
+  th { font-weight: 600; }
+}
+
+// Callouts a touch calmer
+.callout {
+  border-radius: 6px;
+}
+
+// Tag pills look less shouty
+.tags > li > a {
+  font-size: 0.75rem;
+  opacity: 0.85;
+}

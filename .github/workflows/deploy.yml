@@ -1,0 +1,46 @@
+# Auto-builds and publishes the site every time you push.
+# Put this at: .github/workflows/deploy.yml  in your Quartz repo.
+# Then in GitHub: Settings → Pages → Source → "GitHub Actions".
+name: Deploy Traffic Engineering Brain
+
+on:
+  push:
+    branches: [v4]      # Quartz's default branch is v4; change to "main" if yours is main
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install and build
+        run: |
+          npm ci
+          npx quartz build
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  deploy:
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

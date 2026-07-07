@@ -2,53 +2,51 @@ import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
 
 /**
- * Quartz 4 Configuration
- *
- * See https://quartz.jzhao.xyz/configuration for more information.
+ * Traffic Engineering Brain — Quartz config
+ * Tuned for readability + a calm, professional palette (not the stock theme).
+ * Drop this file into the root of your Quartz folder, replacing the default.
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "Traffic Engineering Brain",
     pageTitleSuffix: "",
     enableSPA: true,
-    enablePopovers: true,
-    analytics: {
-      provider: "plausible",
-    },
+    enablePopovers: true,          // hover-preview of linked notes — great for a wiki
+    analytics: null,               // no tracking
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    baseUrl: "rowusuduah.github.io/traffic-brain-site",
+    ignorePatterns: ["private", "templates/**/_*", ".obsidian"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
+        header: "Libre Franklin",   // clean engineering-report feel
         body: "Source Sans Pro",
         code: "IBM Plex Mono",
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          light: "#faf9f6",         // warm off-white page
+          lightgray: "#e6e4df",     // borders
+          gray: "#b8b5ad",          // graph links, subtle text
+          darkgray: "#33312d",      // body text
+          dark: "#1f1e1b",          // headings
+          secondary: "#1f6f5c",     // deep teal — links & accents (your palette)
+          tertiary: "#3d9970",      // hover / graph highlight
+          highlight: "rgba(31, 111, 92, 0.12)",  // link-underline + search hit
+          textHighlight: "#e8d44daa",
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          light: "#1b1a18",
+          lightgray: "#3a3833",
+          gray: "#6a675f",
+          darkgray: "#d8d4cb",
+          dark: "#f0ede4",
+          secondary: "#4fb99a",
+          tertiary: "#6fd3b3",
+          highlight: "rgba(79, 185, 154, 0.15)",
+          textHighlight: "#b3a125aa",
         },
       },
     },
@@ -56,20 +54,12 @@ const config: QuartzConfig = {
   plugins: {
     transformers: [
       Plugin.FrontMatter(),
-      Plugin.CreatedModifiedDate({
-        priority: ["frontmatter", "git", "filesystem"],
-      }),
-      Plugin.SyntaxHighlighting({
-        theme: {
-          light: "github-light",
-          dark: "github-dark",
-        },
-        keepBackground: false,
-      }),
-      Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
+      Plugin.CreatedModifiedDate({ priority: ["frontmatter", "filesystem"] }),
+      Plugin.SyntaxHighlighting({ theme: { light: "github-light", dark: "github-dark" }, keepBackground: false }),
+      Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),  // makes [[wikilinks]] + callouts work
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents(),
-      Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
+      Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),      // resolves your links by note name
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
     ],
@@ -80,15 +70,11 @@ const config: QuartzConfig = {
       Plugin.ContentPage(),
       Plugin.FolderPage(),
       Plugin.TagPage(),
-      Plugin.ContentIndex({
-        enableSiteMap: true,
-        enableRSS: true,
-      }),
+      Plugin.ContentIndex({ enableSiteMap: true, enableRSS: true }),
       Plugin.Assets(),
       Plugin.Static(),
       Plugin.Favicon(),
       Plugin.NotFoundPage(),
-      // Comment out CustomOgImages to speed up build time
       Plugin.CustomOgImages(),
     ],
   },
