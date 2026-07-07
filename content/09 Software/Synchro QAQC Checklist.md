@@ -3,7 +3,6 @@ tags: [type/checklist, domain/software, domain/tia, status/verify]
 applies-to: every Synchro network before results leave your desk
 last-checked: 
 ---
-# ★ Synchro QA/QC Checklist
 **Source:** HCM-aligned practice + accumulated review pain. **When to use:** existing AND future scenarios, every submittal.
 
 **Volumes & demand**

@@ -4,7 +4,9 @@ type: county
 fdot-district: 1
 last-checked:
 ---
-# Collier County
+> [!todo] Scaffold sheet
+> Agency contacts, submittal requirements, and quirks not yet compiled. Structure is ready — fill on first project contact.
+
 **Role/jurisdiction:** Naples region; high-standard review environment.
 **Known starting points** `#status/verify`:
 - (none yet — run [[Workflow - Research and Source Vetting]])

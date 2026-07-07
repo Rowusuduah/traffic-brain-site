@@ -4,7 +4,6 @@ type: mpo
 fdot-district: 7
 last-checked:
 ---
-# Hillsborough TPO
 **Role/jurisdiction:** MPO for Hillsborough (Tampa, Plant City, Temple Terrace + county).
 **Known starting points** `#status/verify`:
 - LRTP, TIP, crash/Vision Zero data products

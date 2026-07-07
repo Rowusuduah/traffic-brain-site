@@ -1,8 +1,8 @@
 ---
 tags: [type/workflow, domain/tia]
+description: "12-step TIA workflow from methodology memo to comment-cycle close-out, with QA/QC gates at every analysis stage."
 last-used: 
 ---
-# ★ Workflow — TIA from Request to Submittal
 **Trigger:** development application meets agency study threshold (trips/size — check agency note).
 **Inputs:** site program, site plan w/ access, agency TIA guidelines, prior studies nearby.
 
@@ -17,7 +17,7 @@ last-used:
 9. Site access review: driveway spacing/corner clearance vs access class; internal queue storage at gates/drive-thrus.
 10. Report assembly per [[MOC - Report Writing]]; every figure = its table = its text.
 11. QA/QC full [[QAQC System]] pass; assumptions appendix from the project note.
-12. Submit → comment cycle via [[T - Comment Response]] matrix → resubmit; archive per [[Project Close-Out and Lessons]].
+12. Submit → comment cycle via a comment-response matrix → resubmit; archive per [[Project Close-Out and Lessons]].
 
 **Example application:** save each accepted methodology memo — the next one starts at 70%.
 **Practice question:** agency demands a 2% growth rate but counts show decline — what goes in the memo, and who decides?

@@ -2,8 +2,8 @@
 tags: [type/checklist, domain/design, status/verify]
 source: MUTCD; FDOT Standard Plans 700/711 series; FDM; TEM
 last-checked: 
+title: "★ Signing & Pavement Marking (S&PM) Plan Review Checklist"
 ---
-# ★ Signing & Pavement Marking (S&PM) Plan Review Checklist
 **Run when:** reviewing/producing S&PM sheets (state or local — confirm governing standards first!).
 
 **Signs**

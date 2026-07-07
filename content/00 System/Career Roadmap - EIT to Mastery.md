@@ -1,8 +1,8 @@
 ---
 tags: [type/system, domain/career]
+description: "Five-stage trajectory from reliable producer to PE and beyond, with milestones and the compounding habits that shorten each stage."
+title: "Career Roadmap — EIT to Mastery (Florida traffic)"
 ---
-# Career Roadmap — EIT to Mastery (Florida traffic)
-
 The trajectory in one line: **reliable producer → trusted analyst → independent problem-solver → PE who owns work → specialist/seller of work.** You can't skip stages; you can shorten them by compounding lessons (that's what this vault is for).
 
 ## Stage 0 → 1: Reliable producer (months 0–12)
@@ -23,7 +23,7 @@ The trajectory in one line: **reliable producer → trusted analyst → independ
 ## Stage 2 → 3: Independent problem-solver (years 2.5–4)
 - Scope small studies yourself: study area, data plan, level-of-effort hours.
 - QC others' work; own agency coordination threads; present at ITE/FLPRITE district meetings.
-- Log every project in [[Experience Tracker for PE-PTOE]] with the *engineering decisions* you made — the PE application asks for exactly this.
+- Log every project in your PE-PTOE experience tracker with the *engineering decisions* you made — the PE application asks for exactly this.
 
 ## Stage 3 → 4: PE (~year 4) and beyond
 - Licensure = liability + responsible charge, not a finish line. Revisit [[EIT Boundaries Ethics and Liability]] from the other side.
@@ -32,9 +32,9 @@ The trajectory in one line: **reliable producer → trusted analyst → independ
 
 ## The compounding habits that separate the top decile
 1. Written lessons after every redline round ([[Lessons Learned System]]).
-2. Questions asked with homework attached ([[Questions for Senior Engineers]]).
+2. Questions asked with homework attached (your questions-for-seniors log).
 3. A personal library of worked examples — this vault.
 4. One skill per month, proven by an artifact ([[Monthly Technical Growth Review]]).
 5. Visible reliability: deadlines pre-negotiated, never silently missed.
 
-Related: [[Plans - 30 to 90 to 3 Years]] · [[Skill Tracker]] · [[PE PTOE RSP Roadmaps]]
+Related: [[PE PTOE RSP Roadmaps]] · pair this with your own 30/90/3-year plan and a skill tracker.

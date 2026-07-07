@@ -71,7 +71,8 @@ function computeFolderInfo(
       defaultProcessedContent({
         slug: joinSegments(folder, "index") as FullSlug,
         frontmatter: {
-          title: `${i18n(locale).pages.folderContent.folder}: ${folder}`,
+          // de-slugged folder name reads like the sheet index, not a URL
+          title: (folder.split("/").pop() ?? folder).replace(/--and--/g, " & ").replace(/-/g, " "),
           tags: [],
         },
       }),

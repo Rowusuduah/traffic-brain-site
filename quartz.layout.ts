@@ -1,5 +1,7 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
+import ExitTab from "./quartz/components/ExitTab"
+import TitleBlock from "./quartz/components/TitleBlock"
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
@@ -8,23 +10,17 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
+      "GitHub — source & vault": "https://github.com/Rowusuduah/traffic-brain-site",
+      "FDOT": "https://www.fdot.gov",
+      "MUTCD (FHWA)": "https://mutcd.fhwa.dot.gov",
     },
   }),
 }
 
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
-  beforeBody: [
-    Component.ConditionalRender({
-      component: Component.Breadcrumbs(),
-      condition: (page) => page.fileData.slug !== "index",
-    }),
-    Component.ArticleTitle(),
-    Component.ContentMeta(),
-    Component.TagList(),
-  ],
+  beforeBody: [ExitTab(), Component.ArticleTitle(), Component.TagList()],
+  afterBody: [TitleBlock()],
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
@@ -38,7 +34,10 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({
+      title: "Sheet index",
+      folderDefaultState: "collapsed",
+    }),
   ],
   right: [
     Component.Graph(),
@@ -49,7 +48,7 @@ export const defaultContentPageLayout: PageLayout = {
 
 // components for pages that display lists of pages  (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
-  beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
+  beforeBody: [ExitTab(), Component.ArticleTitle()],
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
@@ -62,7 +61,10 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({
+      title: "Sheet index",
+      folderDefaultState: "collapsed",
+    }),
   ],
   right: [],
 }

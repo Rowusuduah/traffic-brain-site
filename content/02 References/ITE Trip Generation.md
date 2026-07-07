@@ -1,10 +1,11 @@
 ---
 tags: [type/reference, src/professional, status/verify]
+description: "Trip rates and equations by land use code — the default demand basis for TIAs and the most-reviewed part of any study."
 edition: 11th Ed. (verify; ITETripGen web app)
 link: https://www.itetripgen.org
 last-checked: 
+title: "ITE Trip Generation Manual"
 ---
-# ITE Trip Generation Manual
 **What:** trip rates/equations by land use code from national studies; the default demand basis for TIAs (unless agency dictates otherwise).
 **Why:** trip gen drives study scope and mitigation; misuse (wrong LU code, rate vs equation, wrong setting/period) is the most-reviewed part of any TIA.
 **When:** every TIA; internal capture & pass-by adjustments via the companion Handbook procedures.

@@ -2,9 +2,8 @@
 tags: [type/reference, domain/agency, src/official, status/verify]
 link: https://www.fdot.gov (Districts pages)
 last-checked: 
+title: "FDOT Districts + Florida's Turnpike Enterprise"
 ---
-# FDOT Districts + Florida's Turnpike Enterprise
-
 Districts run their own **traffic operations, permitting, and design review** — same manuals, different personalities. Collect per district: traffic ops contacts, access/driveway permit process (One-Stop Permitting), signal approval chain, TSM&O/ATSPM programs, district design office quirks, typical review comments.
 
 | District | HQ | Counties (verify) |

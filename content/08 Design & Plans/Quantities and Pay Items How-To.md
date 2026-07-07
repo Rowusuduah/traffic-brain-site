@@ -2,8 +2,8 @@
 tags: [type/workflow, domain/design, status/verify]
 source: FDOT BOE Manual; Standard Specifications (measurement & payment)
 last-checked: 
+title: "Quantities & Pay Items How-To (traffic items)"
 ---
-# Quantities & Pay Items How-To (traffic items)
 **Method:** for each item — find the pay item # ([[FDOT Basis of Estimates and Pay Items]]) → read BOE description + spec **measurement & payment** (what's included!) → take off station-to-station in a tab that shows work → unit-check → independent check.
 **Traffic takeoffs:** signs (panel area/each + posts by type; assemblies!) · markings (LF by type/width/material; messages/arrows EA; RPMs) · signal (poles/mast arms EA, heads, ped features, loops/detection, conduit & cable LF — the conduit run map is where errors breed) · ADA ramps (EA by index case) · parking striping (stalls EA or LF + ADA symbols/signage).
 **Double-count guards:** incidental items list per spec (e.g., is X "included in cost of Y"?) · phase overlaps in MOT quantities · removed-vs-proposed netting stated explicitly.

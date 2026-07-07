@@ -1,15 +1,15 @@
 ---
 tags: [type/reference, domain/agency]
+description: "Florida jurisdiction library — who owns the road, one note per agency, the Tampa Bay D7/D1 roster, and statewide expansion."
+title: "MOC — Agencies (Florida jurisdiction library)"
 ---
-# MOC — Agencies (Florida jurisdiction library)
-
 **Prime directive:** before quoting ANY standard, answer *who owns this road?* State road → FDM/TEM/Standard Plans. County/city road → Greenbook + that agency's standards. Check FDOT's RCI/GIS or the county property appraiser/GIS when unsure.
 
 ## How this library works
-- One note per agency from [[T - Agency]] — the 18-item collection checklist IS the note body; fill links as projects touch each agency; date everything.
+- One note per agency, all built to the same pattern — the collection checklist IS the note body; fill links as projects touch each agency; date everything.
 - ★ Worked example of a filled agency page: [[Hillsborough County]] — copy its pattern.
-- New jurisdiction anywhere in Florida: spawn from template, set `fdot-district`, add to [[Statewide Expansion Index]], spend 30 min on the Collect list *before* the kickoff call.
-- Contacts: use [[T - Contact]]; institutional knowledge ("reviewer X always asks for queue analysis") is the highest-value content here.
+- New jurisdiction anywhere in Florida: spawn a new agency note, set `fdot-district`, add to [[Statewide Expansion Index]], spend 30 min on the Collect list *before* the kickoff call.
+- Contacts: one note per person; institutional knowledge ("reviewer X always asks for queue analysis") is the highest-value content here.
 
 ## Tampa Bay primary (folder: Tampa Bay Primary)
 **FDOT D7:** [[City of Tampa]] · [[Hillsborough County]] · [[Pinellas County]] · [[Pasco County]] · [[Hernando County]] · [[Citrus County]] · [[City of St. Petersburg]] · [[City of Clearwater]] · [[Hillsborough TPO]] · [[Forward Pinellas]]

@@ -4,7 +4,6 @@ type: county
 fdot-district: 7
 last-checked:
 ---
-# Hillsborough County
 **Role/jurisdiction:** Unincorporated county roads; heavy development review volume.
 **Known starting points** `#status/verify`:
 - County Vision Zero action plan exists — locate current version

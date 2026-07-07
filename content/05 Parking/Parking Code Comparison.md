@@ -3,11 +3,10 @@ tags: [type/workflow, domain/parking, status/verify]
 source: municipal land development codes (each jurisdiction)
 last-checked: 
 ---
-# ★ Parking Code Comparison
 **Summary:** the same building needs different parking depending on the city line it sits behind. A comparison table across the code + ITE + ULI + observed is the core exhibit of every reduction request.
 
 **How**
-1. Quote the code verbatim into a [[T - Parking Code]] note per jurisdiction (section #, ratio, *measurement basis* — GFA vs GLA vs seats vs units — this is where errors live).
+1. Quote the code verbatim into a parking-code note per jurisdiction (section #, ratio, *measurement basis* — GFA vs GLA vs seats vs units — this is where errors live).
 2. Check for: shared-parking provision (method allowed?) · reduction/variance mechanics (who approves, evidence required) · maximums · ADA/EV/bike/loading adders · off-site/lease allowances.
 3. Table: | Land use | Code A | Code B | ITE | ULI | Observed | with a basis footnote per column.
 4. Narrative: what governs and why; where a reduction path exists.

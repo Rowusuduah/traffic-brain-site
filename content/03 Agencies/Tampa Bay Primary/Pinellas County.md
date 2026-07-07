@@ -4,7 +4,6 @@ type: county
 fdot-district: 7
 last-checked:
 ---
-# Pinellas County
 **Role/jurisdiction:** Densest FL county; unincorporated + strong county-wide coordination via Forward Pinellas.
 **Known starting points** `#status/verify`:
 - Traffic calming and safety programs administered county-side; confirm current intake

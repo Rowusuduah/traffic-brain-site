@@ -1,9 +1,10 @@
 ---
 tags: [type/reference, domain/data, status/verify]
+description: "Index table of Florida data sources — Signal Four, FDOT Traffic Online, RCI, GIS portals, Census — with watch-outs per source."
 last-checked: 
+title: "MOC — Data Sources (Florida consultant's shelf)"
 ---
-# MOC — Data Sources (Florida consultant's shelf)
-Spawn a full [[T - Data Source]] note the first time you actually pull from one; until then this table is the index. ALL links `#status/verify` on first use; date them.
+Spawn a full data-source note the first time you actually pull from one; until then this table is the index. ALL links `#status/verify` on first use; date them.
 
 | Source | Use for | Format | Watch-outs |
 |---|---|---|---|

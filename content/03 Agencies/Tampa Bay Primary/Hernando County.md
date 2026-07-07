@@ -4,7 +4,9 @@ type: county
 fdot-district: 7
 last-checked:
 ---
-# Hernando County
+> [!todo] Scaffold sheet
+> Agency contacts, submittal requirements, and quirks not yet compiled. Structure is ready — fill on first project contact.
+
 **Role/jurisdiction:** Suburban/rural county; smaller review shop.
 **Known starting points** `#status/verify`:
 - (none yet — run [[Workflow - Research and Source Vetting]])

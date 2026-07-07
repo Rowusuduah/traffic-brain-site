@@ -2,8 +2,8 @@
 tags: [type/workflow, domain/safety, status/verify]
 source: standard practice; HSM for rates/EB framing
 last-checked: 
+title: "How to Summarize 5-Year Crash Data (incl. crash rate)"
 ---
-# How to Summarize 5-Year Crash Data (incl. crash rate)
 **Standard summary set** (tables + one chart each): by year · severity (KABCO: K fatal, A incapacitating/serious, B non-incap., C possible, O PDO) · crash type (rear-end, angle, left-turn, sideswipe, ped, bike, fixed-object...) · lighting/weather/surface · time-of-day/day-of-week · high-frequency locations map. Always call out **K+A separately** — severity drives priority.
 
 **Crash rates**

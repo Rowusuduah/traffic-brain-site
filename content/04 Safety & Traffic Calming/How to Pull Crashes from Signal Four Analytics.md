@@ -4,7 +4,6 @@ link: https://signal4analytics.com
 source: Signal Four Analytics (UF GeoPlan / FDOT) — FL crash records
 last-checked: 
 ---
-# ★ How to Pull Crashes from Signal Four Analytics
 **Summary:** S4A is Florida's crash-query front end (long/short form reports, geocoded). Standard pull = 5 most recent complete years, corridor or intersection polygon, export CSV + report PDFs for the fatal/serious.
 **When to use:** any safety study, TIA safety section, calming justification, corridor screening.
 
@@ -18,6 +17,6 @@ last-checked:
 
 **Cleaning gotchas:** duplicate report numbers; crashes geocoded to wrong parallel facility; "SR/US/local name" aliases splitting one corridor; intersection-vs-segment assignment near ramp termini.
 **Example application:** your Lee SR-78 / Polk US-92 corridor reports followed exactly this shape — fold those cleaning scripts into [[Starter Automation Projects]].
-**Cross-links:** [[How to Summarize 5-Year Crash Data]] · [[T - Data Source]] entry in [[MOC - Data Sources]]
+**Cross-links:** [[How to Summarize 5-Year Crash Data]] · the Signal Four entry in [[MOC - Data Sources]]
 **Practice question:** a crash shows on the frontage road but narrative says mainline — which controls, and what do you document?
 **QA/QC reminder:** geography definition + pull date recorded, or the pull didn't happen.

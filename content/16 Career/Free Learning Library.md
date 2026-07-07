@@ -1,8 +1,8 @@
 ---
 tags: [type/reference, src/tutorial]
+description: "Free training by source — FDOT videos, FHWA/NHI courses, ITE and TRB webinars, vendor academies — plus a weekly cadence."
 ---
-# Free Learning Library
-Each resource actually used → [[T - Learning Resource]] note (takeaway + practice task, or it didn't count). Seed hunt-list by need:
+Each resource actually used → a learning-resource note (takeaway + practice task, or it didn't count). Seed hunt-list by need:
 
 **Florida-official (start here — free AND authoritative):** FDOT CADD office training videos/webinars (ORD/FDOTConnect — the best zero-cost CAD onboarding) · FDOT Design/Traffic Ops training pages · FDOT webinars · CTST/safety office materials.
 **Federal:** FHWA webinars & courses (NHI has free offerings) · Proven Safety Countermeasure trainings · signal-timing and roundabout resources · PEDSAFE/BIKESAFE.

@@ -4,7 +4,6 @@ type: city
 fdot-district: 7
 last-checked:
 ---
-# City of Tampa
 **Role/jurisdiction:** Municipal streets within Tampa; largest city client context in the region.
 **Known starting points** `#status/verify`:
 - City Vision Zero program and speed-management focus — locate current action plan

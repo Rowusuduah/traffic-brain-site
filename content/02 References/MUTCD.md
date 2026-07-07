@@ -1,11 +1,11 @@
 ---
 tags: [type/reference, src/official, status/verify]
+description: "Federal manual for signs, markings, and signals — the legal standard for every TCD and the source of signal warrants."
 edition: 11th Edition (Dec 2023) — verify FL adoption status/supplement
 link: https://mutcd.fhwa.dot.gov
 update-cycle: multi-year + interim approvals
 last-checked: 
 ---
-# MUTCD
 **What:** federal Manual on Uniform Traffic Control Devices — signs, markings, signals: design, placement, warrants. Florida adopts per s.316.0745 F.S.; FDOT supplements via [[FDOT Traffic Engineering Manual (TEM)]].
 **Why:** legal standard for every TCD; warrants (signals Ch. 4C, multiway stop, ped signals) come from here.
 **When:** signal warrant analyses, sign/marking design & review, school zones, TTC principles (Part 6, implemented in FL via Standard Plans 102-series).

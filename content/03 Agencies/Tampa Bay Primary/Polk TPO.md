@@ -4,7 +4,9 @@ type: mpo
 fdot-district: 1
 last-checked:
 ---
-# Polk TPO
+> [!todo] Scaffold sheet
+> Agency contacts, submittal requirements, and quirks not yet compiled. Structure is ready — fill on first project contact.
+
 **Role/jurisdiction:** Polk County MPO.
 **Known starting points** `#status/verify`:
 - (none yet — run [[Workflow - Research and Source Vetting]])

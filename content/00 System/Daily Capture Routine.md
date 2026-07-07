@@ -1,8 +1,7 @@
 ---
 tags: [type/system]
+title: "Daily Capture Routine (≤5 min total, spread across the day)"
 ---
-# Daily Capture Routine (≤5 min total, spread across the day)
-
 The whole system dies if capture has friction. Standard: **open daily note → type one line → back to work in under 15 seconds.**
 
 ## Capture triggers — write it down the moment you:

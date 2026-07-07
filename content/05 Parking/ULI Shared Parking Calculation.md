@@ -3,7 +3,6 @@ tags: [type/calculation, domain/parking, status/verify]
 source: ULI Shared Parking, 3rd Ed. (verify agency-accepted edition)
 last-checked: 
 ---
-# ★ ULI Shared Parking Calculation
 **Summary:** shared demand = Σ over uses of [base ratio × size × month factor × day factor × hour % × modal adj × non-captive %], evaluated for every hour/day-type/month; governing condition = the max cell. Reduction = governing shared peak vs Σ individual peaks.
 
 **Build order (spreadsheet)**
@@ -16,7 +15,7 @@ last-checked:
 
 **Worked micro-example (illustrative):** Office 40k SF + Restaurant 6k SF: office peaks ~10am–2pm weekday, restaurant ~7–9pm & weekend — shared peak lands early-afternoon weekday or Fri eve depending on ratios; a ~10–25% reduction vs sum-of-peaks is a common outcome *when factors are defensible* (never promise a number before the model runs).
 **Hand-check:** recompute one governing-hour cell per use with a calculator; matches sheet exactly.
-**Example application:** attach workbook to [[T - ULI Shared Parking]]; assumptions table into report appendix verbatim.
+**Example application:** attach the workbook to the project's shared-parking note; assumptions table into report appendix verbatim.
 **Cross-links:** [[Workflow - Parking Study]] · [[ITE Parking Generation]] · [[Parking Code Comparison]]
 **Practice question:** why can a 100%-captive hotel-restaurant add ~zero demand, and what evidence supports a captive claim?
 **QA/QC reminder:** every factor cell traceable to a ULI table number or a written justification — no naked percentages.

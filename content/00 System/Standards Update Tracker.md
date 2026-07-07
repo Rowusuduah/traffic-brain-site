@@ -1,8 +1,6 @@
 ---
 tags: [type/system, status/verify]
 ---
-# Standards Update Tracker
-
 Standards move; your notes must move with them. Quarterly (Jan/Apr/Jul/Oct), check each and update `last-checked` in the reference note.
 
 | Item | Cycle | Watch for | Note |

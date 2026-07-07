@@ -4,7 +4,6 @@ type: county
 fdot-district: 7
 last-checked:
 ---
-# Pasco County
 **Role/jurisdiction:** Fast-growth suburban county north of Tampa.
 **Known starting points** `#status/verify`:
 - Growth = constant TIA work; obtain current TIA/mobility fee procedures (Pasco uses mobility fees — verify current ordinance)

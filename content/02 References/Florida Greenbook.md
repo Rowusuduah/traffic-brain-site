@@ -1,11 +1,11 @@
 ---
 tags: [type/reference, src/official, status/verify]
+description: "Minimum standards for roads NOT on the State Highway System — the book that governs most city and county road work in Florida."
 edition: verify current + adoption rule (14-15.002 FAC)
 link: https://www.fdot.gov (search "Florida Greenbook")
 update-cycle: multi-year
 last-checked: 
 ---
-# Florida Greenbook
 **What:** *Manual of Uniform Minimum Standards for Design, Construction and Maintenance for Streets and Highways* — the **minimum standards for roads NOT on the State Highway System** (city/county roads), adopted by rule.
 **Why it matters:** most local-agency work (traffic calming, site driveways on county roads, subdivision streets) is governed here, not the FDM. Citing FDM criteria on a city street is a classic EIT miss — know which book governs before you check a number.
 **When:** any non-FDOT roadway design/review; local speed, geometry, ped/bike minimums.

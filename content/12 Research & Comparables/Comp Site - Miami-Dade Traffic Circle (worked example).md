@@ -3,9 +3,9 @@ tags: [type/source, domain/research, domain/calming, src/example, status/verify]
 county-city: Miami-Dade County
 agency: Miami-Dade County DTPW
 last-checked: 
-link: (Miami-Dade traffic calming / traffic-flow-modification program page — locate current)
+link: "Miami-Dade traffic-calming program page — locate current URL"
+title: "★ Comp Site — Miami-Dade Residential Traffic Circle (worked example)"
 ---
-# ★ Comp Site — Miami-Dade Residential Traffic Circle *(worked example — bracketed fields are illustrative placeholders, not data)*
 **Site:** [NW/SW residential intersection, e.g., XX Ave & XX St] · **Roadway type:** local residential grid streets · **Lanes:** 2 (1/dir) · **Posted:** [25/30] mph · **Context:** dense residential grid, cut-through pressure.
 **Problem being solved:** speeding + angle-crash exposure at uncontrolled/2-way-stop grid intersections.
 **Treatment:** landscaped **traffic circle** — Miami-Dade has one of Florida's largest such programs; circles are a signature device of their residential calming approach.

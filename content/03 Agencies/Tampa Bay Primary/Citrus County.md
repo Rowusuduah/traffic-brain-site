@@ -4,7 +4,9 @@ type: county
 fdot-district: 7
 last-checked:
 ---
-# Citrus County
+> [!todo] Scaffold sheet
+> Agency contacts, submittal requirements, and quirks not yet compiled. Structure is ready — fill on first project contact.
+
 **Role/jurisdiction:** Rural/suburban county; SR 44/US 19 corridors.
 **Known starting points** `#status/verify`:
 - (none yet — run [[Workflow - Research and Source Vetting]])

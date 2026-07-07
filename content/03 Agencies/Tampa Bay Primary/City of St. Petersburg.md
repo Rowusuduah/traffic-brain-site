@@ -4,7 +4,6 @@ type: city
 fdot-district: 7
 last-checked:
 ---
-# City of St. Petersburg
 **Role/jurisdiction:** Second major city; strong complete streets identity.
 **Known starting points** `#status/verify`:
 - Complete Streets implementation plan exists — locate current

@@ -4,7 +4,6 @@ type: county
 fdot-district: 1
 last-checked:
 ---
-# Lee County
 **Role/jurisdiction:** Fort Myers region; you have prior corridor safety context here (SR 78 area).
 **Known starting points** `#status/verify`:
 - Lee County DOT maintains many signals; confirm maintaining agency map

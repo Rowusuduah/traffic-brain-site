@@ -1,26 +1,732 @@
-// Optional polish for Traffic Engineering Brain.
-// Place at quartz/styles/custom.scss (Quartz imports it automatically in recent versions;
-// if not, add: @use "./custom.scss"; to quartz/styles/custom.scss's importer, or just paste
-// these rules into the existing custom.scss). Safe to skip — the config theme already looks good.
+// Traffic Engineering Brain — "Positive Guidance"
+// The page is daytime pavement; MUTCD signage color speaks only at decision
+// points. Green fill appears in exactly three places: the route-marker site
+// title, the exit tabs, and the landing gantry. Everywhere else, sign color
+// is ink. Dark mode = night driving: chrome recedes, retroreflective
+// elements brighten.
+@use "./base.scss";
+@use "./variables.scss" as *;
 
-// Slightly wider reading column for tables (you have lots of reference tables)
-.center {
-  max-width: 780px;
+// ---------------------------------------------------------------------------
+// Tokens beyond Quartz's nine slots (MUTCD accents)
+// ---------------------------------------------------------------------------
+:root {
+  --marking-yellow: #ffd100; // warning / verify
+  --workzone-orange: #d96c00; // temporary traffic control / in-flux
+  --service-blue: #0b5cab; // off-site resources (external links, tips)
+  --panel-green: #046a38; // green fill (sign panels)
+  --panel-ink: #ffffff; // sign lettering
+  --tab-glow: none;
 }
 
-// Make your MOC / index tables breathe
-article table {
-  font-size: 0.92rem;
-  th { font-weight: 600; }
+:root[saved-theme="dark"] {
+  --marking-yellow: #ffcd3c;
+  --workzone-orange: #f08b2d;
+  --service-blue: #5b9bd9;
+  --panel-green: #0b7a4b;
+  --tab-glow: 0 0 0.5rem rgba(63, 181, 119, 0.35);
 }
 
-// Callouts a touch calmer
+// ---------------------------------------------------------------------------
+// Base typography — federal document voice
+// ---------------------------------------------------------------------------
+body {
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: 0.01em;
+  font-weight: 700;
+}
+
+article {
+  // engineering tables want lining, equal-width figures
+  font-variant-numeric: tabular-nums;
+}
+
+// Links: guide-sign green ink; a guide sign IS a link to a destination.
+// Flatten the default pill so color alone carries the meaning.
+a.internal {
+  background-color: transparent;
+  padding: 0;
+  border-radius: 0;
+  font-weight: 600;
+
+  &:hover {
+    background-color: var(--highlight);
+  }
+}
+
+// External links = taking the off-ramp: service-sign blue.
+a.external {
+  color: var(--service-blue);
+  font-weight: 600;
+
+  .external-icon {
+    fill: var(--service-blue);
+  }
+}
+
+// ==marked== text: pavement-marking yellow already via --textHighlight
+
+// ---------------------------------------------------------------------------
+// Route marker — the site title (green fill 1 of 3)
+// ---------------------------------------------------------------------------
+.page-title {
+  font-size: 1rem;
+  margin: 0;
+
+  a {
+    display: block;
+    background-color: var(--panel-green);
+    color: var(--panel-ink);
+    border-radius: 6px;
+    box-shadow:
+      inset 0 0 0 2px var(--panel-ink),
+      var(--tab-glow);
+    border: 2px solid var(--panel-green);
+    padding: 0.6rem 0.85rem;
+    font-family: var(--headerFont);
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    line-height: 1.25;
+
+    &:hover {
+      color: var(--panel-ink);
+    }
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Exit tab — the signature (green fill 2 of 3)
+// Tab perched on the guide panel's top edge; the 3px rule is the panel edge,
+// the title beneath is the panel content.
+// ---------------------------------------------------------------------------
+.exit-tab-row {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  border-bottom: 3px solid var(--secondary);
+  margin-top: 1.5rem;
+
+  &.exit-tab-row-empty {
+    margin-top: 1.5rem;
+  }
+}
+
+.exit-tab {
+  display: inline-block;
+  background-color: var(--panel-green);
+  color: var(--panel-ink);
+  border-radius: 4px 4px 0 0;
+  box-shadow:
+    inset 0 0 0 1.5px var(--panel-ink),
+    var(--tab-glow);
+  border: 1.5px solid var(--panel-green);
+  border-bottom: none;
+  padding: 0.2rem 0.8rem 0.15rem;
+  font-family: var(--headerFont);
+  font-weight: 700;
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.article-title {
+  margin: 0.75rem 0 0 0;
+  font-weight: 800;
+}
+
+// ---------------------------------------------------------------------------
+// Explorer — the plan-set sheet index
+// ---------------------------------------------------------------------------
+.explorer {
+  h2 {
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--gray);
+  }
+
+  .folder-container div > button span {
+    font-family: var(--codeFont);
+    font-size: 0.83rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+
+  .explorer-content ul li > a {
+    font-size: 0.86rem;
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Search — destination lookup
+// ---------------------------------------------------------------------------
+.search {
+  .search-button {
+    border: 1px solid var(--lightgray);
+    border-radius: 4px;
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Right rail — the corridor
+// ---------------------------------------------------------------------------
+.graph > h3,
+.backlinks > h3,
+.toc button.toc-header h3 {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--gray);
+  font-weight: 700;
+}
+
+.graph .graph-outer {
+  border: 1px solid var(--lightgray);
+  border-radius: 4px;
+}
+
+// TOC as milepost log: one thin vertical rule, tick marks at entries
+.toc-content {
+  ul {
+    border-left: 1px solid var(--lightgray);
+    margin-left: 2px;
+    padding-left: 0.9rem;
+  }
+
+  li > a {
+    position: relative;
+    font-size: 0.86rem;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: calc(-0.9rem - 1px);
+      top: 0.65em;
+      width: 0.45rem;
+      height: 1px;
+      background-color: var(--gray);
+    }
+  }
+}
+
+.backlinks > ul > li > a {
+  font-size: 0.86rem;
+}
+
+// ---------------------------------------------------------------------------
+// Tables — signing-and-marking schedule
+// ---------------------------------------------------------------------------
+article {
+  & > .table-container,
+  & .table-container {
+    table {
+      font-size: 0.9rem;
+      margin: 1rem 0;
+
+      thead th {
+        font-family: var(--headerFont);
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        letter-spacing: 0.07em;
+        border-bottom: 2px solid var(--dark);
+        text-align: left;
+        padding: 0.4rem 0.9rem 0.4rem 0;
+      }
+
+      td {
+        padding: 0.4rem 0.9rem 0.4rem 0;
+      }
+
+      tr {
+        border-bottom: 1px solid var(--lightgray);
+      }
+    }
+  }
+}
+
+// ---------------------------------------------------------------------------
+// hr — the skip line (MUTCD 1:3 dash-to-gap cycle, 10' line / 30' gap)
+// ---------------------------------------------------------------------------
+hr {
+  height: 3px;
+  margin: 2.5rem auto;
+  border: none;
+  border-radius: 0;
+  background: repeating-linear-gradient(
+    90deg,
+    var(--gray) 0,
+    var(--gray) 12px,
+    transparent 12px,
+    transparent 48px
+  );
+}
+
+:root[saved-theme="dark"] hr {
+  background: repeating-linear-gradient(
+    90deg,
+    var(--darkgray) 0,
+    var(--darkgray) 12px,
+    transparent 12px,
+    transparent 48px
+  );
+  filter: drop-shadow(0 0 3px rgba(230, 235, 228, 0.25));
+}
+
+// ---------------------------------------------------------------------------
+// Callouts — the MUTCD sign-color code as semantics
+// Identical geometry everywhere; color carries the whole meaning.
+// ---------------------------------------------------------------------------
 .callout {
-  border-radius: 6px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-left-width: 4px;
+
+  // GUIDE (green): where things are — notes, definitions, confirmations
+  &[data-callout="note"],
+  &[data-callout="abstract"],
+  &[data-callout="info"],
+  &[data-callout="success"] {
+    --color: var(--secondary);
+    --border: var(--secondary);
+    --bg: var(--highlight);
+  }
+
+  // WARNING (yellow): judgment calls, thresholds, engineering discretion
+  &[data-callout="warning"],
+  &[data-callout="question"] {
+    --color: #8a6d00;
+    --border: var(--marking-yellow);
+    --bg: rgba(255, 209, 0, 0.09);
+  }
+
+  // TEMPORARY TRAFFIC CONTROL (orange): drafts, in-flux, expect changes
+  &[data-callout="todo"],
+  &[data-callout="bug"],
+  &[data-callout="failure"],
+  &[data-callout="danger"] {
+    --color: var(--workzone-orange);
+    --border: var(--workzone-orange);
+    --bg: rgba(217, 108, 0, 0.08);
+  }
+
+  // SERVICES (blue): tools, templates, where to obtain official sources
+  &[data-callout="tip"],
+  &[data-callout="hint"] {
+    --color: var(--service-blue);
+    --border: var(--service-blue);
+    --bg: rgba(11, 92, 171, 0.07);
+  }
+
+  // REGULATORY (black-on-white): verbatim shall/should text — the letter of
+  // the law, quoted not paraphrased. Squarer than everything else.
+  &[data-callout="quote"],
+  &[data-callout="example"] {
+    --color: var(--dark);
+    --border: var(--dark);
+    --bg: var(--light);
+    border-width: 2px;
+    border-left-width: 2px;
+    border-radius: 2px;
+  }
+
+  // Worked examples additionally sit on faint calculation graph paper
+  &[data-callout="example"] {
+    --bg: transparent;
+    background-image: repeating-linear-gradient(
+        0deg,
+        rgba(105, 114, 107, 0.07) 0,
+        rgba(105, 114, 107, 0.07) 1px,
+        transparent 1px,
+        transparent 24px
+      ),
+      repeating-linear-gradient(
+        90deg,
+        rgba(105, 114, 107, 0.07) 0,
+        rgba(105, 114, 107, 0.07) 1px,
+        transparent 1px,
+        transparent 24px
+      );
+  }
 }
 
-// Tag pills look less shouty
-.tags > li > a {
-  font-size: 0.75rem;
-  opacity: 0.85;
+:root[saved-theme="dark"] .callout[data-callout="warning"],
+:root[saved-theme="dark"] .callout[data-callout="question"] {
+  --color: var(--marking-yellow);
+}
+
+// Plan-sheet note numbering: NOTE 1, NOTE 2 … per page
+article {
+  counter-reset: sheet-note;
+}
+
+.callout[data-callout="note"] .callout-title-inner {
+  &::before {
+    counter-increment: sheet-note;
+    content: "Note " counter(sheet-note) " — ";
+    font-family: var(--codeFont);
+    font-size: 0.8em;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Tag chips — quiet mono plates; #status/verify is the advisory plaque
+// ---------------------------------------------------------------------------
+.tags {
+  margin: 0.5rem 0 0 0;
+
+  li > a.tag-link {
+    font-family: var(--codeFont);
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    background-color: transparent;
+    border: 1px solid var(--lightgray);
+    border-radius: 3px;
+    padding: 0.1rem 0.5rem;
+    color: var(--gray);
+    font-weight: 600;
+
+    &:hover {
+      color: var(--tertiary);
+      border-color: var(--tertiary);
+    }
+  }
+
+  // The advisory plaque: verify against source before real-world use.
+  li > a.tag-link[href$="status/verify"] {
+    background-color: var(--marking-yellow);
+    border: 1.5px solid var(--dark);
+    color: #121712;
+    box-shadow: inset 0 0 0 1px rgba(18, 23, 18, 0.15);
+
+    &::before {
+      content: "◆ ";
+    }
+
+    &:hover {
+      color: #121712;
+      border-color: var(--dark);
+      background-color: var(--marking-yellow);
+      filter: brightness(1.05);
+    }
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Title block — the revision strip at the foot of every sheet
+// ---------------------------------------------------------------------------
+.title-block {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid var(--lightgray);
+  border-radius: 2px;
+  margin-top: 0.5rem;
+
+  .title-block-cell {
+    flex: 1 1 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    padding: 0.5rem 0.9rem;
+
+    & + .title-block-cell {
+      border-left: 1px solid var(--lightgray);
+    }
+  }
+
+  .title-block-label {
+    font-family: var(--codeFont);
+    font-size: 0.62rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--gray);
+  }
+
+  .title-block-value {
+    font-family: var(--codeFont);
+    font-size: 0.82rem;
+    color: var(--darkgray);
+  }
+
+  .title-block-unchecked {
+    color: var(--gray);
+  }
+}
+
+@media all and ($mobile) {
+  .title-block .title-block-cell + .title-block-cell {
+    border-left: none;
+    border-top: 1px solid var(--lightgray);
+  }
+
+  .title-block .title-block-cell {
+    flex-basis: 100%;
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Footer
+// ---------------------------------------------------------------------------
+footer {
+  opacity: 1;
+  border-top: 1px solid var(--lightgray);
+  padding-top: 1rem;
+  margin-top: 1rem;
+
+  p {
+    font-family: var(--codeFont);
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--gray);
+  }
+
+  ul {
+    font-size: 0.8rem;
+
+    li > a {
+      color: var(--service-blue);
+    }
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Landing page — the overhead gantry (green fill 3 of 3)
+// ---------------------------------------------------------------------------
+.gantry {
+  background-color: var(--panel-green);
+  border-radius: 8px;
+  box-shadow:
+    inset 0 0 0 2px var(--panel-ink),
+    var(--tab-glow);
+  border: 3px solid var(--panel-green);
+  padding: 1.6rem 1.8rem 1.4rem;
+  margin: 0.5rem 0 1.5rem;
+
+  .gantry-route {
+    font-family: var(--codeFont);
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    margin: 0 0 0.4rem;
+  }
+
+  h2 {
+    font-family: var(--headerFont);
+    font-weight: 800;
+    color: var(--panel-ink);
+    margin: 0 0 0.35rem;
+    font-size: 1.9rem;
+    line-height: 1.15;
+    border: none;
+  }
+
+  .gantry-sub {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 0.95rem;
+    margin: 0 0 1.1rem;
+    max-width: 34rem;
+  }
+
+  ul.gantry-destinations {
+    list-style: none;
+    margin: 0;
+    padding: 0.4rem 0 0;
+    border-top: 1.5px solid rgba(255, 255, 255, 0.55);
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 1.6rem;
+
+    li {
+      margin: 0;
+    }
+
+    a {
+      display: flex;
+      align-items: baseline;
+      gap: 0.7rem;
+      color: var(--panel-ink);
+      font-family: var(--headerFont);
+      font-weight: 700;
+      font-size: 1.02rem;
+      padding: 0.42rem 0.3rem;
+      border-radius: 4px;
+      text-decoration: none;
+
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.12);
+      }
+
+      .gantry-exit {
+        font-family: var(--codeFont);
+        font-weight: 600;
+        font-size: 0.72rem;
+        letter-spacing: 0.08em;
+        color: rgba(255, 255, 255, 0.8);
+        white-space: nowrap;
+      }
+
+      .gantry-arrow {
+        margin-left: auto;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.8);
+      }
+    }
+  }
+}
+
+@media all and ($mobile) {
+  .gantry ul.gantry-destinations {
+    grid-template-columns: 1fr;
+  }
+
+  .gantry {
+    padding: 1.2rem 1.1rem 1rem;
+  }
+}
+
+// Sheet-index table + the reserved seal
+.sheet-index {
+  table {
+    width: 100%;
+  }
+}
+
+.seal-reserve {
+  display: flex;
+  align-items: center;
+  gap: 1.1rem;
+  margin: 2.5rem 0 1rem;
+
+  .seal-circle {
+    flex: 0 0 auto;
+    width: 92px;
+    height: 92px;
+    border: 2px dashed var(--gray);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--codeFont);
+    font-size: 0.55rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--gray);
+    text-align: center;
+    padding: 0.6rem;
+    line-height: 1.5;
+  }
+
+  .seal-caption {
+    font-family: var(--codeFont);
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--gray);
+    max-width: 22rem;
+    line-height: 1.7;
+  }
+}
+
+// Folder & tag listing pages: one clean row per note — the per-row tag chips
+// (a wall of verify plaques on reference folders) drown the schedule.
+.page-listing {
+  .section > ul.tags {
+    display: none;
+  }
+
+  .section {
+    grid-template-columns: 6.5rem 1fr;
+
+    .meta {
+      font-family: var(--codeFont);
+      font-size: 0.78rem;
+    }
+  }
+
+  & > p {
+    font-family: var(--codeFont);
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--gray);
+  }
+}
+
+// Hide the meta strip concept the index doesn't need
+body[data-slug="index"] {
+  .sidebar.right {
+    visibility: hidden;
+  }
+
+  .exit-tab-row {
+    display: none;
+  }
+
+  .article-title {
+    // The gantry carries the identity; keep the h1 for accessibility but quiet
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+  }
+
+  .title-block {
+    display: none;
+  }
+}
+
+// ---------------------------------------------------------------------------
+// LOS grade chips — for capacity tables (usable inline in content as HTML)
+// ---------------------------------------------------------------------------
+@each $grade, $bg, $fg in ("a", #046a38, #ffffff), ("b", #3f8c4f, #ffffff),
+  ("c", #8a9a2f, #121712), ("d", #d9a800, #121712), ("e", #d96c00, #ffffff),
+  ("f", #b3261e, #ffffff)
+{
+  .los-#{$grade} {
+    display: inline-block;
+    font-family: var(--codeFont);
+    font-weight: 600;
+    font-size: 0.78em;
+    background-color: $bg;
+    color: $fg;
+    border-radius: 3px;
+    padding: 0 0.45em;
+    line-height: 1.6;
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Reading comfort & chrome restraint
+// ---------------------------------------------------------------------------
+// The hardcoded rule between article and footer becomes a skip line too (it
+// inherits hr styling) — the road before the title block.
+
+// Popovers pick up the token system; just soften the card
+.popover > .popover-inner {
+  border-radius: 4px;
+  border-color: var(--lightgray);
+}
+
+// Reduced motion: kill the dark-mode glow flicker on theme change
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+  }
 }

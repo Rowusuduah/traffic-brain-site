@@ -1,8 +1,7 @@
 ---
 tags: [type/reference]
+description: "Collection order and index for the 22 core manuals — FDM, Standard Plans, MUTCD, Greenbook, HCM, HSM, ITE/ULI — plus a reading strategy."
 ---
-# MOC — Core References
-
 ## Collect FIRST (week 1 — bookmark, save PDFs where allowed, date the note)
 1. [[FDOT Design Manual (FDM)]] — the daily driver for state work
 2. [[FDOT Standard Plans]] — what details actually look like
@@ -25,4 +24,4 @@ tags: [type/reference]
 ## Research bodies
 [[NCHRP and TRB]] · [[ITE Resources]] · [[CUTR]]
 
-**Reading strategy:** don't read manuals cover-to-cover. For each real task: find the governing chapter → skim → extract the criterion into a [[T - Design Standard]] or [[T - Concept]] note with a worked example. 20 such notes beat one full read-through.
+**Reading strategy:** don't read manuals cover-to-cover. For each real task: find the governing chapter → skim → extract the criterion into a design-standard or concept note with a worked example. 20 such notes beat one full read-through.

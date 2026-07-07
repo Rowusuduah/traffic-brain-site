@@ -1,11 +1,11 @@
 ---
 tags: [type/source, src/code, status/verify]
-link: "https://github.com/[org]/[repo]  ← placeholder"
+link: "https://github.com/example/example (placeholder — swap for a real repo)"
 source-class: 6 — code/tool
 date-checked: 
 verified-against: "manual recomputation on one dataset (date: )"
+title: "★ Source — [GitHub repo: e.g., an OSM/OSMnx-style network tool] (worked example of a source note)"
 ---
-# ★ Source — [GitHub repo: e.g., an OSM/OSMnx-style network tool] (worked example of a source note)
 **What it is:** open-source package that [pulls street networks / computes X] — class-6 source: useful machinery, zero authority.
 **Useful for:** prototyping study-area networks, batch spacing measurements, comp-site scans.
 **Key content/claim:** outputs depend on OSM completeness → treat results as *screening*, never as the cited basis of an engineering conclusion.

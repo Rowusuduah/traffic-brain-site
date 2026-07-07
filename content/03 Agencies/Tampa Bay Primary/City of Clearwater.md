@@ -4,7 +4,9 @@ type: city
 fdot-district: 7
 last-checked:
 ---
-# City of Clearwater
+> [!todo] Scaffold sheet
+> Agency contacts, submittal requirements, and quirks not yet compiled. Structure is ready — fill on first project contact.
+
 **Role/jurisdiction:** Pinellas beach city; tourism traffic patterns.
 **Known starting points** `#status/verify`:
 - (none yet — run [[Workflow - Research and Source Vetting]])

@@ -2,8 +2,8 @@
 tags: [type/workflow, domain/safety, status/verify]
 source: CMF Clearinghouse; FHWA Proven Safety Countermeasures; HSM
 last-checked: 
+title: "Countermeasure Selection & CMFs"
 ---
-# Countermeasure Selection & CMFs
 **Logic chain (never skip a link):** documented crash pattern → contributing factors → candidate treatments targeting THAT pattern → effectiveness (CMF w/ star rating, crash type, base condition) → feasibility/cost → recommendation.
 **Selection sources:** [[FHWA Resources]] Proven Safety Countermeasures · PEDSAFE/BIKESAFE selectors · [[CMF Clearinghouse]] · NCHRP syntheses.
 **CMF math:** expected crashes × CMF = after; multiple CMFs multiply only if independent (be conservative; agencies often cap combined reduction) `#status/verify` local policy.

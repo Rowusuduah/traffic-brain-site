@@ -4,7 +4,6 @@ type: mpo
 fdot-district: 7
 last-checked:
 ---
-# Forward Pinellas
 **Role/jurisdiction:** Pinellas MPO + countywide land-use authority (unique dual role).
 **Known starting points** `#status/verify`:
 - Publishes safety action plans, complete streets grants — good funding-context knowledge

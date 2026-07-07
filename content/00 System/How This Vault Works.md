@@ -1,8 +1,7 @@
 ---
 tags: [type/system]
+description: "Folder structure, naming conventions, the three-axis tagging system, and the linking philosophy that holds the vault together."
 ---
-# How This Vault Works
-
 ## Folder structure (numbers = muscle memory)
 `00 System` runs the machine · `01 Templates` note blueprints · `02 References` core manuals · `03 Agencies` FL jurisdictions · `04–17` knowledge domains · `20 Projects` real work · `21 Daily` logs · `22 Inbox` capture.
 
@@ -24,6 +23,6 @@ Folders are coarse buckets; **links and tags do the real organizing**. When unsu
 Rule: ≤4 tags per note. If you invent a new tag twice, add it here; otherwise delete it.
 
 ## Linking philosophy
-- Link **liberally while writing** — `[[Turn Lane Length]]` even if the note doesn't exist yet. Unresolved links are your future study list (see graph view → orphans).
+- Link **liberally while writing** — write a link to `Turn Lane Length` even if the note doesn't exist yet. Unresolved links are your future study list (see graph view → orphans).
 - Every project note links to the references and workflows it used → over time your references accumulate real project context.
 - MOC notes are curated tables of contents per domain; update them during weekly review, not in the moment.

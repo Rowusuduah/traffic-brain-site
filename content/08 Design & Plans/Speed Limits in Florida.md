@@ -3,8 +3,8 @@ tags: [type/reference, domain/design, src/official, status/verify]
 source: Ch. 316 F.S. (ss. 316.183, 316.187, 316.189); FDOT Speed Zoning Manual; TEM
 link: leg.state.fl.us (statutes) · fdot.gov/traffic (speed zoning)
 last-checked: 
+title: "★ Speed Limits in Florida (statutory maxima & speed zoning)"
 ---
-# ★ Speed Limits in Florida (statutory maxima & speed zoning)
 **Summary:** Florida sets **statutory defaults** by statute and allows **altered speed zones** via engineering study under FDOT's Speed Zoning procedures. Never quote a max without the statute; never set a limit without a study.
 
 **Statutory framework** `#status/verify current session law — these move`:

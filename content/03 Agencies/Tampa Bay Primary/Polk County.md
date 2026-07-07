@@ -4,7 +4,6 @@ type: county
 fdot-district: 1
 last-checked:
 ---
-# Polk County
 **Role/jurisdiction:** Large county between Tampa & Orlando; you have prior corridor safety work context here (US 92 area).
 **Known starting points** `#status/verify`:
 - Polk TPO handles planning — see [[Polk TPO]]

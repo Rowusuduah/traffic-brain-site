@@ -1,7 +1,7 @@
 ---
 tags: [type/reference, domain/reports]
+title: "Wording Bank & Email Patterns (steal from yourself)"
 ---
-# Wording Bank & Email Patterns (steal from yourself)
 Grow this from sentences that SURVIVED review — provenance in parentheses.
 
 **Report phrasings**

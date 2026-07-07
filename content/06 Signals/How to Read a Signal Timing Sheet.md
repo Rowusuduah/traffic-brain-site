@@ -1,10 +1,9 @@
 ---
 tags: [type/workflow, domain/signals, status/verify]
 source: agency timing sheets; NEMA conventions; MUTCD Part 4
-link: (request current sheets from maintaining agency — D7 / county / city per road)
+link: "request current sheets from the maintaining agency — D7 / county / city per road"
 last-checked: 
 ---
-# ★ How to Read a Signal Timing Sheet
 **Summary:** the timing sheet is the signal's DNA: phases, intervals, recalls, detector mapping, and TOD coordination plans. Reading one cold is a rite of passage; here's the decode order.
 
 **Decode order**
@@ -17,6 +16,6 @@ last-checked:
 7. **Clearance check:** see [[Clearance Intervals and Ped Timing]] — recompute one approach; flag if sheet < computed.
 
 **Example application:** before coding Existing in Synchro, transcribe the sheet into the model and note sheet date + plan # in assumptions.
-**Cross-links:** [[Synchro QAQC Checklist]] · [[Offsets and Coordination]] · [[Questions for Senior Engineers]] (unclear fields → ask, with the sheet in hand)
+**Cross-links:** [[Synchro QAQC Checklist]] · offsets and coordination (planned note) · unclear fields → ask a senior, with the sheet in hand
 **Practice question:** splits for phases 2,4,6,8 read 42/28/42/28 on a 140 s cycle — what's wrong?
 **QA/QC reminder:** never "optimize" existing conditions — model what the sheet says, cite sheet date.
