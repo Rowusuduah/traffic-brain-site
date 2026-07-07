@@ -4,8 +4,10 @@ link: "https://github.com/example/example (placeholder — swap for a real repo)
 source-class: 6 — code/tool
 date-checked: 
 verified-against: "manual recomputation on one dataset (date: )"
-title: "★ Source — [GitHub repo: e.g., an OSM/OSMnx-style network tool] (worked example of a source note)"
+title: "Source — [GitHub repo: e.g., an OSM/OSMnx-style network tool] (pattern for a source note)"
 ---
+> [!note] This is a PATTERN showing how to structure a code/tool source note — the bracketed fields are placeholders to fill from a real repo, not a completed example.
+
 **What it is:** open-source package that [pulls street networks / computes X] — class-6 source: useful machinery, zero authority.
 **Useful for:** prototyping study-area networks, batch spacing measurements, comp-site scans.
 **Key content/claim:** outputs depend on OSM completeness → treat results as *screening*, never as the cited basis of an engineering conclusion.

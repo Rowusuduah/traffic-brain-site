@@ -16,7 +16,7 @@ description: "Florida jurisdiction library — who owns the road, one note per a
 
 ## Tampa Bay primary (folder: Tampa Bay Primary)
 **Filled one-pagers** — known starting points compiled; Collect lists still growing:
-- FDOT D7: [[City of Tampa]] · [[Hillsborough County]] · [[Pinellas County]] · [[Pasco County]] · [[City of St. Petersburg]] · [[Hillsborough TPO]] · [[Forward Pinellas]]
+- FDOT D7: [[City of Tampa]] · [[Hillsborough County]] ★ (worked example — Collect list fully sourced and dated; build every agency page to this standard) · [[Pinellas County]] · [[Pasco County]] · [[City of St. Petersburg]] · [[Hillsborough TPO]] · [[Forward Pinellas]]
 - FDOT D1: [[Polk County]] · [[Lee County]]
 
 **Scaffolds — fill on first contact:**

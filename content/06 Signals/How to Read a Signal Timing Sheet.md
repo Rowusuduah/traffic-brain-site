@@ -16,7 +16,7 @@ last-checked:
 7. **Clearance check:** see [[Clearance Intervals and Ped Timing]] — recompute one approach; flag if sheet < computed.
 
 **Example application:** before coding Existing in Synchro, transcribe the sheet into the model and note sheet date + plan # in assumptions.
-**Cross-links:** [[Synchro QAQC Checklist]] · offsets and coordination (planned note) · unclear fields → ask a senior, with the sheet in hand
+**Cross-links:** [[Synchro QAQC Checklist]] · [[NEMA Phasing and Ring-Barrier]] (the phase diagram decoded) · [[Offsets and Coordination]] (the coordination block decoded) · unclear fields → ask a senior, with the sheet in hand
 **Free companions:** [[Signal Timing Manual (STM2) and Free Training|STM2 (NCHRP 812, free PDF)]] — the chapter-by-chapter explanation of how every value on the sheet was developed.
 **Practice question:** splits for phases 2,4,6,8 read 42/28/42/28 on a 140 s cycle — what's wrong?
 **QA/QC reminder:** never "optimize" existing conditions — model what the sheet says, cite sheet date.

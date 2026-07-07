@@ -2,28 +2,31 @@
 tags: [type/reference, domain/agency]
 type: county
 fdot-district: 7
-last-checked:
+last-checked: 2026-07-07
+description: Worked-example agency one-pager — verified public sources for unincorporated Hillsborough review, calming, permits, and data.
 ---
-**Role/jurisdiction:** Unincorporated county roads; heavy development review volume.
-**Known starting points** `#status/verify`:
-- County Vision Zero action plan exists — locate current version
-- Long-running neighborhood traffic calming program with petition/scoring process — get current criteria
-- County Center GIS portal; development review through Development Services
-- Note which corridors are FDOT vs County maintained before citing standards
+**Role/jurisdiction:** Unincorporated county roads only — the county does not review or permit work inside Tampa, Plant City, or Temple Terrace. Heavy development review volume; land development review runs through Development Services (electronic submittal via HillsGovHub), roadway operations through Public Works.
+
+**Known starting points** (resolved 2026-07-07 unless tagged):
+- Vision Zero: the adopted Vision Zero Action Plan is the **Hillsborough TPO's**, not the county's — see [Plan Hillsborough Vision Zero](https://planhillsborough.org/vision-zero/). The county's implementation arm is [Safe Travels Hillsborough](https://hcfl.gov/residents/public-safety/safe-travels) and its [Mobility Safety Programs](https://hcfl.gov/residents/public-safety/safe-travels/mobility-safety-programs) (pedestrian safety, Safe Routes to Schools, corridor safety on the High Injury Network).
+- Traffic calming: long-running Residential Traffic Calming program confirmed — handbook, criteria, and petition process linked below.
+- GIS: the current portal is the county **GeoHub** (ArcGIS Hub), not the old "County Center" portal.
+- Always confirm FDOT vs. County maintenance for a corridor before citing standards — many arterials here are state roads (FDOT District 7) `#status/verify` per corridor.
+
 ## Collect (link each as found; date it)
-- TIA/TIS guidelines:
-- Parking study guidelines / parking code (with section #):
-- Traffic calming program/guidelines:
-- Complete Streets policy · Vision Zero / Safety Action Plan:
-- Roadway design standards / standard details:
-- Access management standards:
-- Traffic count requirements (seasonal factors accepted?):
-- Crash/safety dashboard:
-- GIS / open data portal:
-- Signal timing procedures & maintaining agency:
-- Development review process & submittal requirements:
-- Permit forms (ROW, driveway):
-- Example projects (ours & public):
+- **TIA/TIS guidelines:** [Transportation Technical Manuals](https://hcfl.gov/businesses/land-development/transportation-technical-manuals) — Transportation Technical Manual (TTM) for Subdivisions & Site Development Projects, **October 2023 edition** (applies to submittals on/after 2023-11-01; 2021 and 2017 archived on same page). This is the governing document for transportation plans and analysis on private development. Supplemented by [TTM Technical Bulletins](https://hcfl.gov/government/cip-projects-and-resources/publications-and-technical-bulletins/ttm-for-subdivisions-and-site-development-technical-bulletins). Note: transportation concurrency replaced by [Mobility Fees](https://hcfl.gov/businesses/permits-and-records/permit-fees/mobility-fees). (checked 2026-07-07)
+- **Parking study guidelines / parking code (with section #):** LDC **Part 6.05.00 — Parking and Loading** ([Municode](https://library.municode.com/fl/hillsborough_county/codes/land_development_code?nodeId=ARTVIDESTIMRE_PT6.05.00PALO)); rates and design standards in § 6.05.02. No standalone county parking *study* guideline is published online — reduction/alternative-rate study expectations: request from Development Services. (checked 2026-07-07)
+- **Traffic calming program/guidelines:** [Residential Traffic Calming Handbook (PDF)](https://assets.contentstack.io/v3/assets/blteea73b27b731f985/blt7602f7f9e71e806e/Residential%20Traffic%20Calming%20Handbook.pdf) — Public Works, Traffic Services Division; latest revision **2006-06-07** (still the posted version on [Public Works Publications](https://hcfl.gov/government/cip-projects-and-resources/publications-and-technical-bulletins/public-works-publications)). Key mechanics: local streets only (collectors by exception); 5 property-owner signatures to initiate; Class I = 85th percentile < 12 mph over posted (enforcement/education only); Class II = 85th percentile ≥ 12 mph over posted (min 37 mph) **or** hourly volume > 12% of ADT / > 10 daily trips per household; Hearing Master public hearing → petition canvass of 90% of owners with **60% support (speed devices) / 75% (volume devices)** → BOCC consent agenda. Devices: speed humps, narrowed humps, chicanes, roundabouts, narrowing/throating, turn restrictions, diverters, median mods. (checked 2026-07-07)
+- **Complete Streets policy · Vision Zero / Safety Action Plan:** no standalone county-adopted Complete Streets policy or county Safety Action Plan found published online `#status/verify` — request from the county. Working substitutes: TPO [Vision Zero Action Plan + Speed Management Plan](https://planhillsborough.org/vision-zero/) (multijurisdictional, covers unincorporated county) and the county's [Safe Travels](https://hcfl.gov/residents/public-safety/safe-travels) / [Mobility Safety Programs](https://hcfl.gov/residents/public-safety/safe-travels/mobility-safety-programs) pages. (checked 2026-07-07)
+- **Roadway design standards / standard details:** [Hillsborough County Transportation Design Manual, 2023](https://hcfl.gov/government/cip-projects-and-resources/publications-and-technical-bulletins/hillsborough-county-transportation-design-manual) (CIP projects; includes typical sections, standard details, plan-sheet templates) and the TTM (private development). Related bulletins: [Design Manual Technical Bulletins](https://hcfl.gov/government/cip-projects-and-resources/publications-and-technical-bulletins/design-manual-technical-bulletins). (checked 2026-07-07)
+- **Access management standards:** LDC **Part 6.04.00 — Access Management** ([Municode](https://library.municode.com/fl/hillsborough_county/codes/land_development_code?nodeId=ARTVIDESTIMRE_PT6.04.00ACMA_S6.04.01GE)) — connection permits required for all new driveways to the unincorporated public street system; general access standards in § 6.04.03. Design specifics also in the TTM. (checked 2026-07-07)
+- **Traffic count requirements (seasonal factors accepted?):** count/analysis requirements live in the TTM (Oct 2023) — confirm seasonal-adjustment acceptance against the current TTM text before relying on it `#status/verify`. The county does not publish a public traffic count database (GeoHub searched 2026-07-07, none found) — request counts from Public Works; FDOT Traffic Online covers state roads.
+- **Crash/safety dashboard:** not published by the county itself — no county crash dashboard found online; request data from the county, or use TPO Vision Zero materials at [planhillsborough.org/vision-zero](https://planhillsborough.org/vision-zero/) (Signal Four Analytics requires agency login). (checked 2026-07-07)
+- **GIS / open data portal:** [GeoHub landing page](https://hcfl.gov/about-hillsborough/open-data-and-gis/geohub) → direct portal: [Hillsborough County GeoHub (ArcGIS Hub)](https://gis2017-01-10t133755357z-hillsborough.opendata.arcgis.com/) — boundaries, zoning, roads/sidewalks, CIP projects, evacuation routes, historical aerials. (checked 2026-07-07)
+- **Signal timing procedures & maintaining agency:** county-operated signals are run by Public Works **Traffic Management** through a central ATMS and Traffic Management Center (CCTV monitoring, retiming, smart intersections) — [Traffic Management & CCTV](https://hcfl.gov/residents/property-owners-and-renters/roads-and-sidewalks/traffic-management-and-cctv). A written signal-timing procedures document is not published online — request from Public Works. (checked 2026-07-07)
+- **Development review process & submittal requirements:** [Development Review Procedures Manual](https://hcfl.gov/businesses/zoning/development-review-procedures-manual) (procedures referenced by the LDC) · [Site & Subdivision review](https://hcfl.gov/businesses/land-development/site-and-subdivision) — electronic submittal via HillsGovHub; free pre-submittal conference available and recommended. (checked 2026-07-07)
+- **Permit forms (ROW, driveway):** [Apply for a Right of Way (ROW) Management Permit](https://hcfl.gov/businesses/permits-and-records/permits/apply-for-a-right-of-way-row-management-permit) — two types: **Driveway Access** (site access/driveway connections) and **ROW Use, Other Uses**; apply through HillsGovHub; unincorporated county only. (checked 2026-07-07)
+- **Example projects (ours & public):** ours live in the private vault (see callout below); no county-published example TIA/TIS submittals found online.
 
 > [!tip] Contacts, review-comment history, and institutional notes live in the private vault — never on the public site.
 
