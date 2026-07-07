@@ -2,6 +2,7 @@
 tags: [type/reference, domain/agency]
 type: city
 fdot-district: 1
+link: "https://cityofbradenton.com/publicworks (Public Works & Utilities)"
 last-checked:
 ---
 > [!todo] Scaffold sheet
@@ -10,6 +11,7 @@ last-checked:
 **Role/jurisdiction:** Manatee County seat.
 **Known starting points** `#status/verify`:
 - (none yet — run [[Workflow - Research and Source Vetting]])
+- Official site: [City of Bradenton Public Works & Utilities](https://cityofbradenton.com/publicworks)
 ## Collect (link each as found; date it)
 - TIA/TIS guidelines:
 - Parking study guidelines / parking code (with section #):

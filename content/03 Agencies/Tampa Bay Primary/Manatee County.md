@@ -2,6 +2,7 @@
 tags: [type/reference, domain/agency]
 type: county
 fdot-district: 1
+link: "https://www.mymanatee.org/departments/public-works-department/traffic-management-division (Traffic Management Division)"
 last-checked:
 ---
 > [!todo] Scaffold sheet
@@ -10,6 +11,7 @@ last-checked:
 **Role/jurisdiction:** North of Sarasota; heavy development review.
 **Known starting points** `#status/verify`:
 - (none yet — run [[Workflow - Research and Source Vetting]])
+- Official site: [Manatee County Traffic Management Division](https://www.mymanatee.org/departments/public-works-department/traffic-management-division)
 ## Collect (link each as found; date it)
 - TIA/TIS guidelines:
 - Parking study guidelines / parking code (with section #):

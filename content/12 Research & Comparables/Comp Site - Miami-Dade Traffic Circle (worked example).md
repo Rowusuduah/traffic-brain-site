@@ -3,7 +3,7 @@ tags: [type/source, domain/research, domain/calming, src/example]
 county-city: Miami-Dade County
 agency: Miami-Dade County DTPW
 last-checked: 
-link: "Miami-Dade traffic-calming program page — locate current URL"
+link: "https://www.miamidade.gov/global/transportation/public-works/traffic-engineering.page (Miami-Dade DTPW Traffic Engineering — traffic calming program)"
 title: "Comp Site — Miami-Dade Residential Traffic Circle (template walkthrough)"
 ---
 > [!note] This is a TEMPLATE walkthrough showing how to structure a comparable-site note — the bracketed fields are placeholders to fill from real sources, not a completed example.

@@ -1,7 +1,7 @@
 ---
 tags: [type/reference, src/official, status/verify]
 description: "Rules 14-96/14-97 FAC — access classes, connection and median spacing, permitting. The rulebook for driveways on state roads."
-link: https://www.fdot.gov (search "access management"); FAC 14-96, 14-97
+link: "https://www.fdot.gov/planning/systems/systems-management/access-management (Rules 14-96, 14-97 FAC + guidebooks)"
 last-checked: 
 title: "FDOT Access Management"
 ---

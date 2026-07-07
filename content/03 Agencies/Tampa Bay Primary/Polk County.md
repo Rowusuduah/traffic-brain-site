@@ -2,6 +2,7 @@
 tags: [type/reference, domain/agency]
 type: county
 fdot-district: 1
+link: "https://www.polkfl.gov/public-safety/roads-and-drainage/traffic-engineering-and-operations/ (Traffic Engineering & Operations)"
 last-checked:
 ---
 **Role/jurisdiction:** Large county between Tampa & Orlando; prior corridor safety work context in this county.

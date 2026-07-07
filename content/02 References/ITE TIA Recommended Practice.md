@@ -1,6 +1,7 @@
 ---
 tags: [type/reference, src/professional]
 description: "National recommended practice for scoping site impact analyses — fills the gaps defensibly when local guidelines are thin."
+link: "https://www.ite.org/technical-resources/topics/transportation-planning/multimodal-transportation-impact-analysis-for-site-development-mtia/ (current RP is MTIASD, supersedes 2010 TIA RP)"
 edition: verify current RP (Transportation Impact Analyses for Site Development; multimodal updates)
 last-checked: 
 ---

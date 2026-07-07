@@ -1,6 +1,7 @@
 ---
 tags: [type/calculation, domain/tia, status/verify]
 source: ITE Trip Gen Manual + Handbook procedures; agency caps govern
+link: "https://www.ite.org/technical-resources/topics/trip-and-parking-generation-v2/trip-generation-info/ (ITE Trip Generation Manual)"
 last-checked: 
 title: "Trip Generation — Internal Capture & Pass-By"
 ---

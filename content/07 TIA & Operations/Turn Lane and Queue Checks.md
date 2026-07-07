@@ -1,6 +1,7 @@
 ---
 tags: [type/calculation, domain/tia, domain/design, status/verify]
 source: FDM (intersections chapter) for SHS; agency/Greenbook otherwise; HCM/Synchro for queues
+link: "https://www.fdot.gov/roadway/fdm (FDOT Design Manual)"
 last-checked: 
 title: "Turn Lane & Queue Checks"
 ---

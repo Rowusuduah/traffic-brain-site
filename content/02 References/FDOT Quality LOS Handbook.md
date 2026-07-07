@@ -1,7 +1,7 @@
 ---
 tags: [type/reference, src/official]
 description: "Florida's planning-level LOS methodology and generalized service volume tables — screening only, never operational proof."
-link: https://www.fdot.gov (search "Quality/Level of Service Handbook" + Generalized Service Volume Tables)
+link: "https://www.fdot.gov/planning/systems/systems-management/systems-management-documents (Multimodal Q/LOS Handbook + Generalized Service Volume Tables)"
 last-checked: 
 title: "FDOT Q/LOS Handbook & Generalized Service Volume Tables"
 ---

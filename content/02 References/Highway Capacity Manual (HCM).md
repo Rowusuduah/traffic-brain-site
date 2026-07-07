@@ -1,6 +1,7 @@
 ---
 tags: [type/reference, src/professional, status/verify]
 description: "TRB's capacity and LOS methodologies — every TIA delay number traces here, and Synchro/HCS settings are HCM inputs."
+link: "https://www.nationalacademies.org/publications/26432 (HCM 7th Ed., National Academies Press)"
 edition: HCM 7th Edition (verify)
 update-cycle: multi-year
 last-checked: 

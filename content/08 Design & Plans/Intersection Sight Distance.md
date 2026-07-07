@@ -1,6 +1,7 @@
 ---
 tags: [type/calculation, domain/design, status/verify]
 source: AASHTO Green Book (intersections chapter) for cases/derivation; FDM for SHS criteria
+link: "https://www.fdot.gov/roadway/fdm (FDOT Design Manual)"
 last-checked: 
 description: ISD vs SSD, departure sight triangles (left/right/crossing from stop), eye-object heights, field procedure, the landscaping comment.
 ---

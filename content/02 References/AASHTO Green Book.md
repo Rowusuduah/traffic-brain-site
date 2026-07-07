@@ -1,6 +1,7 @@
 ---
 tags: [type/reference, src/professional, status/verify]
 description: "National geometric design policy — sight distance, curves, intersections — for the why behind FDM criteria and variance support."
+link: "https://store.transportation.org/item/collectiondetail/180 (AASHTO Store, all formats)"
 edition: 7th (2018) — watch for 8th
 update-cycle: multi-year
 last-checked: 

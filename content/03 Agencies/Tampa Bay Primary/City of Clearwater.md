@@ -2,6 +2,7 @@
 tags: [type/reference, domain/agency]
 type: city
 fdot-district: 7
+link: "https://www.myclearwater.com/My-Government/0-City-Departments/Public-Works (Public Works)"
 last-checked:
 ---
 > [!todo] Scaffold sheet
@@ -10,6 +11,7 @@ last-checked:
 **Role/jurisdiction:** Pinellas beach city; tourism traffic patterns.
 **Known starting points** `#status/verify`:
 - (none yet — run [[Workflow - Research and Source Vetting]])
+- Official site: [City of Clearwater Public Works](https://www.myclearwater.com/My-Government/0-City-Departments/Public-Works)
 ## Collect (link each as found; date it)
 - TIA/TIS guidelines:
 - Parking study guidelines / parking code (with section #):

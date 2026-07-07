@@ -1,5 +1,6 @@
 ---
 tags: [type/reference, domain/software, status/learning]
+link: "https://www.bentley.com/software/cube/ (Cube — now Bentley OpenPaths)"
 title: "Cube / Travel Demand Models (consumer literacy first)"
 ---
 **Your near-term job isn't building models — it's USING outputs defensibly:** request the right runs from the MPO/district model (FL models under FSUTMS framework `#status/verify current), pull **select-link/select-zone** for distribution, growth between model years for background rates, and document model version + scenario in assumptions.

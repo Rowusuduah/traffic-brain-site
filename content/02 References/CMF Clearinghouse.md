@@ -1,7 +1,7 @@
 ---
 tags: [type/reference, src/official]
 description: "FHWA database of crash modification factors with star ratings; never quote a CMF without rating, crash type, and base condition."
-link: https://www.cmfclearinghouse.org
+link: https://cmfclearinghouse.fhwa.dot.gov/
 update-cycle: continuous
 last-checked: 
 ---

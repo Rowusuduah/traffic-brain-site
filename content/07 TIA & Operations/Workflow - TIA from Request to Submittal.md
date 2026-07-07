@@ -1,6 +1,7 @@
 ---
 tags: [type/workflow, domain/tia]
 description: "12-step TIA workflow from methodology memo to comment-cycle close-out, with QA/QC gates at every analysis stage."
+link: "https://www.fdot.gov/planning/systems/systems-management/site-impact-analysis (FDOT Multimodal Transportation Site Impact Handbook)"
 last-used: 
 ---
 **Trigger:** development application meets agency study threshold (trips/size — check agency note).

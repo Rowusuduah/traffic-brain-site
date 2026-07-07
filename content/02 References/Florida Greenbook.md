@@ -2,7 +2,7 @@
 tags: [type/reference, src/official, status/verify]
 description: "Minimum standards for roads NOT on the State Highway System — the book that governs most city and county road work in Florida."
 edition: verify current + adoption rule (14-15.002 FAC)
-link: https://www.fdot.gov (search "Florida Greenbook")
+link: https://www.fdot.gov/roadway/floridagreenbook
 update-cycle: multi-year
 last-checked: 
 ---

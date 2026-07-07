@@ -1,6 +1,7 @@
 ---
 tags: [type/reference, src/professional, status/verify]
 description: "Methodology and factors for mixed-use shared parking demand — the defensible basis for shared-parking reductions."
+link: "https://knowledge.uli.org/en/books/2019/shared-parking (ULI Knowledge Finder, 3rd Ed.)"
 edition: 3rd Ed. (2020) — verify agency acceptance
 last-checked: 
 ---

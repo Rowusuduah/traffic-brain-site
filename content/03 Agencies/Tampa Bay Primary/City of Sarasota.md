@@ -2,6 +2,7 @@
 tags: [type/reference, domain/agency]
 type: city
 fdot-district: 1
+link: "https://www.sarasotafl.gov/Department-Pages/Public-Works (Public Works)"
 last-checked:
 ---
 > [!todo] Scaffold sheet
@@ -10,6 +11,7 @@ last-checked:
 **Role/jurisdiction:** Downtown parking management is sophisticated here — good comp-site source for parking studies.
 **Known starting points** `#status/verify`:
 - (none yet — run [[Workflow - Research and Source Vetting]])
+- Official site: [City of Sarasota Public Works](https://www.sarasotafl.gov/Department-Pages/Public-Works)
 ## Collect (link each as found; date it)
 - TIA/TIS guidelines:
 - Parking study guidelines / parking code (with section #):

@@ -1,6 +1,7 @@
 ---
 tags: [type/calculation, domain/signals, status/verify]
 source: ITE kinematic method; MUTCD; agency policy governs — verify FL/agency values
+link: "https://www.fdot.gov/traffic/trafficservices/trafficstudies.shtm/traffic-engineering-manual (FDOT Traffic Engineering Manual)"
 last-checked: 
 title: "Clearance Intervals (Y + AR) & Ped Timing"
 ---

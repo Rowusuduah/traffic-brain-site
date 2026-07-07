@@ -2,6 +2,7 @@
 tags: [type/reference, domain/agency]
 type: mpo
 fdot-district: 7
+link: "https://forwardpinellas.org/"
 last-checked:
 ---
 **Role/jurisdiction:** Pinellas MPO + countywide land-use authority (unique dual role).

@@ -1,6 +1,7 @@
 ---
 tags: [type/checklist, domain/software, domain/tia]
 applies-to: every Synchro network before results leave your desk
+link: "https://www.cubic.com/transportation/products/intelligent-transportation-solutions/intersection-optimization/synchro-studio (Synchro Studio — Cubic/Trafficware)"
 last-checked: 
 ---
 **Source:** HCM-aligned practice + accumulated review pain. **When to use:** existing AND future scenarios, every submittal.

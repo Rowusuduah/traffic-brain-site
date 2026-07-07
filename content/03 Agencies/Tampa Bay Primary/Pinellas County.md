@@ -2,6 +2,7 @@
 tags: [type/reference, domain/agency]
 type: county
 fdot-district: 7
+link: "https://pinellas.gov/department/transportation/ (Public Works Transportation Division)"
 last-checked:
 ---
 **Role/jurisdiction:** Densest FL county; unincorporated + strong county-wide coordination via Forward Pinellas.

@@ -1,7 +1,7 @@
 ---
 tags: [type/reference, src/official, status/verify]
 description: "Public right-of-way accessibility rules — ramps, cross slopes, detectable warnings, APS. Non-negotiable review items."
-link: https://www.access-board.gov (PROWAG); FDM ped chapters; Std Plans 522-002
+link: "https://www.access-board.gov/prowag/ (PROWAG; see also FDM ped chapters, Std Plans 522-002)"
 last-checked: 
 title: "PROWAG / ADA Accessibility"
 ---

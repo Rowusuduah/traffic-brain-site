@@ -1,7 +1,7 @@
 ---
 tags: [type/reference, src/official, status/verify]
 description: "FDOT's C1-C6 context classification — with functional class, it selects FDM design criteria and sets target speed on the SHS."
-link: "https://fdotwww.blob.core.windows.net/sitefinity/docs/default-source/roadway/completestreets/files/fdot-context-classification.pdf"
+link: "https://fdotwww.blob.core.windows.net/sitefinity/docs/default-source/roadway/completestreets/files/fdot-context-classification.pdf (guide PDF — if it moves, search fdot.gov for Context Classification)"
 last-checked: 
 ---
 FDOT's classification of roadways by land-use context, C1 through C6 (C1 Natural → C2 Rural / C2T Rural Town → C3R/C3C Suburban → C4 Urban General → C5 Urban Center → C6 Urban Core `#status/verify` subcategory labels against the guide). The [Context Classification Guide PDF](https://fdotwww.blob.core.windows.net/sitefinity/docs/default-source/roadway/completestreets/files/fdot-context-classification.pdf) has the definitions plus the primary/secondary measures used to assign a class.

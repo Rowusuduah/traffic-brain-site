@@ -2,6 +2,7 @@
 tags: [type/reference, domain/agency]
 type: county
 fdot-district: 7
+link: "https://hcfl.gov/businesses/land-development/transportation-technical-manuals (Transportation Technical Manuals)"
 last-checked: 2026-07-07
 description: Worked-example agency one-pager — verified public sources for unincorporated Hillsborough review, calming, permits, and data.
 ---

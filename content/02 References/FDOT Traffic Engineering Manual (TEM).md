@@ -1,7 +1,7 @@
 ---
 tags: [type/reference, src/official, status/verify]
 description: "Florida traffic engineering practice supplementing MUTCD — speed zoning, signals, school zones, and TCD approvals on the SHS."
-link: https://www.fdot.gov/traffic (TEM, Topic 750-000-005)
+link: "https://www.fdot.gov/traffic/trafficservices/trafficstudies.shtm/traffic-engineering-manual (TEM, Topic 750-000-005)"
 update-cycle: rolling chapter revisions
 last-checked: 
 ---

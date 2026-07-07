@@ -1,6 +1,7 @@
 ---
 tags: [type/reference, domain/software, domain/design]
 source: AASHTO Green Book design vehicles; FDM/agency for required vehicle; AutoTURN (Transoft)
+link: "https://www.transoftsolutions.com/road-design/autoturn/ (Transoft AutoTURN)"
 last-checked: 
 description: Picking the design vehicle, running swept-path checks, the failures reviewers catch, and the manual-template fallback.
 ---

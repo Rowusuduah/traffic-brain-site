@@ -2,6 +2,7 @@ import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 import ExitTab from "./quartz/components/ExitTab"
 import TitleBlock from "./quartz/components/TitleBlock"
+import SourceLink from "./quartz/components/SourceLink"
 
 // Explorer options shared by both layouts. The sortFn pins START HERE — the
 // designated entry point — above the folder wall. It is serialized with
@@ -47,6 +48,7 @@ export const defaultContentPageLayout: PageLayout = {
     ExitTab(),
     Component.ArticleTitle(),
     Component.TagList(),
+    SourceLink(),
   ],
   afterBody: [TitleBlock()],
   left: [

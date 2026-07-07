@@ -1,6 +1,7 @@
 ---
 tags: [type/reference, src/professional, status/verify]
 description: "Quantitative safety — SPFs, Empirical Bayes, and CMFs; predicted vs expected vs observed crashes for serious safety studies."
+link: "https://www.highwaysafetymanual.org/Pages/default.aspx (official AASHTO HSM site)"
 edition: 1st Ed. + 2014 supplement — watch HSM2
 last-checked: 
 title: "AASHTO Highway Safety Manual (HSM)"

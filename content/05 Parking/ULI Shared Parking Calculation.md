@@ -1,6 +1,7 @@
 ---
 tags: [type/calculation, domain/parking]
 source: ULI Shared Parking, 3rd Ed. (verify agency-accepted edition)
+link: "https://uli.bookstore.ipgbook.com/shared-parking-products-9780874204278.php (ULI Shared Parking, 3rd Ed. — ULI Bookstore)"
 last-checked: 
 ---
 ## Summary

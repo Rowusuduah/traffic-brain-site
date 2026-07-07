@@ -2,6 +2,7 @@
 tags: [type/reference, domain/agency]
 type: county
 fdot-district: 1
+link: "https://www.leegov.com/dot (Lee County DOT)"
 last-checked:
 ---
 **Role/jurisdiction:** Fort Myers region; prior corridor safety study context in this county.

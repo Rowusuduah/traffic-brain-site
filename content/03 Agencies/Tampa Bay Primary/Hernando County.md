@@ -2,6 +2,7 @@
 tags: [type/reference, domain/agency]
 type: county
 fdot-district: 7
+link: "https://www.hernandocounty.us/living-here/roadways/ (Public Works - Roadways)"
 last-checked:
 ---
 > [!todo] Scaffold sheet
@@ -10,6 +11,7 @@ last-checked:
 **Role/jurisdiction:** Suburban/rural county; smaller review shop.
 **Known starting points** `#status/verify`:
 - (none yet — run [[Workflow - Research and Source Vetting]])
+- Official site: [Hernando County Public Works - Roadways](https://www.hernandocounty.us/living-here/roadways/)
 ## Collect (link each as found; date it)
 - TIA/TIS guidelines:
 - Parking study guidelines / parking code (with section #):

@@ -1,7 +1,7 @@
 ---
 tags: [type/reference, domain/design, src/official, status/verify]
 source: Ch. 316 F.S. (ss. 316.183, 316.187, 316.189); FDOT Speed Zoning Manual; TEM
-link: leg.state.fl.us (statutes) · fdot.gov/traffic (speed zoning)
+link: "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0300-0399/0316/0316.html (Ch. 316 F.S., Online Sunshine)"
 last-checked: 
 title: "★ Speed Limits in Florida (statutory maxima & speed zoning)"
 ---
@@ -19,7 +19,7 @@ Florida sets **statutory defaults** by statute and allows **altered speed zones*
 
 ## Setting/changing a limit (SHS)
 
-FDOT Speed Zoning Manual procedure — spot-speed study (85th percentile as anchor), crash history, context, roadside development; district traffic ops approves.
+[FDOT Speed Zoning Manual](https://www.fdot.gov/traffic/trafficservices/trafficstudies.shtm/speed-zoning-manual) procedure — spot-speed study (85th percentile as anchor), crash history, context, roadside development; district traffic ops approves.
 
 ## When I use it
 

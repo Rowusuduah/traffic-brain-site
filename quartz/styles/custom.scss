@@ -538,6 +538,36 @@ article {
 }
 
 // ---------------------------------------------------------------------------
+// Source link — the off-ramp to the official document (frontmatter link:)
+// ---------------------------------------------------------------------------
+.source-link-row {
+  margin: 0.6rem 0 0;
+
+  .source-link {
+    display: inline-block;
+    font-family: var(--codeFont);
+    font-size: 0.74rem;
+    color: var(--service-blue);
+    border: 1px solid var(--service-blue);
+    border-radius: 3px;
+    padding: 0.15rem 0.6rem;
+    font-weight: 600;
+
+    &:hover {
+      background-color: rgba(11, 92, 171, 0.08);
+    }
+
+    .source-link-label {
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      font-size: 0.64rem;
+      color: var(--gray);
+      margin-right: 0.35rem;
+    }
+  }
+}
+
+// ---------------------------------------------------------------------------
 // Title block — the revision strip at the foot of every sheet
 // ---------------------------------------------------------------------------
 .title-block {

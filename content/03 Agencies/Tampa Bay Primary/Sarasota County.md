@@ -2,6 +2,7 @@
 tags: [type/reference, domain/agency]
 type: county
 fdot-district: 1
+link: "https://www.scgov.net/government/public-works/traffic-engineering-operations-6092 (Traffic Engineering & Operations)"
 last-checked:
 ---
 > [!todo] Scaffold sheet
@@ -10,6 +11,7 @@ last-checked:
 **Role/jurisdiction:** County distinct from City of Sarasota; strong complete-streets orientation.
 **Known starting points** `#status/verify`:
 - (none yet — run [[Workflow - Research and Source Vetting]])
+- Official site: [Sarasota County Traffic Engineering & Operations](https://www.scgov.net/government/public-works/traffic-engineering-operations-6092)
 ## Collect (link each as found; date it)
 - TIA/TIS guidelines:
 - Parking study guidelines / parking code (with section #):

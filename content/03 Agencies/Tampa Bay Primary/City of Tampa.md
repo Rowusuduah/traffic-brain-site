@@ -2,6 +2,7 @@
 tags: [type/reference, domain/agency]
 type: city
 fdot-district: 7
+link: "https://www.tampa.gov/mobility (Mobility Department)"
 last-checked:
 ---
 **Role/jurisdiction:** Municipal streets within Tampa; largest city client context in the region.

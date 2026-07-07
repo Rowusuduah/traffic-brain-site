@@ -1,6 +1,6 @@
 ---
 tags: [type/reference, domain/agency, src/official]
-link: https://www.fdot.gov (Districts pages)
+link: "https://www.fdot.gov/agencyresources/districts/index.shtm (Districts directory)"
 last-checked: 
 title: "FDOT Districts + Florida's Turnpike Enterprise"
 ---

@@ -2,6 +2,7 @@
 tags: [type/reference, domain/agency]
 type: mpo
 fdot-district: 1
+link: "https://polktpo.com/"
 last-checked:
 ---
 > [!todo] Scaffold sheet
@@ -10,6 +11,7 @@ last-checked:
 **Role/jurisdiction:** Polk County MPO.
 **Known starting points** `#status/verify`:
 - (none yet — run [[Workflow - Research and Source Vetting]])
+- Official site: [Polk TPO](https://polktpo.com/)
 ## Collect (link each as found; date it)
 - TIA/TIS guidelines:
 - Parking study guidelines / parking code (with section #):

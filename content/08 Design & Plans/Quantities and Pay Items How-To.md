@@ -1,6 +1,7 @@
 ---
 tags: [type/workflow, domain/design]
 source: FDOT BOE Manual; Standard Specifications (measurement & payment)
+link: "https://www.fdot.gov/fpo/fpc/publications/boe/home (FDOT Basis of Estimates Manual)"
 last-checked: 
 title: "Quantities & Pay Items How-To (traffic items)"
 ---

@@ -2,6 +2,7 @@
 tags: [type/reference, domain/agency]
 type: city
 fdot-district: 1
+link: "https://www.lakelandgov.net/departments/public-works/traffic-operations/ (Traffic Operations)"
 last-checked:
 ---
 > [!todo] Scaffold sheet
@@ -10,6 +11,7 @@ last-checked:
 **Role/jurisdiction:** Polk County's principal city.
 **Known starting points** `#status/verify`:
 - (none yet — run [[Workflow - Research and Source Vetting]])
+- Official site: [City of Lakeland Traffic Operations](https://www.lakelandgov.net/departments/public-works/traffic-operations/)
 ## Collect (link each as found; date it)
 - TIA/TIS guidelines:
 - Parking study guidelines / parking code (with section #):

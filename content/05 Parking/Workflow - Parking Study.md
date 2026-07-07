@@ -1,6 +1,7 @@
 ---
 tags: [type/workflow, domain/parking]
 description: "19-step parking study workflow — code, ITE, ULI, and observed demand, field counts, the four-way comparison table, and QA/QC."
+link: "https://www.ite.org/technical-resources/topics/trip-and-parking-generation-v2/parking-generation-info1/ (ITE Parking Generation Manual)"
 last-used: 
 title: "★ Workflow — Parking Study (19 steps)"
 ---

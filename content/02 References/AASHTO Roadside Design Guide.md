@@ -1,6 +1,7 @@
 ---
 tags: [type/reference, src/professional, status/verify]
 description: "Clear zones, barriers, and breakaway hardware — when sign and signal pole placement needs shielding or a clear-zone check."
+link: "https://store.transportation.org/item/collectiondetail/105 (AASHTO Store, 4th Ed.)"
 edition: 4th Ed. (verify)
 last-checked: 
 title: "AASHTO Roadside Design Guide (RDG)"

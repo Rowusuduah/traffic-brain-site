@@ -1,6 +1,7 @@
 ---
 tags: [type/reference, src/professional, status/verify]
 description: "Observed peak parking demand rates by land use and setting — the data leg that checks code ratios and supports reductions."
+link: "https://www.ite.org/technical-resources/topics/trip-and-parking-generation-v2/parking-generation-info1/ (Parking Generation Manual, 6th Ed.)"
 edition: verify current (6th)
 last-checked: 
 title: "ITE Parking Generation Manual"

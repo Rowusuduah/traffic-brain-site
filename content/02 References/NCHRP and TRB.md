@@ -1,7 +1,7 @@
 ---
 tags: [type/reference, src/professional]
 description: "National research — free NCHRP reports, the TRID literature database, TRB committees — for questions no manual answers."
-link: https://www.trb.org · reports free at https://nap.nationalacademies.org · search via https://trid.trb.org
+link: "https://www.trb.org (reports free at nap.nationalacademies.org; search via trid.trb.org)"
 last-checked: 
 title: "NCHRP / TRB"
 ---

@@ -1,6 +1,6 @@
 ---
 tags: [type/source, src/code]
-link: "https://github.com/example/example (placeholder — swap for a real repo)"
+link: "placeholder — swap for the real repo URL when you use this pattern"
 source-class: 6 — code/tool
 date-checked: 
 verified-against: "manual recomputation on one dataset (date: )"

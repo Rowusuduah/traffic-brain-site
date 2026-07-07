@@ -2,6 +2,7 @@
 tags: [type/reference, domain/agency]
 type: county
 fdot-district: 7
+link: "https://www.pascocountyfl.gov/services/engineering/index.php (Transportation Engineering)"
 last-checked:
 ---
 **Role/jurisdiction:** Fast-growth suburban county north of Tampa.

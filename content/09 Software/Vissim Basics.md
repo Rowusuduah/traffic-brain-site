@@ -1,5 +1,6 @@
 ---
 tags: [type/reference, domain/software, status/learning]
+link: "https://www.ptvgroup.com/en/products/ptv-vissim (PTV Vissim)"
 title: "Vissim Basics (microsimulation literacy)"
 ---
 **When it's the tool:** interacting queues, oversaturation, roundabout corridors, TSM&O — where HCM/Synchro assumptions break.

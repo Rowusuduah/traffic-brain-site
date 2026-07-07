@@ -2,6 +2,7 @@
 tags: [type/reference, domain/agency]
 type: mpo
 fdot-district: 7
+link: "https://planhillsborough.org/"
 last-checked:
 ---
 **Role/jurisdiction:** MPO for Hillsborough (Tampa, Plant City, Temple Terrace + county).
