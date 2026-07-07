@@ -1,5 +1,5 @@
 ---
-tags: [type/source, src/code, status/verify]
+tags: [type/source, src/code]
 link: "https://github.com/example/example (placeholder — swap for a real repo)"
 source-class: 6 — code/tool
 date-checked: 

@@ -1,7 +1,11 @@
 ---
+title: "02 References"
+aliases: ["MOC - Core References"]
 tags: [type/reference]
 description: "Collection order and index for the 22 core manuals — FDM, Standard Plans, MUTCD, Greenbook, HCM, HSM, ITE/ULI — plus a reading strategy."
 ---
+*The core manuals behind every Florida traffic task — what to collect first, and how to read them without drowning.*
+
 ## Collect FIRST (week 1 — bookmark, save PDFs where allowed, date the note)
 1. [[FDOT Design Manual (FDM)]] — the daily driver for state work
 2. [[FDOT Standard Plans]] — what details actually look like
@@ -14,6 +18,8 @@ description: "Collection order and index for the 22 core manuals — FDM, Standa
 
 ## Design & production
 [[FDOT Standard Specifications]] · [[FDOT CADD Manual and FDOTConnect]] · [[FDOT Basis of Estimates and Pay Items]] · [[AASHTO Green Book]] · [[AASHTO Roadside Design Guide]] · [[PROWAG and ADA]]
+- [[FDOT Context Classification]] — C1-C6 context classes that, with functional class, select FDM design criteria and target speed; guide PDF + preliminary GIS layer.
+- [[NACTO Design Guides]] — urban/complete-streets design vocabulary (Urban Street Design Guide free online) that City of Tampa and St. Pete reference; guidance, not a standard.
 
 ## Operations & analysis
 [[Highway Capacity Manual (HCM)]] · [[ITE TIA Recommended Practice]] · [[FDOT Access Management (Rules 14-96 14-97 + Guidebook)]] · [[FDOT Quality LOS Handbook]]

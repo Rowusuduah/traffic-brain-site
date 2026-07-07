@@ -1,5 +1,5 @@
 ---
-tags: [type/reference, src/official, status/verify, domain/cad]
+tags: [type/reference, src/official, domain/cad]
 description: "FDOT CADD production standards and the FDOTConnect workspace for OpenRoads/MicroStation, plus the free official training videos."
 link: https://www.fdot.gov/cadd
 last-checked: 

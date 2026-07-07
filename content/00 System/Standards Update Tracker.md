@@ -16,4 +16,6 @@ Standards move; your notes must move with them. Quarterly (Jan/Apr/Jul/Oct), che
 | ITE Trip Gen / Parking Gen, ULI SP | New editions | Which edition the agency accepts | [[ITE Trip Generation]] etc. |
 | Software versions (Synchro, ORD, FDOTConnect) | Vendor | Firm's standard version vs latest | [[MOC - Software]] |
 
+**Free companions — feeds that do the watching for you:** [FDOT Roadway Design Bulletins & Memos](https://www.fdot.gov/roadway/bulletin/default.shtm) — RDBs/RDMs/EOMs, the official feed for FDM criteria changes between annual editions, with a Contact Management Subscription Service for email alerts (subscribe once; the quarterly check becomes triage of what already landed) · [FDOT Traffic Eng & Ops Bulletins and Memos](https://www.fdot.gov/traffic/trafficops-bulletins.shtm) — annual TEM/MUTS/ICE release bulletins plus standing memos like Speed Zoning for Highways, Roads and Streets in Florida.
+
 Rule: when a standard updates, search the vault for its tag, fix affected notes, and add a `LESSON:` if the change would have bitten a live project.

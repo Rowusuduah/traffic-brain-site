@@ -8,3 +8,5 @@ title: "Workflow — Project Close-Out"
 4. Reusables harvested: accepted methodology memo → pattern note · workbook → template · new agency intel → `03 Agencies` note.
 5. PE-PTOE experience-tracker entry WHILE FRESH: your role, engineering decisions, PE supervisor, dates.
 6. Project note status → closed; 60-second future-self summary at top ("what this was, where the gold is").
+
+**See also:** [[Lessons Learned System]] · [[Comment-Response Matrix Pattern]] · [[File Naming and Project Folders]]

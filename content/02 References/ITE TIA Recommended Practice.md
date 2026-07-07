@@ -1,5 +1,5 @@
 ---
-tags: [type/reference, src/professional, status/verify]
+tags: [type/reference, src/professional]
 description: "National recommended practice for scoping site impact analyses — fills the gaps defensibly when local guidelines are thin."
 edition: verify current RP (Transportation Impact Analyses for Site Development; multimodal updates)
 last-checked: 

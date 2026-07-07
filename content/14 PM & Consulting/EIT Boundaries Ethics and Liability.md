@@ -10,3 +10,5 @@ title: "EIT Boundaries, Ethics & Liability"
 **Practice that protects everyone:** assumptions documented with basis (the project note's assumptions table) · uncertainty stated professionally ("preliminary pending X"; "sensitive to assumption Y") · never let confidence outrun verification — overconfidence is the junior failure mode, and *documented humility* reads as competence to good PEs · engineering judgment vs official criteria kept distinct in writing ("Per FDM §—" vs "In our judgment—", the latter being the PE's sentence to own).
 **Agency/permitting reality:** development review, access/driveway permits, signal warrants, turn-lane approvals each have an owner and a process — map them per agency note; an EIT coordinates and prepares; the PE and the agency decide.
 **When something already went out wrong:** tell the PE immediately, with the fix drafted. Speed and candor are the whole game.
+
+**See also:** [[Questions for Senior Engineers]] · [[QAQC System]] · [[Workflow - New Task Intake]]

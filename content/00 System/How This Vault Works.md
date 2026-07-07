@@ -9,7 +9,7 @@ Folders are coarse buckets; **links and tags do the real organizing**. When unsu
 
 ## Note naming convention
 - Plain descriptive titles, no dates in titles: `Crash Rate Calculation`, not `2026-07-crash-rate`.
-- Prefixes that sort and signal: `T - ` templates · `MOC - ` maps of content · `Workflow - ` step-by-step procedures · `PRJ - ` projects (e.g., `PRJ - SR 78 Safety Study`).
+- Prefixes that sort and signal: `T - ` templates · `MOC - ` maps of content · `Workflow - ` step-by-step procedures · `PRJ - ` projects (e.g., `PRJ - Corridor Safety Study`).
 - Daily notes: `YYYY-MM-DD` (automatic).
 - Agency notes: exact agency name (`Hillsborough County`, `FDOT District 7`).
 - One idea per note. If a note needs a table of contents, split it.
@@ -26,3 +26,5 @@ Rule: ≤4 tags per note. If you invent a new tag twice, add it here; otherwise 
 - Link **liberally while writing** — write a link to `Turn Lane Length` even if the note doesn't exist yet. Unresolved links are your future study list (see graph view → orphans).
 - Every project note links to the references and workflows it used → over time your references accumulate real project context.
 - MOC notes are curated tables of contents per domain; update them during weekly review, not in the moment.
+
+**See also:** [[QAQC System]] · [[Lessons Learned System]] · [[Weekly Review Routine]]

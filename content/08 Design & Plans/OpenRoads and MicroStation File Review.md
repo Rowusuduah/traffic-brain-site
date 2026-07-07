@@ -1,5 +1,5 @@
 ---
-tags: [type/workflow, domain/cad, status/verify]
+tags: [type/workflow, domain/cad]
 source: FDOT CADD Manual; FDOTConnect workspace
 last-checked: 
 title: "★ OpenRoads / MicroStation File Review (traffic engineer's pass)"

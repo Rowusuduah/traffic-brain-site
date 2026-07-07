@@ -79,7 +79,9 @@ const config: QuartzConfig = {
   plugins: {
     transformers: [
       Plugin.FrontMatter(),
-      Plugin.CreatedModifiedDate({ priority: ["frontmatter", "filesystem"] }),
+      // git gives real per-note revision dates on CI (fetch-depth: 0);
+      // filesystem is the local-preview fallback
+      Plugin.CreatedModifiedDate({ priority: ["frontmatter", "git", "filesystem"] }),
       Plugin.SyntaxHighlighting({
         theme: { light: "github-light", dark: "github-dark" },
         keepBackground: false,
@@ -96,7 +98,15 @@ const config: QuartzConfig = {
       Plugin.AliasRedirects(),
       Plugin.ComponentResources(),
       Plugin.ContentPage(),
-      Plugin.FolderPage(),
+      Plugin.FolderPage({
+        // a plan-set sheet index is ordered, not sorted by modification time
+        sort: (a, b) =>
+          String(a.frontmatter?.title ?? a.slug).localeCompare(
+            String(b.frontmatter?.title ?? b.slug),
+            undefined,
+            { numeric: true, sensitivity: "base" },
+          ),
+      }),
       Plugin.TagPage(),
       Plugin.ContentIndex({
         enableSiteMap: true,

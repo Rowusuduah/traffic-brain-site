@@ -8,3 +8,5 @@ last-checked:
 **RSP (Road Safety Professional):** RSP1 (broad, earlier-eligible) → RSP2 (specialist); pairs with the safety/HSM/CMF track — the credential if crash analysis becomes your specialty.
 **Sequencing logic:** PE is non-negotiable; PTOE-vs-RSP follows whichever skill domain you actually deepen — decide at your year-3 review.
 **Professional orbit:** ITE Florida district + local section (you know FLPRITE from the student side — the leap to professional committees is small and high-yield) · ASCE T&DI optional · TRB papers when practice yields something publishable (your research background makes this unusually reachable — a practice-informed paper is a differentiator few EITs have).
+
+**See also:** [[Experience Tracker for PE-PTOE]] · [[Free Learning Library]] · [[Questions for Senior Engineers]]

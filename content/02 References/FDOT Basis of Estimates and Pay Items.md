@@ -1,5 +1,5 @@
 ---
-tags: [type/reference, src/official, status/verify, domain/design]
+tags: [type/reference, src/official, domain/design]
 description: "BOE Manual pay-item structure, units, and what each item includes — the key to quantity takeoffs and engineer's estimates."
 link: https://www.fdot.gov (search "Basis of Estimates"; pay item lookup via Program Management)
 last-checked: 

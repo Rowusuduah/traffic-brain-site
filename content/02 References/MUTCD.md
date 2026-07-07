@@ -12,3 +12,6 @@ last-checked:
 **Example questions:** which of the 9 signal warrants might apply and what data does each need? advance warning sign spacing? when is a marked crosswalk appropriate?
 **Spawn:** warrant-by-warrant data checklist · [[SPM Plan Review Checklist]] feeds.
 **Interim Approvals** (e.g., RRFB history) live on the FHWA site — check IA list for newer devices.
+**Free companions:** [11th Edition official page](https://mutcd.fhwa.dot.gov/kno_11th_Edition.htm) — full free PDF, the 2009→11th Edition redline, summary of changes, known-errors list, hotlinked navigation version, and two recorded FHWA webinars.
+
+> [!tip] Revision 1 (Dec 2025) is out. Before citing a section, confirm you're reading the revised text; and when a reviewer learned on the 2009 edition, the redline is the fastest way to show exactly what changed.

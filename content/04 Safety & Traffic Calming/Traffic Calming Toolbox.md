@@ -1,5 +1,5 @@
 ---
-tags: [type/reference, domain/calming, status/verify]
+tags: [type/reference, domain/calming]
 source: ITE/FHWA calming guidance; agency programs differ!
 last-checked: 
 ---
@@ -14,6 +14,8 @@ last-checked:
 | Chicane | speed | low-volume locals | parking loss; delivery access |
 | Median island / refuge | crossing, cut-throughs | collectors+ | driveway blocking; width for refuge (verify min) |
 | Lane narrowing / road diet | speed / crash types | 4→3 candidates per FHWA guidance | capacity screening first; agency politics |
+
+**Free companions:** [FHWA/ITE Traffic Calming ePrimer](https://highways.dot.gov/safety/speed-management/traffic-calming-eprimer) — the per-measure authority behind this table: 8 free modules covering 22 measures with design/installation specifics, speed effects, EMS and transit impacts, and program case studies. Cite it when a resident (or reviewer) asks "says who?"
 
 Spawn one treatment note per device as you use it, with CMFs and local examples ([[Workflow - Comparable Sites Research]]).
 **Practice question:** resident petition on a 3,500 ADT collector bus route wants humps — what do you check first, in what order?

@@ -1,11 +1,13 @@
 ---
-tags: [type/source, domain/research, domain/calming, src/example, status/verify]
+tags: [type/source, domain/research, domain/calming, src/example]
 county-city: Miami-Dade County
 agency: Miami-Dade County DTPW
 last-checked: 
 link: "Miami-Dade traffic-calming program page — locate current URL"
-title: "★ Comp Site — Miami-Dade Residential Traffic Circle (worked example)"
+title: "Comp Site — Miami-Dade Residential Traffic Circle (template walkthrough)"
 ---
+> [!note] This is a TEMPLATE walkthrough showing how to structure a comparable-site note — the bracketed fields are placeholders to fill from real sources, not a completed example.
+
 **Site:** [NW/SW residential intersection, e.g., XX Ave & XX St] · **Roadway type:** local residential grid streets · **Lanes:** 2 (1/dir) · **Posted:** [25/30] mph · **Context:** dense residential grid, cut-through pressure.
 **Problem being solved:** speeding + angle-crash exposure at uncontrolled/2-way-stop grid intersections.
 **Treatment:** landscaped **traffic circle** — Miami-Dade has one of Florida's largest such programs; circles are a signature device of their residential calming approach.
@@ -17,3 +19,5 @@ title: "★ Comp Site — Miami-Dade Residential Traffic Circle (worked example)
 **Lessons for us:** grid networks suit circles (alternate routes exist); maintenance/landscaping ownership decided up front; EMS/solid-waste review is part of the approval path.
 **Practice question:** which single field in this note would a skeptical reviewer attack first, and how do you armor it? (Before/after — by sourcing or by explicitly not claiming it.)
 **QA/QC reminder:** placeholders purged and every bracket sourced before this note leaves the vault.
+
+**See also:** [[Workflow - Comparable Sites Research]] · [[Workflow - Research and Source Vetting]] · [[Traffic Calming Toolbox]]

@@ -1,5 +1,5 @@
 ---
-tags: [type/checklist, domain/software, domain/tia, status/verify]
+tags: [type/checklist, domain/software, domain/tia]
 applies-to: every Synchro network before results leave your desk
 last-checked: 
 ---
@@ -22,5 +22,6 @@ last-checked:
 **Outputs**
 - [ ] Report exports match tables in the doc (no stale re-runs); queues: source labeled ([[Turn Lane and Queue Checks]])
 - [ ] File hygiene: scenario naming, one change-log note per version
+**Free companions:** [FHWA Traffic Analysis Toolbox](https://ops.fhwa.dot.gov/trafficanalysistools/) — Volume III calibration/validation thresholds are what a reviewer cites when your SimTraffic queues face scrutiny; earlier volumes cover picking the right tool before defaulting to Synchro.
 **Practice question:** delay dropped 20 s between v3 and v4 with "no changes" — list the six settings you diff first.
 **QA/QC reminder:** your name goes on the assumptions page; if a setting isn't sourced, it's not done.

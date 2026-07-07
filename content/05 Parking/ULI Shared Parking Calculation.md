@@ -1,5 +1,5 @@
 ---
-tags: [type/calculation, domain/parking, status/verify]
+tags: [type/calculation, domain/parking]
 source: ULI Shared Parking, 3rd Ed. (verify agency-accepted edition)
 last-checked: 
 ---

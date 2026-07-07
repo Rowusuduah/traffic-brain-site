@@ -1,5 +1,5 @@
 ---
-tags: [type/workflow, domain/design, status/verify]
+tags: [type/workflow, domain/design]
 source: FDOT BOE Manual; Standard Specifications (measurement & payment)
 last-checked: 
 title: "Quantities & Pay Items How-To (traffic items)"

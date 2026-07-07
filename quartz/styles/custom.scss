@@ -121,7 +121,7 @@ a.external {
   }
 }
 
-.exit-tab {
+a.exit-tab {
   display: inline-block;
   background-color: var(--panel-green);
   color: var(--panel-ink);
@@ -138,6 +138,40 @@ a.external {
   letter-spacing: 0.08em;
   text-transform: uppercase;
   white-space: nowrap;
+  text-decoration: none;
+
+  // the tab is a live link back to its folder hub
+  &:hover {
+    color: var(--panel-ink);
+    filter: brightness(1.12);
+  }
+}
+
+// Breadcrumbs: the station trail above the panel — quiet mono
+.breadcrumb-container {
+  margin: 0 0 -0.4rem 0;
+  gap: 0.4rem;
+
+  .breadcrumb-element {
+    gap: 0.4rem;
+
+    a {
+      font-family: var(--codeFont);
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--gray);
+
+      &:hover {
+        color: var(--tertiary);
+      }
+    }
+
+    p {
+      color: var(--lightgray);
+      font-size: 0.72rem;
+    }
+  }
 }
 
 .article-title {
@@ -164,18 +198,49 @@ a.external {
     letter-spacing: 0.03em;
   }
 
+  // hanging indent keeps wrapped titles reading as one entry
   .explorer-content ul li > a {
     font-size: 0.86rem;
+    display: block;
+    padding-left: 0.7rem;
+    text-indent: -0.7rem;
+    line-height: 1.35;
+    margin: 0.15rem 0;
   }
 }
 
 // ---------------------------------------------------------------------------
-// Search — destination lookup
+// Search — destination lookup (primary interface: advertise the shortcut)
 // ---------------------------------------------------------------------------
 .search {
   .search-button {
     border: 1px solid var(--lightgray);
     border-radius: 4px;
+
+    .search-shortcut {
+      font-family: var(--codeFont);
+      font-size: 0.62rem;
+      color: var(--gray);
+      border: 1px solid var(--lightgray);
+      border-radius: 3px;
+      padding: 0.05rem 0.35rem;
+      margin-right: 0.4rem;
+      white-space: nowrap;
+    }
+  }
+}
+
+@media all and ($mobile) {
+  .search .search-button {
+    p,
+    .search-shortcut {
+      display: none;
+    }
+  }
+
+  .page-title a {
+    padding: 0.35rem 0.6rem;
+    font-size: 0.85rem;
   }
 }
 
@@ -273,15 +338,27 @@ hr {
   );
 }
 
+// retroreflective means BRIGHTER at night, not dimmer
 :root[saved-theme="dark"] hr {
   background: repeating-linear-gradient(
     90deg,
-    var(--darkgray) 0,
-    var(--darkgray) 12px,
+    #cfd8cf 0,
+    #cfd8cf 12px,
     transparent 12px,
     transparent 48px
   );
-  filter: drop-shadow(0 0 3px rgba(230, 235, 228, 0.25));
+  filter: drop-shadow(0 0 3px rgba(230, 235, 228, 0.35));
+}
+
+// lift the small-mono tier one step on night asphalt
+:root[saved-theme="dark"] {
+  .title-block .title-block-label,
+  .seal-reserve .seal-caption,
+  .seal-reserve .seal-circle,
+  .page-listing > p,
+  footer p {
+    color: #9aa39c;
+  }
 }
 
 // ---------------------------------------------------------------------------
@@ -364,6 +441,40 @@ hr {
 :root[saved-theme="dark"] .callout[data-callout="warning"],
 :root[saved-theme="dark"] .callout[data-callout="question"] {
   --color: var(--marking-yellow);
+}
+
+// Icons follow the sign families, not the stock Obsidian set: circled-i for
+// guide, diamond for warning, work-zone triangle for TTC, square for
+// regulatory/services. Mask-images, so only the silhouette matters.
+.callout {
+  &[data-callout="note"],
+  &[data-callout="abstract"],
+  &[data-callout="info"],
+  &[data-callout="success"] {
+    --callout-icon: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2"><circle cx="12" cy="12" r="9"/><line x1="12" y1="10.5" x2="12" y2="17"/><circle cx="12" cy="7.5" r="0.5" fill="black"/></svg>');
+  }
+
+  &[data-callout="warning"],
+  &[data-callout="question"] {
+    --callout-icon: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2"><rect x="5.3" y="5.3" width="13.4" height="13.4" transform="rotate(45 12 12)"/></svg>');
+  }
+
+  &[data-callout="todo"],
+  &[data-callout="bug"],
+  &[data-callout="failure"],
+  &[data-callout="danger"] {
+    --callout-icon: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2"><path d="M12 4 L21 19 L3 19 Z"/></svg>');
+  }
+
+  &[data-callout="tip"],
+  &[data-callout="hint"] {
+    --callout-icon: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2.5"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></svg>');
+  }
+
+  &[data-callout="quote"],
+  &[data-callout="example"] {
+    --callout-icon: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2"><rect x="4.5" y="4.5" width="15" height="15"/></svg>');
+  }
 }
 
 // Plan-sheet note numbering: NOTE 1, NOTE 2 … per page
@@ -465,6 +576,12 @@ article {
   .title-block-unchecked {
     color: var(--gray);
   }
+
+  // a field-checked date is the trust signal — it reads in guide green
+  .title-block-checked {
+    color: var(--secondary);
+    font-weight: 600;
+  }
 }
 
 @media all and ($mobile) {
@@ -519,8 +636,8 @@ footer {
 
   .gantry-route {
     font-family: var(--codeFont);
-    color: rgba(255, 255, 255, 0.75);
-    font-size: 0.72rem;
+    color: rgba(255, 255, 255, 0.95);
+    font-size: 0.75rem;
     text-transform: uppercase;
     letter-spacing: 0.14em;
     margin: 0 0 0.4rem;
@@ -575,17 +692,43 @@ footer {
       .gantry-exit {
         font-family: var(--codeFont);
         font-weight: 600;
-        font-size: 0.72rem;
+        font-size: 0.78rem;
         letter-spacing: 0.08em;
-        color: rgba(255, 255, 255, 0.8);
+        color: rgba(255, 255, 255, 0.95);
         white-space: nowrap;
+        min-width: 4.6rem;
       }
 
+      // the arrow is the "take this exit" affordance — it appears on approach
       .gantry-arrow {
         margin-left: auto;
         font-weight: 400;
-        color: rgba(255, 255, 255, 0.8);
+        color: rgba(255, 255, 255, 0.95);
+        opacity: 0;
+        transition: opacity 0.15s ease;
       }
+
+      &:hover .gantry-arrow {
+        opacity: 1;
+      }
+    }
+  }
+
+  .gantry-hint {
+    font-family: var(--codeFont);
+    color: rgba(255, 255, 255, 0.95);
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    border-top: 1.5px solid rgba(255, 255, 255, 0.55);
+    margin: 0.6rem 0 0;
+    padding: 0.55rem 0.3rem 0;
+
+    kbd {
+      border: 1px solid rgba(255, 255, 255, 0.7);
+      border-radius: 3px;
+      padding: 0.02rem 0.3rem;
+      font-family: var(--codeFont);
     }
   }
 }
@@ -615,15 +758,15 @@ footer {
 
   .seal-circle {
     flex: 0 0 auto;
-    width: 92px;
-    height: 92px;
+    width: 100px;
+    height: 100px;
     border: 2px dashed var(--gray);
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: var(--codeFont);
-    font-size: 0.55rem;
+    font-size: 0.62rem;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: var(--gray);
@@ -650,13 +793,19 @@ footer {
     display: none;
   }
 
-  .section {
-    grid-template-columns: 6.5rem 1fr;
+  // one clean row per note — the identical build dates were noise, and a
+  // plan-set index is ordered by sheet, not by timestamp
+  li.section-li > .section {
+    grid-template-columns: 1fr;
 
     .meta {
-      font-family: var(--codeFont);
-      font-size: 0.78rem;
+      display: none;
     }
+  }
+
+  .section .desc h3 {
+    font-size: 0.98rem;
+    margin: 0.35rem 0;
   }
 
   & > p {
@@ -668,10 +817,14 @@ footer {
   }
 }
 
-// Hide the meta strip concept the index doesn't need
+// Hide the meta strip concept the index doesn't need; reclaim the right rail
 body[data-slug="index"] {
   .sidebar.right {
-    visibility: hidden;
+    display: none;
+  }
+
+  .breadcrumb-container {
+    display: none;
   }
 
   .exit-tab-row {
@@ -689,6 +842,19 @@ body[data-slug="index"] {
 
   .title-block {
     display: none;
+  }
+}
+
+@media all and ($desktop) {
+  body[data-slug="index"] .page > #quartz-body {
+    grid-template-columns: #{$sidePanelWidth} auto 0;
+  }
+
+  // the gantry earns the full reclaimed width; running text does not
+  body[data-slug="index"] article > p,
+  body[data-slug="index"] article > ul,
+  body[data-slug="index"] article > h2 {
+    max-width: 46rem;
   }
 }
 
@@ -724,9 +890,13 @@ body[data-slug="index"] {
   border-color: var(--lightgray);
 }
 
-// Reduced motion: kill the dark-mode glow flicker on theme change
+// Reduced motion: settle the elements that actually animate, leave focus
+// transitions alone
 @media (prefers-reduced-motion: reduce) {
-  * {
+  .gantry-arrow,
+  .exit-tab,
+  .darkmode,
+  .popover {
     transition: none !important;
   }
 }

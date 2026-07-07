@@ -1,5 +1,5 @@
 ---
-tags: [type/reference, src/official, status/verify]
+tags: [type/reference, src/official]
 description: "Contract-language companion to Standard Plans; measurement and payment sections settle what each pay item includes."
 link: https://www.fdot.gov (search "Standard Specifications for Road and Bridge Construction")
 update-cycle: ~annual workbook + supplementals

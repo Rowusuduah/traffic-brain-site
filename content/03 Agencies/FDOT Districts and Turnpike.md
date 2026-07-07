@@ -1,5 +1,5 @@
 ---
-tags: [type/reference, domain/agency, src/official, status/verify]
+tags: [type/reference, domain/agency, src/official]
 link: https://www.fdot.gov (Districts pages)
 last-checked: 
 title: "FDOT Districts + Florida's Turnpike Enterprise"
@@ -18,3 +18,5 @@ Districts run their own **traffic operations, permitting, and design review** �
 | **FTE** | Ocoee | Turnpike system statewide — own design/ops standards overlays |
 
 **Your home district is D7** — build its note first: permit intake, traffic ops org chart, who signs off on signal timing on the SHS, D7 design quirks.
+
+**See also:** [[MOC - Agencies]] · [[FDOT Design Manual (FDM)]] · [[FDOT Traffic Engineering Manual (TEM)]]

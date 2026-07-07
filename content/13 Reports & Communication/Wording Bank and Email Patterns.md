@@ -15,3 +15,5 @@ Grow this from sentences that SURVIVED review — provenance in parentheses.
 - Heads-up on a problem: issue → impact → options (your recommended one flagged) → decision needed by. Bad news travels FAST and with options.
 **Meeting follow-up within 24h:** decisions · actions (who/when) · assumptions stated aloud — the email IS the record.
 **Explaining tech to non-engineers:** lead with the consequence, not the method ("the left-turn line will block the through lane ~15 min each evening" > "v/c exceeds 1.0").
+
+**See also:** [[MOC - Report Writing]] · [[Methodology Memo Skeleton]] · [[Comment-Response Matrix Pattern]]

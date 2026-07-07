@@ -1,7 +1,11 @@
 ---
+title: "05 Parking"
+aliases: ["MOC - Parking"]
 tags: [type/reference, domain/parking]
 description: "Parking hub — the code/ITE/ULI/observed demand triad, the 19-step study workflow, worked calculations, and common EIT mistakes."
 ---
+*The parking shelf — study workflow, worked calculations, and the mistakes that get juniors redlined.*
+
 **The demand triad** every study reconciles: **local code** (legal floor/ceiling) vs **ITE Parking Gen** (observed standalone) vs **ULI Shared Parking** (mixed-use time-sharing) — vs **observed counts** when the site exists. Master the triad and you're immediately useful.
 
 **Do the work:** [[Workflow - Parking Study]] ★ (19 steps + QA/QC) · [[ULI Shared Parking Calculation]] ★ · [[Parking Code Comparison]] ★ · field data via standardized count sheets

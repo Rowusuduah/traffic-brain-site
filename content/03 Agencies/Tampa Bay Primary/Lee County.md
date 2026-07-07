@@ -1,10 +1,10 @@
 ---
-tags: [type/reference, domain/agency, status/verify]
+tags: [type/reference, domain/agency]
 type: county
 fdot-district: 1
 last-checked:
 ---
-**Role/jurisdiction:** Fort Myers region; you have prior corridor safety context here (SR 78 area).
+**Role/jurisdiction:** Fort Myers region; prior corridor safety study context in this county.
 **Known starting points** `#status/verify`:
 - Lee County DOT maintains many signals; confirm maintaining agency map
 - Active safety program; locate crash dashboard
@@ -21,13 +21,8 @@ last-checked:
 - Signal timing procedures & maintaining agency:
 - Development review process & submittal requirements:
 - Permit forms (ROW, driveway):
-- Typical review comments we've received:
 - Example projects (ours & public):
 
-## Contacts
-| Name | Role | Notes | Last touch |
-|---|---|---|---|
-|  |  |  |  |
+> [!tip] Contacts, review-comment history, and institutional notes live in the private vault — never on the public site.
 
-## Quirks & institutional knowledge
--
+**See also:** [[MOC - Agencies]] · [[Charlotte County]] · [[Collier County]]

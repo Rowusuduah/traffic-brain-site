@@ -1,5 +1,5 @@
 ---
-tags: [type/reference, domain/agency, status/verify]
+tags: [type/reference, domain/agency]
 type: mpo
 fdot-district: 7
 last-checked:
@@ -21,13 +21,8 @@ last-checked:
 - Signal timing procedures & maintaining agency:
 - Development review process & submittal requirements:
 - Permit forms (ROW, driveway):
-- Typical review comments we've received:
 - Example projects (ours & public):
 
-## Contacts
-| Name | Role | Notes | Last touch |
-|---|---|---|---|
-|  |  |  |  |
+> [!tip] Contacts, review-comment history, and institutional notes live in the private vault — never on the public site.
 
-## Quirks & institutional knowledge
--
+**See also:** [[MOC - Agencies]] · [[Hillsborough County]] · [[County & MPO Count Programs (Tampa Bay)]]

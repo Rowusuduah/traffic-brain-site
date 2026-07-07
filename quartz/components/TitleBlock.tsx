@@ -5,7 +5,8 @@ import { classNames } from "../util/lang"
 
 // Plan-sheet title block at the foot of every note. The vault's premise is
 // that standards rot, so the last-checked date is load-bearing information:
-// when it is blank the cell honestly reads "— / UNCHECKED" instead of hiding.
+// blank cells honestly say so instead of hiding, and a checked date renders
+// in guide green. The seal cell carries the E.I.T. disclaimer on every sheet.
 const TitleBlock: QuartzComponent = ({ cfg, fileData, displayClass }: QuartzComponentProps) => {
   if (!fileData.text) {
     return null
@@ -33,14 +34,18 @@ const TitleBlock: QuartzComponent = ({ cfg, fileData, displayClass }: QuartzComp
       <div class="title-block-cell">
         <span class="title-block-label">Last checked</span>
         {checked ? (
-          <span class="title-block-value">{checked}</span>
+          <span class="title-block-value title-block-checked">{checked}</span>
         ) : (
-          <span class="title-block-value title-block-unchecked">— / UNCHECKED</span>
+          <span class="title-block-value title-block-unchecked">not yet checked</span>
         )}
       </div>
       <div class="title-block-cell">
         <span class="title-block-label">Length</span>
         <span class="title-block-value">{Math.ceil(minutes)} min read</span>
+      </div>
+      <div class="title-block-cell title-block-seal">
+        <span class="title-block-label">Seal</span>
+        <span class="title-block-value title-block-unchecked">reserved — E.I.T.</span>
       </div>
     </div>
   )

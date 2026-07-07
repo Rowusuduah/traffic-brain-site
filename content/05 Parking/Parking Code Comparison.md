@@ -1,5 +1,5 @@
 ---
-tags: [type/workflow, domain/parking, status/verify]
+tags: [type/workflow, domain/parking]
 source: municipal land development codes (each jurisdiction)
 last-checked: 
 ---
