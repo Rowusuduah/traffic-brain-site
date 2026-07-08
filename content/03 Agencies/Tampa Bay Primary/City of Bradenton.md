@@ -3,28 +3,31 @@ tags: [type/reference, domain/agency]
 type: city
 fdot-district: 1
 link: "https://cityofbradenton.com/publicworks (Public Works & Utilities)"
-last-checked:
+last-checked: 2026-07-08
+description: Bradenton publishes little engineering guidance online; counts, crash data, and signals run through Manatee County and the MPO.
 ---
-> [!todo] Scaffold sheet
-> Agency contacts, submittal requirements, and quirks not yet compiled. Structure is ready — fill on first project contact.
+**Role/jurisdiction:** Manatee County seat; city streets only. Many major corridors here are FDOT District 1 or Manatee County roads — confirm maintaining agency per corridor before citing standards `#status/verify`. Land development runs through Planning & Community Development (five divisions incl. plans review, permitting, mapping); roadway/ROW work through Public Works & Utilities (Engineering and Streets divisions).
 
-**Role/jurisdiction:** Manatee County seat.
-**Known starting points** `#status/verify`:
-- (none yet — run [[Workflow - Research and Source Vetting]])
-- Official site: [City of Bradenton Public Works & Utilities](https://cityofbradenton.com/publicworks)
+**Known starting points** (resolved 2026-07-08 unless tagged):
+- Bradenton publishes very little traffic-engineering guidance online — the city's own site even notes the **Form-Based Code and Comprehensive Plan are "available in PDF format upon request"** from [Planning & Zoning](https://cityofbradenton.com/compplan). Expect to request documents; the honest gaps below are real gaps, not missed links.
+- Traffic signals and ITS in the city run through the regional ATMS: a **May 2005 interlocal (FDOT, Manatee County, Sarasota County, City of Sarasota, City of Bradenton)** created what is now the [Sarasota-Manatee Regional Traffic Management Center](https://www.mymanatee.org/connect/news-and-information/news-and-information/article-detail/traffic-management-division-posts/2025/01/09/regional-traffic-management-center) (est. 2011, housed in Manatee County's Public Safety Complex).
+- Count and crash data products for the city come from **Manatee County** and the **Sarasota/Manatee MPO**, not the city.
+
 ## Collect (link each as found; date it)
-- TIA/TIS guidelines:
-- Parking study guidelines / parking code (with section #):
-- Traffic calming program/guidelines:
-- Complete Streets policy · Vision Zero / Safety Action Plan:
-- Roadway design standards / standard details:
-- Access management standards:
-- Traffic count requirements (seasonal factors accepted?):
-- Crash/safety dashboard:
-- GIS / open data portal:
-- Signal timing procedures & maintaining agency:
-- Development review process & submittal requirements:
-- Permit forms (ROW, driveway):
-- Example projects (ours & public):
+- **TIA/TIS guidelines:** no published city TIA/TIS methodology. Part III **Land Use Regulations** ([Municode](https://library.municode.com/fl/bradenton/codes/code_of_ordinances?nodeId=PTIIILAUSRE)) make a traffic study discretionary — applications include site plan, on-site traffic flow, community impact report, and "a traffic study … may be required at the discretion of the PCD director." Scope/methodology: request from Planning & Community Development. (checked 2026-07-08)
+- **Parking study guidelines / parking code (with section #):** parking standards are embedded in the transect-zone standards of the form-based **Part III Land Use Regulations** ([Municode](https://library.municode.com/fl/bradenton/codes/code_of_ordinances?nodeId=PTIIILAUSRE)) — Municode's viewer is bot-blocked, so pull the exact section number in a browser `#status/verify`. No parking *study* guideline published. (checked 2026-07-08)
+- **Traffic calming program/guidelines:** no published city program or warrant criteria. The city's intake mechanism is the **Traffic Safety Team** — multi-department (traffic/signalization, fire, enforcement, engineering) — via the [TST Action Item Request Form (PDF, rev. 2022)](https://cityofbradenton.com/vertical/Sites/%7B98CFEB92-7265-45CB-AF6F-7115C2CD7C81%7D/uploads/Traffic_Safety_Action_Item_Request_Form_rev2022.pdf). Note: Manatee County's Neighborhood Traffic Calming Program covers **unincorporated** streets only — it does not apply inside Bradenton. (checked 2026-07-08)
+- **Complete Streets policy · Vision Zero / Safety Action Plan:** none adopted yet. In **December 2025** the city won a **$280,000 SS4A planning grant** (≈$350,000 with local match) to develop a **citywide safety action plan** for pedestrians/cyclists — [congressional announcement](https://buchanan.house.gov/2025/12/buchanan-applauds-280-000-dot-grant-to-improve-pedestrian-safety-in-bradenton); watch for the plan. Regional substitute meanwhile: MPO **Destination Zero** — [Safety Data](https://www.mympo.org/destination-zero/safety-data). (checked 2026-07-08)
+- **Roadway design standards / standard details:** not published online — city code requires conformance with "current public works and utilities standards and specifications" (request from Public Works & Utilities). Scattered published pieces: Driveway Apron Paver Specifications and Erosion Control Manual on the [PW Contact & Department Forms page](https://cityofbradenton.com/contactpw); Chapter 62 — Streets and Sidewalks ([Municode](https://library.municode.com/fl/bradenton/codes/code_of_ordinances?nodeId=PTIICOOR_CH62STSI)). (checked 2026-07-08)
+- **Access management standards:** no standalone access management standard published. Driveway/ROW connections go through the PW **ROW Permit** (below); private road/access design must conform to city standards per the Land Use Regulations (code cites LUR art. 4.1.3). Request specifics from PW&U. (checked 2026-07-08)
+- **Traffic count requirements (seasonal factors accepted?):** the city publishes no counts and no count-methodology requirements — request expectations per project. Data source: **Manatee County Traffic Engineering** maintains ~343 count locations updated annually — [View Traffic Volume Data](https://www.mymanatee.org/services-and-amenities/service-listing/service-details/view-traffic-volume-data) · [interactive count map](https://www.mymanatee.org/gisapps/mobile/index.html?type=traffic-counts) · Traffic Count Stations layer on [Manatee County Open Data](https://public-manateegis.opendata.arcgis.com/). Seasonal-factor acceptance for studies inside the city: not stated anywhere `#status/verify`. FDOT Traffic Online covers the state roads. (checked 2026-07-08)
+- **Crash/safety dashboard:** none published by the city. Use the Sarasota/Manatee MPO **Destination Zero** [Safety Data page](https://www.mympo.org/destination-zero/safety-data) — crash/KSI data on the MPO GeoHub (incl. Bike/Ped KSI map, 2019–2023; Destination Zero crash assessment uses Signal Four Analytics, which itself requires agency login). (checked 2026-07-08)
+- **GIS / open data portal:** city [Planning and Zoning Interactive Map](https://cityofbradenton.com/index.asp?SEC=97A13FCA-CE69-43DB-AAA4-E2C09D624FAA&DE=9FED5C01-6A3B-4713-99AA-C2F9CB310329) (zoning/land use). Fuller GIS coverage of the city area: [Manatee County Open Data (ArcGIS Hub)](https://public-manateegis.opendata.arcgis.com/) and the [MPO data & map tools](https://www.mympo.org/resources/data-map-tools). (checked 2026-07-08)
+- **Signal timing procedures & maintaining agency:** the city is a party to the 2005 regional ATMS interlocal; the [Sarasota-Manatee RTMC](https://www.mymanatee.org/connect/news-and-information/news-and-information/article-detail/traffic-management-division-posts/2025/01/09/regional-traffic-management-center) (operated by [Manatee County Traffic Management](https://www.mymanatee.org/departments/public-works-department/traffic-management-division)) monitors 200+ signals in Manatee County and makes temporary timing changes; ATMS deployments explicitly include the City of Bradenton. **Which agency holds day-to-day maintenance of signal hardware inside city limits is not published — confirm with PW&U** `#status/verify`. No written timing procedures online. (checked 2026-07-08)
+- **Development review process & submittal requirements:** [Development Review Process](https://cityofbradenton.com/index.asp?SEC=97A13FCA-CE69-43DB-AAA4-E2C09D624FAA&DE=6CFE1736-C985-4965-8792-E9A1FE86A1F5) (Planning & Community Development) · [Planning & Zoning forms](https://cityofbradenton.com/planningforms) · electronic permitting via Accela — [Building and Permitting Online Services](https://cityofbradenton.com/onlinepermittingservices). (checked 2026-07-08)
+- **Permit forms (ROW, driveway):** **ROW Permit Application** and **Site Improvement Permit** are listed on the [PW Contact & Department Forms page](https://cityofbradenton.com/contactpw); building permits through the [Building and Permitting Division](https://cityofbradenton.com/permitting). (checked 2026-07-08)
+- **Example projects (ours & public):** ours live in the private vault (see callout below); no city-published example traffic studies found online.
 
 > [!tip] Contacts, review-comment history, and institutional notes live in the private vault — never on the public site.
+
+**See also:** [[MOC - Agencies]] · [[Manatee County]] · [[Sarasota Manatee MPO]] · [[City of Sarasota]]

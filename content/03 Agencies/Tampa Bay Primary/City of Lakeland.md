@@ -3,28 +3,33 @@ tags: [type/reference, domain/agency]
 type: city
 fdot-district: 1
 link: "https://www.lakelandgov.net/departments/public-works/traffic-operations/ (Traffic Operations)"
-last-checked:
+last-checked: 2026-07-08
+description: Verified public sources for Lakeland traffic operations, calming program, engineering standards, permits, and Polk TPO data products.
 ---
-> [!todo] Scaffold sheet
-> Agency contacts, submittal requirements, and quirks not yet compiled. Structure is ready — fill on first project contact.
+**Role/jurisdiction:** Polk County's principal city (FDOT District 1). City streets plus state arterials threading the city (US 98, US 92, SR 33; Polk Parkway toll loop is Turnpike Enterprise). Unusually self-sufficient for a city its size: **Public Works Traffic Operations** runs its own signal system and Traffic Management Center; development review runs through **Community & Economic Development (CED)**; site/ROW permits and inspections through **Public Works Engineering**.
 
-**Role/jurisdiction:** Polk County's principal city.
-**Known starting points** `#status/verify`:
-- (none yet — run [[Workflow - Research and Source Vetting]])
-- Official site: [City of Lakeland Traffic Operations](https://www.lakelandgov.net/departments/public-works/traffic-operations/)
+**Known starting points** (resolved 2026-07-08 unless tagged):
+- Signals are **city-maintained** (177 signals incl. FDOT-owned equipment) — do not assume Polk County maintenance inside city limits; the county runs a separate ~300-signal system outside.
+- The [Neighborhood Traffic Calming Program](https://www.lakelandgov.net/departments/public-works/traffic-operations/neighborhood-traffic-calming-program-overview/) is fully documented online — criteria and petition mechanics below.
+- Design standards live in the city's [Engineering Standards Manual](https://www.lakelandgov.net/departments/public-works/engineering/engineering-standards/); development code is the [Land Development Code on Municode](https://library.municode.com/fl/lakeland/codes/land_development_code).
+- Countywide counts/LOS and safety planning live with the [[Polk TPO]] ([polktpo.com](https://polktpo.com/)), not the city.
+- Always confirm FDOT D1 vs. Polk County vs. city maintenance per corridor before citing standards `#status/verify` per corridor.
+
 ## Collect (link each as found; date it)
-- TIA/TIS guidelines:
-- Parking study guidelines / parking code (with section #):
-- Traffic calming program/guidelines:
-- Complete Streets policy · Vision Zero / Safety Action Plan:
-- Roadway design standards / standard details:
-- Access management standards:
-- Traffic count requirements (seasonal factors accepted?):
-- Crash/safety dashboard:
-- GIS / open data portal:
-- Signal timing procedures & maintaining agency:
-- Development review process & submittal requirements:
-- Permit forms (ROW, driveway):
-- Example projects (ours & public):
+- **TIA/TIS guidelines:** **no city TIS methodology manual published online** — request scope/methodology from CED Planning. Transportation review of development runs through concurrency: **Non-Binding Concurrency** application via the CED [Transportation page](https://www.lakelandgov.net/departments/community-economic-development/planning-zoning/transportation/); for subdivisions, the concurrency determination application is submitted with the preliminary plat and construction plans per LDC **Article 9 § 9.4** ([Municode](https://library.municode.com/fl/lakeland/codes/land_development_code?nodeId=LADECO_ART9SUST_9.4COPL)). Transportation **impact fees**: new fee studies and ordinances adopted 2025-08-18, rates effective 2026-01-01 ([city notice](https://www.lakelandgov.net/news/posts/2025/november/public-notice-of-adopted-impact-fee-ordinances-and-fee-rate-changes-for-city-of-lakeland-transportation-fire-law-enforcement-and-parks-recreation-and-cultural-facilities-impact-fees/)). (checked 2026-07-08)
+- **Parking study guidelines / parking code (with section #):** LDC **Article 4 — General Site Development Standards** ([Municode](https://library.municode.com/fl/lakeland/codes/land_development_code?nodeId=LADECO_ART4GESIDEST)); parking/vehicle use area regulations sit in **sub-article 4.11** (vehicle use areas; bicycle parking § 4.11.6; off-street loading § 4.11.7) — confirm current sub-section numbering in Municode `#status/verify`. No parking-study guideline published online — request from CED. City parking operations (downtown garages/lots): [Public Works Parking](https://www.lakelandgov.net/departments/public-works/parking/). (checked 2026-07-08)
+- **Traffic calming program/guidelines:** [Neighborhood Traffic Calming Program](https://www.lakelandgov.net/departments/public-works/traffic-operations/neighborhood-traffic-calming-program-overview/) — Public Works Traffic Operations. Key mechanics: city-owned **local** streets eligible (collectors at the Traffic Operations Manager's discretion); initiate with [online application](https://www.lakelandgov.net/departments/public-works/traffic-operations/neighborhood-traffic-calming-program-overview/neighborhood-traffic-calming-program-application/) + petition of **min 25 signatures or 50% of property owners** (whichever is smaller, one per address); projects funded first-come/first-served → traffic study → engineer's calming plan → **property-owner survey (≥50% response and ≥66% support required)** → construction; evaluation within 1 year; removal petition (**66%** of owners) allowed after the 3rd anniversary. Devices: speed humps, chicanes, chokers, diagonal diverters, median islands, full/partial closures. (checked 2026-07-08)
+- **Complete Streets policy · Vision Zero / Safety Action Plan:** Traffic Operations' stated mission is to **eliminate fatal and serious-injury crashes by 2040**, but no standalone city-adopted Vision Zero or Complete Streets policy document was found online `#status/verify` — request from the city. Countywide: [Vision Zero Polk](https://polktpo.com/plans-and-projects/vision-zero-polk/) (Polk TPO safety action plan, FHWA SS4A-funded, zero-by-2040 goal; covers Lakeland). (checked 2026-07-08)
+- **Roadway design standards / standard details:** [Engineering Standards Manual](https://www.lakelandgov.net/departments/public-works/engineering/engineering-standards/) — **Vol. I Administrative** ([2025 revision PDF](https://www.lakelandgov.net/media/21545/v1-administrative_rem_2025.pdf): variances, guarantees), **Vol. II Public Works — Roadway & Drainage Standards for Subdivisions and Commercial Developments** ([PDF](https://www.lakelandgov.net/media/8346/volume-2-public-works.pdf): streets, sidewalks, driveways, curbs, drainage; adopts FDOT minimum standards, details reference FDOT); Vols. III–IV water/wastewater; Vol. V electric via Lakeland Electric. (checked 2026-07-08)
+- **Access management standards:** LDC **sub-article 4.3 — Access Standards** ([Municode](https://library.municode.com/fl/lakeland/codes/land_development_code?nodeId=LADECO_ART4GESIDEST_4.3ACST)); driveway construction standards in ESM Vol. II. State-road connections go through FDOT D1 access permits, not the city. (checked 2026-07-08)
+- **Traffic count requirements (seasonal factors accepted?):** [Traffic Engineering](https://www.lakelandgov.net/departments/public-works/traffic-operations/traffic-engineering/) collects turning movement counts and ATR tube counts (volumes/speeds/classification) for its own studies but publishes **no count database** and no written count-requirement or seasonal-factor policy — request both from Traffic Operations `#status/verify`. Countywide: [Polk TPO Roadway Network Database](https://polktpo.com/what-we-do/our-planning-documents/roadway-network-database) — AADT + peak-hour volumes and LOS on ~425 arterial/collector segments. State roads: [FDOT Florida Traffic Online](https://tdaappsprod.dot.state.fl.us/fto/). (checked 2026-07-08)
+- **Crash/safety dashboard:** none published by the city — use [Vision Zero Polk](https://polktpo.com/plans-and-projects/vision-zero-polk/) (TPO) crash analysis products or request data from the city; Signal Four Analytics requires an agency login. (checked 2026-07-08)
+- **GIS / open data portal:** [City of Lakeland GeoHub](https://geohub-lakelandflorida.opendata.arcgis.com/) (ArcGIS Hub open data — parcels, zoning, utilities, transportation layers) plus public ArcGIS REST services at [gismims.lakelandgov.net](https://gismims.lakelandgov.net/portal/rest/services/Public/Lakeland10_Parcels/MapServer). (checked 2026-07-08)
+- **Signal timing procedures & maintaining agency:** **city-maintained** — [Traffic Signals](https://www.lakelandgov.net/departments/public-works/traffic-operations/traffic-signals/): real-time monitoring of **177 signals and 62 CCTV cameras** from the city's Traffic Management Center; IMSA-certified technicians maintain ATC controller equipment **owned by either the city or FDOT**; coordinates with FDOT D1 and Polk County. No written signal-timing procedures published — request from Traffic Operations. (checked 2026-07-08)
+- **Development review process & submittal requirements:** planning/zoning review through [CED](https://www.lakelandgov.net/departments/community-economic-development/land-development-code/) under the LDC; permits and inspections run through the city's **iMS** portal; subdivisions require a Letter of Authorization and pre-construction meeting before site work (see Engineering permit page below). (checked 2026-07-08)
+- **Permit forms (ROW, driveway):** [Engineering Permit & Inspection Information](https://www.lakelandgov.net/departments/public-works/engineering/permit-inspection-information/) — residential driveway (issued via Building Inspection, inspected by PW Engineering), right-of-way use (non-utility and utility), site alteration/site work, subdivision; ROW permit fee schedule and permit provisions linked on that page; inspections scheduled through iMS. (checked 2026-07-08)
+- **Example projects (ours & public):** ours live in the private vault (see callout below); no city-published example TIA/TIS submittals found online. (checked 2026-07-08)
 
 > [!tip] Contacts, review-comment history, and institutional notes live in the private vault — never on the public site.
+
+**See also:** [[MOC - Agencies]] · [[Polk TPO]] · [[Polk County]]

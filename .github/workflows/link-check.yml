@@ -1,0 +1,49 @@
+# Monthly link-rot sweep over every note's official-source URL.
+# Opens (or updates) an issue when links die — the Standards Update
+# Tracker's mechanical enforcement arm.
+name: Link rot check
+
+on:
+  schedule:
+    - cron: "17 6 1 * *" # 06:17 UTC on the 1st of each month
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Sweep links
+        id: sweep
+        run: node tools/check-links.mjs
+        continue-on-error: true
+      - name: Open issue on failures
+        if: steps.sweep.outcome == 'failure'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs')
+            const body = fs.readFileSync('link-failures.md', 'utf8')
+            const title = 'Link rot: dead official-source links found'
+            const { data: issues } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner, repo: context.repo.repo,
+              state: 'open', labels: 'link-rot',
+            })
+            if (issues.length > 0) {
+              await github.rest.issues.update({
+                owner: context.repo.owner, repo: context.repo.repo,
+                issue_number: issues[0].number, body,
+              })
+            } else {
+              await github.rest.issues.create({
+                owner: context.repo.owner, repo: context.repo.repo,
+                title, body, labels: ['link-rot'],
+              })
+            }

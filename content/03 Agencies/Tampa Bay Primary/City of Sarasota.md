@@ -3,28 +3,32 @@ tags: [type/reference, domain/agency]
 type: city
 fdot-district: 1
 link: "https://www.sarasotafl.gov/Department-Pages/Public-Works (Public Works)"
-last-checked:
+last-checked: 2026-07-08
+description: Sarasota publishes a lot for a small city — 2024 EDCM, 2025 traffic calming manual, master plan, downtown parking program.
 ---
-> [!todo] Scaffold sheet
-> Agency contacts, submittal requirements, and quirks not yet compiled. Structure is ready — fill on first project contact.
+**Role/jurisdiction:** Downtown parking management is sophisticated here — good comp-site source for parking studies. City streets only; US 41/Tamiami Trail (incl. the roundabout corridor) and other state roads are FDOT District 1 — confirm maintaining agency per corridor `#status/verify`. Development review runs through Development Services and its Development Review Committee (DRC); traffic/ROW work through Public Works (Engineering, Transportation Planning) and the Parking Division.
 
-**Role/jurisdiction:** Downtown parking management is sophisticated here — good comp-site source for parking studies.
-**Known starting points** `#status/verify`:
-- (none yet — run [[Workflow - Research and Source Vetting]])
-- Official site: [City of Sarasota Public Works](https://www.sarasotafl.gov/Department-Pages/Public-Works)
+**Known starting points** (resolved 2026-07-08 unless tagged):
+- **Bot-block warning:** sarasotafl.gov (and scgov.net) return 403 to non-browser clients — every sarasotafl.gov link below failed curl but was confirmed live via current search results and Wayback snapshots (June 2025 – April 2026). They load fine in a browser.
+- The **Engineering Design Criteria Manual (EDCM)** got its first update in 22 years (adopted 2024, implementation with companion code updates targeted 2026) — check which edition governs your submittal.
+- A **Neighborhood Traffic Calming Manual (Jan 31, 2025)** exists with concrete thresholds and petition mechanics — rare for a city this size.
+- [Sarasota in Motion](https://sarasotainmotion.com/) (2020) is the citywide transportation master plan; the comp plan transportation chapter is being updated at [Engage Sarasota](https://engage.sarasotafl.gov/transportationchapter).
+
 ## Collect (link each as found; date it)
-- TIA/TIS guidelines:
-- Parking study guidelines / parking code (with section #):
-- Traffic calming program/guidelines:
-- Complete Streets policy · Vision Zero / Safety Action Plan:
-- Roadway design standards / standard details:
-- Access management standards:
-- Traffic count requirements (seasonal factors accepted?):
-- Crash/safety dashboard:
-- GIS / open data portal:
-- Signal timing procedures & maintaining agency:
-- Development review process & submittal requirements:
-- Permit forms (ROW, driveway):
-- Example projects (ours & public):
+- **TIA/TIS guidelines:** no standalone published TIS manual. The [General & Development Applications — General Information packet (PDF, rev. Sept 2023)](https://www.sarasotafl.gov/files/assets/city/v/1/ds/documents/development-application-forms/2018-ageneral-information-pktrevised-jan-2018.pdf) requires a traffic-impact analysis for any development: either a **"de minimis" determination** or a **Transportation Concurrency and Traffic Circulation Study**. All forms: [Development Application Forms](https://www.sarasotafl.gov/government/development-services/development-application-forms). Study methodology/scoping: request from Development Services. (checked 2026-07-08; 403-to-bots, confirmed live via Wayback)
+- **Parking study guidelines / parking code (with section #):** Zoning Code **Article VII, Division 2 — Off-Street Parking and Loading** ([Municode](https://library.municode.com/fl/sarasota/codes/zoning?nodeId=ARTVIIREGEAP_DIV2OREPALO_SVII-214COVECOTRREOREPAREDONEZODI)); general parking requirements at § VII-203 (recently amended by Ord. 22-5430 and 23-5474). No published parking-study guideline — but the [Parking and Mobility division](https://www.sarasotafl.gov/Our-City/Parking-and-Mobility) (4 city garages, ~4,000 downtown public spaces, meters, permit programs) is a strong comp-site data source for shared/managed parking studies. (checked 2026-07-08)
+- **Traffic calming program/guidelines:** [Neighborhood Traffic Calming Manual, Jan 31 2025 (PDF)](https://www.sarasotafl.gov/files/assets/city/v/1/pwd/documents/transportation-planning/traffic-calming-manual-outlinev7final.pdf) — treatment considered when **85th percentile speed exceeds the posted limit** (solution matrix); petition passes via **Option 1: ≥51% of study-area property owners agree**, or **Option 2: ≥60% agreement from a ≥51% response rate**, returned within 90 days. Program pages: [Traffic Calming](https://www.sarasotafl.gov/Department-Pages/Public-Works/Transportation-Planning/Traffic-Calming) · [Traffic Calming Plan](https://www.sarasotafl.gov/Department-Pages/Public-Works/Transportation-Planning/Traffic-Calming/Traffic-Calming-Plan) (citywide plan in development). Related: adopted policy language to reduce local-street limits toward **20 mph** — [Reducing Speed Limits policy (PDF)](https://www.sarasotafl.gov/files/assets/city/v/1/pwd/documents/transportation-planning/traffic-calming-plan/2-twenty-mph-approach.pdf). (checked 2026-07-08; 403-to-bots, confirmed live via Wayback incl. an Apr 2026 snapshot of the manual)
+- **Complete Streets policy · Vision Zero / Safety Action Plan:** no standalone city Vision Zero plan. The city is a named partner in the **Sarasota County SS4A Safety Action Plan** (with North Port, Venice, Longboat Key) — [county SS4A page](https://www.scgov.net/government/public-works/transportation-planning/safe-streets-for-all-ss4a-action-plan) (403-to-bots; confirmed via Wayback). Citywide policy direction lives in [Sarasota in Motion](https://sarasotainmotion.com/) — vision adopted 2019-09-16, [master plan accepted July 2020 (PDF)](https://www.sarasotafl.gov/files/assets/city/v/1/pwd/documents/transportation-planning/transportation-plans/sarasota-in-motion-transportation-master-plan-july-2020.pdf). Regional: MPO **Destination Zero** [Safety Data](https://www.mympo.org/destination-zero/safety-data). (checked 2026-07-08)
+- **Roadway design standards / standard details:** [Engineering Design Criteria Manual](https://www.sarasotafl.gov/Department-Pages/Public-Works/Engineering/Engineering-Design-Criteria-Manual) — sets standards for roads, trails, sidewalks, subdivision work, and everything in city ROW; **2024 update adopted (first since 2002), implementation alongside companion code updates targeted 2026** — confirm which edition applies to your submittal `#status/verify`. (checked 2026-07-08; 403-to-bots, confirmed live via Wayback)
+- **Access management standards:** no standalone access management code published. Driveway/ROW connections and encroachments run through the Engineering Division's **ROW Use Permit** (below); geometric/driveway design in ROW is governed by the EDCM. State-road connections: FDOT D1 connection permits. (checked 2026-07-08)
+- **Traffic count requirements (seasonal factors accepted?):** the city publishes no count database and no count-methodology requirements — request per project. Nearby data: **Sarasota County Traffic Operations** publishes annual counts as downloadable Excel by year ([trafficops.scgov.net](https://trafficops.scgov.net/Home/TrafficCount)) with raw counts **converted to AADT using seasonal factors** — county roadways; coverage inside city limits varies `#status/verify`. MPO GeoHub via [data & map tools](https://www.mympo.org/resources/data-map-tools); FDOT Traffic Online for state roads. (checked 2026-07-08)
+- **Crash/safety dashboard:** none published by the city. Use the Sarasota/Manatee MPO **Destination Zero** [Safety Data page](https://www.mympo.org/destination-zero/safety-data) (crash/KSI layers on the MPO GeoHub, incl. Bike/Ped KSI map 2019–2023) and the county SS4A materials. (checked 2026-07-08)
+- **GIS / open data portal:** [City of Sarasota Open Data (ArcGIS Hub)](https://data-sarasota.opendata.arcgis.com/) — download CSV/KML/GeoJSON etc. · [GIS/Maps gallery](https://www.sarasotafl.gov/Home/Do-it-online/GIS-Maps) · [sarasota.maps.arcgis.com](https://sarasota.maps.arcgis.com/home/index.html). (checked 2026-07-08)
+- **Signal timing procedures & maintaining agency:** the **city operates its own traffic signals and ITS field equipment** (signals, vehicle/ped detectors, CCTV, DMS) per the [FDOT District 1 ITS architecture element "City of Sarasota Traffic Control Equipment"](https://teo.fdot.gov/architecture/architectures/d1/html/elements/el21.html), coordinated regionally through the Sarasota-Manatee RTMC under the 2005 five-party ATMS interlocal (FDOT, both counties, Sarasota, Bradenton). No written signal-timing procedures published — request from Public Works. (checked 2026-07-08)
+- **Development review process & submittal requirements:** [Development Review](https://www.sarasotafl.gov/Department-Pages/Development-Services/Development-Review) — **DRC meets 1st and 3rd Wednesdays**; pre-application conference recommended (not required); 30-day completeness review, then technical review against the Zoning Code; [2026 DRC review schedule (PDF)](https://www.sarasotafl.gov/files/content/city/v/9/department-pages/development-services/development-review/2026-drc-review-schedule-for-web.pdf) · [development review flow chart — outside downtown (PDF)](https://www.sarasotafl.gov/files/assets/city/v/1/ds/documents/development-review/flow-chart-outside-downtown-31523ada.pdf). (checked 2026-07-08; 403-to-bots, confirmed live via Wayback/search)
+- **Permit forms (ROW, driveway):** Engineering Division permits — **ROW Use**, Erosion & Siltation, Franchise Utilities, ROW Special Event — applied for through the [city permitting portal](https://ftgportal.sarasotafl.gov/); ROW Use requires plans, MOT plan, pedestrian control plan where applicable ([Engineering Division](https://www.sarasotafl.gov/government/public-works/engineering-and-cip/engineering)). (checked 2026-07-08)
+- **Example projects (ours & public):** ours live in the private vault (see callout below); no city-published example TIS submittals found online.
 
 > [!tip] Contacts, review-comment history, and institutional notes live in the private vault — never on the public site.
+
+**See also:** [[MOC - Agencies]] · [[Sarasota County]] · [[Sarasota Manatee MPO]] · [[City of Bradenton]]

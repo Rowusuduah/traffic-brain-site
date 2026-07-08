@@ -15,13 +15,11 @@ description: "Florida jurisdiction library — who owns the road, one note per a
 - Contacts and reviewer-specific intelligence (individual names, "this reviewer always asks for..."-type notes, review-comment history) belong in the private vault only — never on the public site. Keep the published agency pages to official standards, links, and processes.
 
 ## Tampa Bay primary (folder: Tampa Bay Primary)
-**Filled one-pagers** — known starting points compiled; Collect lists still growing:
-- FDOT D7: [[City of Tampa]] · [[Hillsborough County]] ★ (worked example — Collect list fully sourced and dated; build every agency page to this standard) · [[Pinellas County]] · [[Pasco County]] · [[City of St. Petersburg]] · [[Hillsborough TPO]] · [[Forward Pinellas]]
-- FDOT D1: [[Polk County]] · [[Lee County]]
+**Filled one-pagers** — Collect lists sourced and dated; keep links current:
+- FDOT D7: [[City of Tampa]] · [[Hillsborough County]] ★ (worked example — build every agency page to this standard) · [[Pinellas County]] · [[Pasco County]] · [[City of St. Petersburg]] · [[Hernando County]] · [[Citrus County]] · [[City of Clearwater]] · [[Hillsborough TPO]] · [[Forward Pinellas]]
+- FDOT D1: [[Manatee County]] · [[Sarasota County]] · [[Charlotte County]] · [[Collier County]] · [[Polk County]] · [[Lee County]] · [[City of Lakeland]] · [[City of Sarasota]] · [[City of Bradenton]] · [[Sarasota Manatee MPO]] · [[Polk TPO]]
 
-**Scaffolds — fill on first contact:**
-- FDOT D7: [[Hernando County]] · [[Citrus County]] · [[City of Clearwater]]
-- FDOT D1: [[Manatee County]] · [[Sarasota County]] · [[Charlotte County]] · [[Collier County]] · [[City of Lakeland]] · [[City of Sarasota]] · [[City of Bradenton]] · [[Sarasota Manatee MPO]] · [[Polk TPO]]
+**Scaffolds — fill on first contact:** none remaining in this folder — every Tampa Bay primary page is filled.
 
 **Research ally:** [[CUTR]]
 

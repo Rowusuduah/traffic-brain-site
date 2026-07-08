@@ -3,26 +3,30 @@ tags: [type/reference, domain/agency]
 type: county
 fdot-district: 1
 link: "https://www.leegov.com/dot (Lee County DOT)"
-last-checked:
+last-checked: 2026-07-08
+description: County agency one-pager — verified sources for unincorporated Lee review (LDC § 10-286 TIS), DOT permits, counts, and MPO safety data.
 ---
-**Role/jurisdiction:** Fort Myers region; prior corridor safety study context in this county.
-**Known starting points** `#status/verify`:
-- Lee County DOT maintains many signals; confirm maintaining agency map
-- Active safety program; locate crash dashboard
+**Role/jurisdiction:** Fort Myers region; prior corridor safety study context in this county. Unincorporated county roads — Cape Coral, Fort Myers, Bonita Springs, Estero, Fort Myers Beach, and Sanibel handle their own. Split responsibility: **Lee County DOT** ([leegov.com/dot](https://www.leegov.com/dot)) runs operations, counts, and ROW/driveway permits; the **Department of Community Development (DCD)** runs development review (Development Orders via eConnect). FDOT District 1 for state roads.
+
+**Known starting points** (resolved 2026-07-08 unless tagged):
+- Lee County DOT maintains many signals; the DOT **Traffic Operations Center** monitors "the traffic signals in the County" (see below) — still confirm the maintaining agency per corridor/municipality `#status/verify`.
+- Active safety program; crash dashboard located — it's the **Lee MPO's** SS4A crash dashboard, linked below.
+- Lee County relies on **road impact fees** rather than concurrency for offsite mitigation: projects adding < 300 peak-hour trips are presumed mitigated by paying impact fees (TIS Guidelines).
+
 ## Collect (link each as found; date it)
-- TIA/TIS guidelines:
-- Parking study guidelines / parking code (with section #):
-- Traffic calming program/guidelines:
-- Complete Streets policy · Vision Zero / Safety Action Plan:
-- Roadway design standards / standard details:
-- Access management standards:
-- Traffic count requirements (seasonal factors accepted?):
-- Crash/safety dashboard:
-- GIS / open data portal:
-- Signal timing procedures & maintaining agency:
-- Development review process & submittal requirements:
-- Permit forms (ROW, driveway):
-- Example projects (ours & public):
+- **TIA/TIS guidelines:** LDC **§ 10-286 — Traffic impact statements** (Ch. 10, Art. III, Div. 2 — [Municode](https://library.municode.com/fl/lee_county/codes/land_development_code?nodeId=LADECO_CH10DEST_ARTIIIDESTRE_DIV2TRROSTBR); the elaws.us mirror was returning 503 on 2026-07-08) + [Traffic Impact Statement Guidelines for Development Orders (PDF)](https://www.leegov.com/dcd/Documents/InfraPlanning/Traffic/TISGuidelines.pdf) — posted version last edited **2015-02-03** (per document metadata). Thresholds: **≥ 300 peak-hour trips** → comprehensive TIS of the surrounding road system; **< 300** → trip generation + access-point analysis only, offsite impacts presumed mitigated by road impact fees. Methodology meeting with DCD Development Services staff "strongly recommended." Companion: § 10-287 traffic impact mitigation plan. The old DCD "Traffic Study Resources" page (leegov.com/dcd/infraplanning/traffic) is now 404 — [Wayback copy, 2025-03-19](http://web.archive.org/web/20250319054642/https://www.leegov.com/dcd/infraplanning/traffic). (checked 2026-07-08)
+- **Parking study guidelines / parking code (with section #):** LDC **Ch. 34, Art. VII, Div. 26 — Parking**, rates in **§ 34-2020 Required parking spaces** ([Municode Div. 26](https://library.municode.com/fl/lee_county/codes/land_development_code?nodeId=LADECO_CH34ZO_ARTVIISUDIRE_DIV26PA_S34-2012DE)) — Table 34-2020(a) residential minimums + 10% guest parking in common lots; built-in reductions (5% for bike/ped facilities + racks; golf-cart space credits). No standalone county parking *study* guideline published online — request expectations from DCD. (checked 2026-07-08)
+- **Traffic calming program/guidelines:** no published countywide residential traffic calming program or policy found online (searched 2026-07-08) `#status/verify` — requests route through the DOT **Request for Action** intake ([Survey123 form](https://survey123.arcgis.com/share/7d51036dfd3e4d7aa45e1ab21f915771?hide=field%3Aproblem_status%2Cfield%3Anotes%2Cnavbar); DOT Operations (239) 533-9400 / RFA@leegov.com), county roads only.
+- **Complete Streets policy · Vision Zero / Safety Action Plan:** the safety planning lives at the **Lee County MPO**: [SS4A Safety Action Plan — final plan + appendices and crash dashboard](https://leempo.com/safe-streets-for-all-public-meeting-1/) (posted 2025-06-03); [Bicycle, Pedestrian and Traffic Safety program](https://leempo.com/programs/bicycle-pedestrian-and-traffic-safety/) with the **2020 Bicycle/Pedestrian Safety Action Plan** (and 2013 predecessor). The MPO maintains a Complete Streets policy/initiative (TIGER-funded county projects); no county-adopted standalone Complete Streets policy or Vision Zero resolution found online `#status/verify`. (checked 2026-07-08)
+- **Roadway design standards / standard details:** LDC **Ch. 10 — Development Standards, Art. III Div. 2 (Transportation, Roadways, Streets and Bridges)** ([Municode](https://library.municode.com/fl/lee_county/codes/land_development_code?nodeId=LADECO_CH10DEST_ARTIIIDESTRE_DIV2TRROSTBR)) is the governing design chapter for private development; DOT publishes a [Signal & Street Light Spec page](https://www.leegov.com/dot/traffic/trafficstandard); ROW work standards reference the Florida Greenbook via AC-11-12 (below). No consolidated county roadway design manual/standard-details set found online (searched 2026-07-08) `#status/verify` — request from DOT Engineering Services.
+- **Access management standards:** LDC **§ 10-285 — Connection separation** (same Div. 2 link; definitions treat two one-way driveways ≤ 50 ft apart as one connection) + **Administrative Code AC-11-12** ([PDF](https://www.leegov.com/dot/Documents/Permit%20documents/AC-11-12.pdf)) — "Construction and Maintenance Activities in County... Right-of-Way...; Residential Driveway Connection on County Roads," adopted 3/6/91, amended through 2015-01-06. State roads: FDOT access class/connection permits. (checked 2026-07-08)
+- **Traffic count requirements (seasonal factors accepted?):** Lee County DOT publishes annual [Traffic Count Reports](https://www.leegov.com/dot/traffic/trafficcountreports) — 2025 Permanent Count Station (PCS) report + spreadsheets back to ~2013, and a searchable **MS2 TCDS database** ([lee.ms2soft.com](https://lee.ms2soft.com/tcds/tsearch.asp?loc=Lee&mod=)). Permanent stations carry monthly/daily/hourly factors, so seasonal adjustment is supported locally — the posted TIS Guidelines don't state a peak-season requirement; confirm at the methodology meeting `#status/verify`. (checked 2026-07-08)
+- **Crash/safety dashboard:** [Lee MPO SS4A crash dashboard (ArcGIS Experience)](https://experience.arcgis.com/experience/0b8b88bb61464d8483f93db994de721b/) — built for the Safety Action Plan; statewide alternative: Signal Four Analytics (agency login). No county-run crash dashboard found. (checked 2026-07-08)
+- **GIS / open data portal:** [Lee County GIS](https://www.leegov.com/gis) → [Lee County Maps and Apps (ArcGIS Hub)](https://maps-leegis.hub.arcgis.com/) and the [LeeGIS Data Explorer](https://gisexplorer.leegov.com/) — parcels, infrastructure, zoning, flood, aerials; downloads + LiDAR on request; MPO [GIS/Map Room](https://leempo.com/gis-map-room/) for planning layers. (checked 2026-07-08)
+- **Signal timing procedures & maintaining agency:** Lee County DOT **Traffic Operations Center** (Public Safety Center) — monitors county traffic signals, dispatches maintenance on malfunctions/flash, adjusts signals during incidents, CCTV monitoring with no recording ([TOC page](https://www.leegov.com/dot/traffic/traffic-operations-center); page is bot-walled to some fetchers — verified via browser-UA fetch 2026-07-08). No written signal-timing/retiming procedures document published online — request from DOT. (checked 2026-07-08)
+- **Development review process & submittal requirements:** DCD [Development Services](https://www.leegov.com/dcd/DS) — administrative review + issuance of **Development Orders** for commercial/industrial/multifamily/subdivision site work in unincorporated Lee; pre-application meeting first; submittal is electronic-only via the [eConnect portal (Accela)](https://aca-prod.accela.com/LEECO/Default.aspx). Guide: [Development Order: Application and Approval Guide (PDF)](https://www.leegov.com/dcd/DevSvcDocs/Guide%20Development%20Order.pdf). (checked 2026-07-08)
+- **Permit forms (ROW, driveway):** DOT Engineering Services — [Commercial Right of Way Permits](https://www.leegov.com/dot/engineeringservices/permits/commercialpermits) and [Residential Driveway Permits](https://www.leegov.com/dot/engineeringservices/permits/residentialdrivewaypermit) (driveway stakeout/evaluation required; concrete or asphalt unless an alternate is approved; roadside drainage conveyance must be maintained) + [Driveway Request Worksheet (PDF)](https://www.leegov.com/dot/Documents/Permit%20documents/Driveway%20Request%20Worksheet.pdf); governing policy AC-11-12 (above). (checked 2026-07-08)
+- **Example projects (ours & public):** ours live in the private vault (see callout below); no county-published example TIS submittals found online.
 
 > [!tip] Contacts, review-comment history, and institutional notes live in the private vault — never on the public site.
 

@@ -3,28 +3,33 @@ tags: [type/reference, domain/agency]
 type: city
 fdot-district: 7
 link: "https://www.myclearwater.com/My-Government/0-City-Departments/Public-Works (Public Works)"
-last-checked:
+last-checked: 2026-07-08
+description: Verified public sources for Clearwater development review, CDC transportation sections, permits, and data — gaps noted.
 ---
-> [!todo] Scaffold sheet
-> Agency contacts, submittal requirements, and quirks not yet compiled. Structure is ready — fill on first project contact.
+**Role/jurisdiction:** Pinellas beach city; tourism traffic patterns — heavy seasonal surges to Clearwater Beach over the Memorial Causeway (SR 60/Gulf to Bay Blvd, US 19, and Alt US 19 are FDOT District 7 roads; many other arterials are Pinellas County's). City review covers city streets and site development inside city limits: development review through **Planning & Development** (Community Development Code), traffic engineering and signals through the **Engineering Department's Traffic Operations Division** under Public Works.
 
-**Role/jurisdiction:** Pinellas beach city; tourism traffic patterns.
-**Known starting points** `#status/verify`:
-- (none yet — run [[Workflow - Research and Source Vetting]])
-- Official site: [City of Clearwater Public Works](https://www.myclearwater.com/My-Government/0-City-Departments/Public-Works)
+**Known starting points** (resolved 2026-07-08 unless tagged):
+- **Bot-block caveat:** myclearwater.com returns **403 to automated clients** (curl and fetch tools alike, checked 2026-07-08). Every myclearwater.com link below was confirmed live via current search-index snippets the same day — open them in a normal browser. Municode, Forward Pinellas, and the city's ArcGIS server load normally.
+- The Community Development Code (CDC) on [Municode](https://library.municode.com/fl/clearwater/codes/community_development_code) is the authoritative source for TIA, parking, and access requirements — the city publishes no standalone transportation manuals.
+- Clearwater runs **its own signal system** (one of the few Pinellas cities that does) — don't assume Pinellas County maintenance inside city limits.
+- Countywide safety planning and count data live with [[Forward Pinellas]], not the city.
+- Always confirm FDOT vs. Pinellas County vs. city maintenance per corridor before citing standards `#status/verify` per corridor.
+
 ## Collect (link each as found; date it)
-- TIA/TIS guidelines:
-- Parking study guidelines / parking code (with section #):
-- Traffic calming program/guidelines:
-- Complete Streets policy · Vision Zero / Safety Action Plan:
-- Roadway design standards / standard details:
-- Access management standards:
-- Traffic count requirements (seasonal factors accepted?):
-- Crash/safety dashboard:
-- GIS / open data portal:
-- Signal timing procedures & maintaining agency:
-- Development review process & submittal requirements:
-- Permit forms (ROW, driveway):
-- Example projects (ours & public):
+- **TIA/TIS guidelines:** CDC **Article 4, Division 8 — Traffic Impact Studies, § 4-801 et seq.** ([Municode Article 4](https://library.municode.com/fl/clearwater/codes/community_development_code?nodeId=PTICODECO_ART4DEREOTPR)) — study required where a project is within a deficient road corridor or may degrade the adopted LOS; trip generation per the most recent ITE Trip Generation Manual. Companion: **Article 4, Division 9 — Concurrency and Mobility Management** (certificate of concurrency/capacity or nonconcurrency affidavit with every development application; "mobility plan" approach with multimodal impact fee). No standalone TIA methodology manual is published online — scope the study with Planning & Development at pre-application. (checked 2026-07-08)
+- **Parking study guidelines / parking code (with section #):** CDC **Article 3, Division 14 — Parking and Loading** (§§ 3-1401–3-1411; bicycle parking at § 3-1411) ([Municode](https://library.municode.com/fl/clearwater/codes/community_development_code?nodeId=PTICODECO_ART3DEST_DIV14PALO)). Minimum space **rates** are set per use in the [Article 2 zoning-district tables](https://library.municode.com/fl/clearwater/codes/community_development_code?nodeId=PTICODECO_ART2ZODI) (e.g., Table 2-202 for LMDR), not in Division 14. No parking-study guideline is published online — reduction requests run through the district flexibility criteria; ask Planning & Development for expectations. City parking operations (beach garages, ParkMobile): [Parking & Transportation](https://www.myclearwater.com/Parking-Transportation) (403 to bots; live via search 2026-07-08). (checked 2026-07-08)
+- **Traffic calming program/guidelines:** **no published traffic calming program, criteria, or handbook found online** — request the current practice from Traffic Operations. Resident intake for speeding/cut-through concerns is [Report Other Traffic Safety Issues](https://www.myclearwater.com/Report-a-Problem/Report-Other-Traffic-Safety-Issues) (403 to bots; live via search). The city's own GIS layers show deployed speed tables and "traffic calming area" signage, so devices exist but are handled case-by-case. (checked 2026-07-08)
+- **Complete Streets policy · Vision Zero / Safety Action Plan:** no city-adopted Vision Zero plan or Complete Streets policy found online `#status/verify`. City active-transportation framework: [Connecting Clearwater: Active Transportation Plan](https://www.myclearwater.com/My-Government/0-City-Departments/Planning-Development/Connecting-Clearwater-Active-Transportation-Plan) (403 to bots; live via search) — replaces the 2006 plan; brought to City Council for adoption 2026-04-23 ([Legistar ID#25-0573](https://clearwater.legistar.com/LegislationDetail.aspx?From=RSS&ID=7450439&GUID=11005BAF-23A3-49D5-80E9-1882F9CA8853)) — confirm final adoption status `#status/verify`. Countywide safety plan covering Clearwater: [Safe Streets Pinellas Action Plan](https://forwardpinellas.org/safestreets/the-action-plan/) (Forward Pinellas, adopted 2021; SS4A-funded update in progress). (checked 2026-07-08)
+- **Roadway design standards / standard details:** [Construction & Design Standards](https://www.myclearwater.com/My-Government/0-City-Departments/Public-Works/Construction-Design-Standards) (Public Works) and [Contract Specifications](https://www.myclearwater.com/Business-Development/Doing-Business-with-the-City/Public-Works-Engineering-Construction-Bid-Information/Contract-Specifications) (Engineering; Word-format specs for bid preparation), plus standard-details index PDFs by series (100 — Streets, 400 — Water, etc.) hosted under the city-projects documents (both pages 403 to bots; live via search 2026-07-08). (checked 2026-07-08)
+- **Access management standards:** CDC **Article 3, Division 1 — Access Management Standards, § 3-101 et seq.** ([Municode](https://library.municode.com/fl/clearwater/codes/community_development_code?nodeId=PTICODECO_ART3DEST_DIV1ACMAST_S3-101PU)). (checked 2026-07-08)
+- **Traffic count requirements (seasonal factors accepted?):** the city publishes no traffic count database and no written count-requirement/seasonal-factor policy — request counts and TIA count expectations from Traffic Operations `#status/verify`. Countywide program: [Forward Pinellas Traffic Count Maps](https://forwardpinellas.org/document-portal/traffic-count-maps/) (annual AADT maps; ~813 count stations countywide). State roads: [FDOT Florida Traffic Online](https://tdaappsprod.dot.state.fl.us/fto/). (checked 2026-07-08)
+- **Crash/safety dashboard:** none published by the city — use [Safe Streets Pinellas](https://forwardpinellas.org/safestreets/) collision assessment and High Injury Network products (HIN = 4% of network, 60% of KSI crashes); Signal Four Analytics requires an agency login. (checked 2026-07-08)
+- **GIS / open data portal:** [Maps & GIS](https://www.myclearwater.com/My-Government/About-Clearwater/Maps-GIS) (403 to bots; live via search) → public ArcGIS server: [gis.myclearwater.com/arcgis/rest/services](https://gis.myclearwater.com/arcgis/rest/services) (loads normally; includes a TrafficEngineering folder with traffic signs/operations feature layers, speed tables, calming-area signage). No dedicated open-data hub found. (checked 2026-07-08)
+- **Signal timing procedures & maintaining agency:** **city-maintained** — the Traffic Operations Division (Engineering Department) operates and maintains the municipal signal system, ITS field equipment, and the City of Clearwater Traffic Control Center, coordinating with Pinellas County's ATMS and FDOT D7 (per the [FDOT D7 regional ITS architecture stakeholder page](https://teo.fdot.gov/architecture/architectures/d7/html/stakeholders/sh43.html)). No written signal-timing procedures published — request from Traffic Operations. Confirm city vs. county vs. FDOT ownership per intersection `#status/verify`. (checked 2026-07-08)
+- **Development review process & submittal requirements:** Planning & Development runs development review under CDC Article 4 procedures (levels of approval); electronic plan review is the **Digital Plan Room** in the Accela Citizen Access portal — [Digital Plan Review](https://www.myclearwater.com/My-Government/0-City-Departments/Planning-Development/Development-Review-Planning/Digital-Plan-Review) (403 to bots; live via search). (checked 2026-07-08)
+- **Permit forms (ROW, driveway):** [Apply for a Right-of-Way Permit](https://www.myclearwater.com/Business-Development/Permits-and-Inspections/Z-Other-Permitting-Services/Apply-for-a-Right-of-Way-Permit) — required for work in the street, under sidewalk, or in the ROW strip, including driveway work (paver driveways explicitly); forms (standard + paver) on [Public Works Applications & Forms](https://www.myclearwater.com/Business-Development/Clearwater-Business-Resources/Public-Works-Applications-Forms); Engineering inspects driveway rough/final (all pages 403 to bots; live via search 2026-07-08). (checked 2026-07-08)
+- **Example projects (ours & public):** ours live in the private vault (see callout below); no city-published example TIA/TIS submittals found online. (checked 2026-07-08)
 
 > [!tip] Contacts, review-comment history, and institutional notes live in the private vault — never on the public site.
+
+**See also:** [[MOC - Agencies]] · [[Forward Pinellas]] · [[Pinellas County]] · [[City of St. Petersburg]]

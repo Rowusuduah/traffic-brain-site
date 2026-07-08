@@ -3,28 +3,33 @@ tags: [type/reference, domain/agency]
 type: mpo
 fdot-district: 1
 link: "https://www.mympo.org/"
-last-checked:
+last-checked: 2026-07-08
+description: Sarasota/Manatee MPO one-pager — 2050 LRTP, interactive TIP, Destination Zero safety action plan, CMP, and GeoHub GIS data.
 ---
-> [!todo] Scaffold sheet
-> Agency contacts, submittal requirements, and quirks not yet compiled. Structure is ready — fill on first project contact.
+**Role/jurisdiction:** Bi-county MPO for **Sarasota and Manatee counties** — FDOT District 1. 17-member governing board of elected officials from both counties, nine cities, and the Sarasota Manatee Airport Authority (FDOT D1 Secretary non-voting). Planning agency only: LRTP, TIP, project priorities, CMP, and safety planning. The MPO does **not** review development, issue permits, or operate roads — TIAs, driveway/ROW permits, and signals belong to [[Sarasota County]], [[Manatee County]], or the cities ([[City of Sarasota]], [[City of Bradenton]], etc.).
 
-**Role/jurisdiction:** Bi-county MPO.
-**Known starting points** `#status/verify`:
-- (none yet — run [[Workflow - Research and Source Vetting]])
-- Official site: [Sarasota/Manatee MPO](https://www.mympo.org/)
+**Known starting points** (resolved 2026-07-08 unless tagged):
+- **LRTP:** [2050 Long Range Transportation Plan](https://www.mympo.org/2050-lrtp) — adopted **2025-10-20**; page posts the [full plan + appendices (PDF)](https://www.mympo.org/images/LRTP/Sarasota-Manatee%20MPO%202050%20Long%20Range%20Transportation%20Plan%20and%20Appendices.pdf), an [executive summary (PDF)](https://www.mympo.org/images/LRTP/2050%20LRTP%20Summary%20Report.pdf), a StoryMap, and an [ArcGIS project dashboard](https://www.arcgis.com/apps/dashboards/b54e33596628484b93d751951be1bcf3). Chapter-by-chapter supporting docs (safety assessment, travel demand memo, freight, resiliency, TSMO master plans) are all downloadable from the same page — unusually rich for an MPO this size.
+- **TIP:** [Transportation Improvement Program](https://www.mympo.org/our-work/mpo-plans/tip) — updated annually (final to FDOT by July 15); current adopted FY 2026/27 TIP posted with archives back to 2019/20, plus an [interactive TIP portal](https://mympo.ecointeractive.com/home/) (EcoInteractive). [Project Priorities](https://www.mympo.org/our-work/mpo-plans/project-priorities) list feeds the FDOT Five-Year Work Program.
+- **Safety brand is "Destination Zero"** — the MPO's safety action plan (adopted 2022), not "Vision Zero"; see Collect below.
+- **GIS:** MPO GeoHub (ArcGIS Hub) with downloadable data — see Collect below.
+- Other adopted plans on [MPO Plans](https://www.mympo.org/our-work/mpo-plans): UPWP, Public Participation Plan, CMP, Active Transportation Plan, annual policy priorities. Corridor and mobility studies on [MPO Planning Studies](https://www.mympo.org/our-work/mpo-planning-studies).
+
 ## Collect (link each as found; date it)
-- TIA/TIS guidelines:
-- Parking study guidelines / parking code (with section #):
-- Traffic calming program/guidelines:
-- Complete Streets policy · Vision Zero / Safety Action Plan:
-- Roadway design standards / standard details:
-- Access management standards:
-- Traffic count requirements (seasonal factors accepted?):
-- Crash/safety dashboard:
-- GIS / open data portal:
-- Signal timing procedures & maintaining agency:
-- Development review process & submittal requirements:
-- Permit forms (ROW, driveway):
-- Example projects (ours & public):
+- **TIA/TIS guidelines:** not an MPO function — the MPO publishes no traffic study guidelines. Development traffic studies are governed by county/city codes — see [[Sarasota County]] / [[Manatee County]] / city pages. (checked 2026-07-08)
+- **Parking study guidelines / parking code (with section #):** not an MPO function — county/city land development codes. (checked 2026-07-08)
+- **Traffic calming program/guidelines:** not an MPO program — calming requests go to the county or city that owns the street. (checked 2026-07-08)
+- **Complete Streets policy · Vision Zero / Safety Action Plan:** [**Destination Zero** Safety Action Plan](https://www.mympo.org/destination-zero/safety-action-plan) — adopted by the MPO board **2022-02-28**, built on the Safe System Approach; [Action Plan (PDF)](https://www.mympo.org/files/216/DZ-Action-Plan/1547/FINAL-DRAFT---Destination-Zero-Action-Plan.pdf) plus appendices: [Crash Assessment 2015–2019 (PDF)](https://www.mympo.org/files/216/DZ-Action-Plan/1552/Crash-Assessment-Tech-Memo-121621.pdf), Pedestrian Crash Assessment, Engagement Summary, **Policy Guidance for Municipal Adoption** (Appendix D — the closest thing to a regional Complete Streets/safety policy template), and a Local Agency Toolkit. A Destination Zero Safety Education Plan (2024) and a 2025 Safety Assessment + High Injury Network segment analysis are posted as [2050 LRTP Chapter 2 supporting docs](https://www.mympo.org/2050-lrtp). No standalone MPO Complete Streets policy found — the [Active Transportation Plan, 2024 (PDF)](https://www.mympo.org/files/105/Active-Transportation-Plan/2376/FINAL-Sarasota-Manatee-MPO-Active-Transportation-Plan2024.pdf) is the bike/ped network plan. (checked 2026-07-08)
+- **Roadway design standards / standard details:** not an MPO function — county/city standards apply (FDOT on state roads). (checked 2026-07-08)
+- **Access management standards:** not an MPO function — FDOT (state roads) or county/city LDC. (checked 2026-07-08)
+- **Traffic count requirements (seasonal factors accepted?):** the MPO sets no study requirements and publishes no standalone count database — roadway network data are collected with FDOT/local governments and reported through the [Congestion Management Process](https://www.mympo.org/our-work/mpo-plans/cmp): [Adopted 2024 CMP (PDF)](https://www.mympo.org/files/34/Congestion-Management-Process/2331/Adopted-2024-Congestion-Management-Process) with executive summary and a 2021 report card on the same page. For raw counts use FDOT Traffic Online and the county count programs — see [[Sarasota County]] / [[Manatee County]]. (checked 2026-07-08)
+- **Crash/safety dashboard:** no public live crash dashboard hosted by the MPO — published crash analyses are the Destination Zero appendices (2015–2019 data) and the 2025 Safety Assessment / HIN analysis in the LRTP Chapter 2 supporting docs. Signal Four Analytics requires agency login. (checked 2026-07-08)
+- **GIS / open data portal:** [Data & Map Tools](https://www.mympo.org/resources/data-map-tools) → [Sarasota/Manatee MPO GeoHub (ArcGIS Hub)](https://smmpo-gis-geohub-saramanampo.hub.arcgis.com/) — downloadable GIS data for planning studies, LRTP, and performance measures, plus StoryMaps and an interactive comment map. (checked 2026-07-08)
+- **Signal timing procedures & maintaining agency:** not an MPO function — signal operations sit with the counties/cities/FDOT; the FDOT **TSMO Master Plans (2020) for Manatee County and Sarasota County** are posted as LRTP Chapter 4 supporting docs on the [2050 LRTP page](https://www.mympo.org/2050-lrtp). Confirm maintainer per intersection with the county `#status/verify`. (checked 2026-07-08)
+- **Development review process & submittal requirements:** not an MPO function — submittals go to the county or city development services. (checked 2026-07-08)
+- **Permit forms (ROW, driveway):** not an MPO function — see county/city pages. (checked 2026-07-08)
+- **Example projects (ours & public):** ours live in the private vault (see callout below); public reference studies on [MPO Planning Studies](https://www.mympo.org/our-work/mpo-planning-studies) — e.g., Ed Smith Stadium Planning Study, Barrier Island Implementation Plan, LECOM Park/Village of the Arts Mobility Study, US 41 Transit Choices Study, SUN Trail alignment studies, US 41 MMEC Gap and Safety Analysis (2020). (checked 2026-07-08)
 
 > [!tip] Contacts, review-comment history, and institutional notes live in the private vault — never on the public site.
+
+**See also:** [[MOC - Agencies]] · [[Sarasota County]] · [[Manatee County]] · [[City of Sarasota]] · [[City of Bradenton]]

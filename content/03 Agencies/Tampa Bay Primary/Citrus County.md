@@ -3,28 +3,32 @@ tags: [type/reference, domain/agency]
 type: county
 fdot-district: 7
 link: "https://www.citruscounty.gov/departments/public_works/index.php (Public Works)"
-last-checked:
+last-checked: 2026-07-08
+description: Agency one-pager — verified public sources for Citrus County LDC transportation standards, plans review, counts, GIS, and permits.
 ---
-> [!todo] Scaffold sheet
-> Agency contacts, submittal requirements, and quirks not yet compiled. Structure is ready — fill on first project contact.
+**Role/jurisdiction:** Rural/suburban county (Lecanto, Homosassa, Citrus Springs); SR 44 / US 19 / Suncoast Parkway corridors are FDOT District 7. The cities of **Inverness** and **Crystal River** run their own land development codes — county review is unincorporated only. Development engineering review sits in **Public Works Technical Services (Plans Review Section)**; zoning/building in Growth Management; the LDC is published by the Land Development Division.
 
-**Role/jurisdiction:** Rural/suburban county; SR 44/US 19 corridors.
-**Known starting points** `#status/verify`:
-- (none yet — run [[Workflow - Research and Source Vetting]])
-- Official site: [Citrus County Public Works](https://www.citruscounty.gov/departments/public_works/index.php)
+**Known starting points** (resolved 2026-07-08 unless tagged):
+- The governing transportation document is **LDC Chapter 7 — Transportation System Standards** (Ord. 2025-A04, 2025-03-11): access management, parking, ROW, road design, and driveway aprons all live in this one chapter — linked below.
+- The MPO is the **Hernando/Citrus MPO** (hosted on Hernando County's site) — its counts/LOS products cover Citrus County roads.
+- Note the domain migration: `citrusbocc.com` URLs 301-redirect to `citruscounty.gov` — cite the new domain.
+- Confirm FDOT vs. County maintenance per corridor (FDOT District 7) `#status/verify` per corridor.
+
 ## Collect (link each as found; date it)
-- TIA/TIS guidelines:
-- Parking study guidelines / parking code (with section #):
-- Traffic calming program/guidelines:
-- Complete Streets policy · Vision Zero / Safety Action Plan:
-- Roadway design standards / standard details:
-- Access management standards:
-- Traffic count requirements (seasonal factors accepted?):
-- Crash/safety dashboard:
-- GIS / open data portal:
-- Signal timing procedures & maintaining agency:
-- Development review process & submittal requirements:
-- Permit forms (ROW, driveway):
-- Example projects (ours & public):
+- **TIA/TIS guidelines:** no standalone county TIA/TIS guidelines manual published online — methodology/scoping: request from Public Works (Plans Review Section). Code basis in [LDC Ch. 7 (PDF)](https://cms5.revize.com/revize/citrusfl//document_center/Department/Growth%20Management/LDD/Chapter%207%20-%20TransportationSystemStandards%202025A04.pdf): § 7110 requires an access & circulation plan with every development application; § 7190 requires a signed-and-sealed **traffic analysis** ("acceptable methodology to the County," Florida Green Book/FDOT indexes for lengths) to establish auxiliary-lane needs; left-turn-lane triggers at § 7190.C (HCM LOS analysis; >20 turning veh/hr on multi-lane roads). Concurrency: LDC Ch. 8 — Concurrency Management ([LDC index](https://www.citruscounty.gov/departments/growth_management/land_development/land_development_code.php)); the county funds roads primarily through transportation impact fees (Code Ch. 54). (checked 2026-07-08)
+- **Parking study guidelines / parking code (with section #):** LDC Ch. 7, **§§ 7200–7290 — Off Street Parking and Loading** — rates at § 7230 (Parking Spaces Required), lot design § 7240, **adjustments/reductions § 7250**, bicycle parking § 7280, loading § 7290 ([LDC Ch. 7 PDF](https://cms5.revize.com/revize/citrusfl//document_center/Department/Growth%20Management/LDD/Chapter%207%20-%20TransportationSystemStandards%202025A04.pdf)). No standalone parking *study* guideline published — request from the county. (checked 2026-07-08)
+- **Traffic calming program/guidelines:** not published online — no county traffic calming program, criteria, or petition process found (Road Maintenance / Public Works pages searched 2026-07-08). Request the current practice from Public Works `#status/verify`.
+- **Complete Streets policy · Vision Zero / Safety Action Plan:** no county-adopted Complete Streets policy or county Safety Action Plan found online `#status/verify`. The [Hernando/Citrus MPO](https://www.hernandocounty.us/building-development/metropolitan-planning-organization/) carries the safety performance targets (LRTP) and lists complete-streets and congestion-management reports on its [Counts, Studies and Reports page](https://www.hernandocounty.us/building-development/metropolitan-planning-organization/mpo-counts-studies-and-reports/); [2045 LRTP](https://www.hernandocounty.us/building-development/metropolitan-planning-organization/mpo-planning-documents/long-range-transportation-plan-lrtp/). (checked 2026-07-08)
+- **Roadway design standards / standard details:** LDC Ch. 7, **§§ 7600–7681 — Road Design** (geometry § 7620, medians § 7630, curb/gutter § 7640, sidewalks § 7670–7671, traffic control devices § 7680, signalization § 7681) and **§§ 7700–7770 — Road Construction Materials and Specifications**; bridges § 7800; **driveway aprons § 7900** ([LDC Ch. 7 PDF](https://cms5.revize.com/revize/citrusfl//document_center/Department/Growth%20Management/LDD/Chapter%207%20-%20TransportationSystemStandards%202025A04.pdf)). No separate county standard-details manual found online. (checked 2026-07-08)
+- **Access management standards:** LDC Ch. 7, **§§ 7100–7195 — Access Management**: general standards § 7110 (frontage/service roads or cross-access required on arterials/collectors, 20-ft paved cross-access connections), residential subdivision criteria § 7120, nonresidential driveway criteria § 7130, frontage roads § 7135, **county-controlled roadways § 7140**, **state highways § 7150**, clear visibility triangle § 7180, auxiliary lanes § 7190. (checked 2026-07-08)
+- **Traffic count requirements (seasonal factors accepted?):** submittal count/seasonal-factor requirements not published — request from Plans Review. Published data: county [Traffic Counts page](https://www.citruscounty.gov/departments/public_works/engineering/traffic_counts.php) (Public Works; count data collected by the Road Maintenance Division's traffic control section per the page) and the GIS [Traffic Station Counts by Year viewer](https://gis.citrusbocc.com/traffic-station-counts.html); Hernando/Citrus MPO publishes Citrus County LOS analyses and archived counts (2020–2021) on its [Counts, Studies and Reports page](https://www.hernandocounty.us/building-development/metropolitan-planning-organization/mpo-counts-studies-and-reports/); FDOT Traffic Online covers state roads. (checked 2026-07-08)
+- **Crash/safety dashboard:** none published by the county, and the MPO's counts/reports page lists no crash data product — request crash data from the county or pull FLHSMV/Signal Four Analytics (agency login). (checked 2026-07-08)
+- **GIS / open data portal:** [Citrus County GIS](https://gis.citrusbocc.com/) (GIS Division: addressing, roads, parcels, land use, zoning, flood zones; data downloads + PDF maps) · [Citrus Open Data (ArcGIS Hub)](https://citrus-open-data-citrusboccfl.hub.arcgis.com/) · web maps at maps.citrusbocc.com. (checked 2026-07-08)
+- **Signal timing procedures & maintaining agency:** county signals are operated by **Public Works (Traffic Engineering / traffic control)** with a county Traffic Control Center — per FDOT District 7 ITS architecture: [Citrus County Traffic Control Center](https://teo.fdot.gov/architecture/architectures/d7/html/elements/el9.html) and [Citrus County DPW stakeholder page](https://teo.fdot.gov/architecture/architectures/d7/html/stakeholders/sh47.html) (county DPW operates signal systems on county arterials and maintains county ITS equipment). Whether Inverness/Crystal River signals are city-, county-, or FDOT-maintained is not published — verify per intersection `#status/verify`. No written signal-timing procedures published — request from Public Works. (checked 2026-07-08)
+- **Development review process & submittal requirements:** [Plans Review Section](https://www.citruscounty.gov/departments/public_works/technical_services/plans_review_section.php) (Public Works Technical Services) — reviews commercial site development plans, preliminary/final plats, minor subdivisions, and subdivision construction plans against LDC engineering standards; application types/procedures in **LDC Ch. 4 — Development Applications** ([LDC index](https://www.citruscounty.gov/departments/growth_management/land_development/land_development_code.php)); building permits through Growth Management's Building Division. (checked 2026-07-08)
+- **Permit forms (ROW, driveway):** [Right-of-Way Application (PDF, 2018 form)](https://cms5.revize.com/revize/citrusfl//20181119%20Right-of-Way%20Application%20(002).pdf) — confirm it is still the current form before submitting `#status/verify`; driveway connections must be by permitted apron per LDC §§ 7110.H and 7900. No dedicated ROW-permit web page found — request current forms/process from Public Works. (checked 2026-07-08)
+- **Example projects (ours & public):** ours live in the private vault (see callout below); no county-published example TIA/TIS submittals found online.
 
 > [!tip] Contacts, review-comment history, and institutional notes live in the private vault — never on the public site.
+
+**See also:** [[MOC - Agencies]] · [[FDOT Districts and Turnpike]] · [[Hernando County]]

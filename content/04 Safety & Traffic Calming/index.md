@@ -12,12 +12,12 @@ description: "Hub for the safety chain — crash pulls, 5-year summaries, CMF-ba
 - [[Midblock Crossing Evaluation (RRFB PHB Signal)]] — STEP matrix logic (speed/lanes/volume) for picking crosswalk vs RRFB vs PHB vs signal vs island vs road diet
 - [[School Zones in Florida]] — s.316.1895 basics, when zones apply, beacon operation windows, and the plan-review checklist
 - [[Vision Zero and the HIN (Tampa Bay)]] — what Vision Zero / High Injury Network vocabulary means in local scopes, with Plan Hillsborough links
+- [[KABCO Injury Scale]] — the K/A/B/C/O codes, officer-assigned error, KABCO vs MAIS, and why severity weighting drives costs and priority
+- [[Crash Rate Calculation]] — MVMT/MEV formulas, worked example, exposure sources, rate vs frequency vs EB, critical rate
+- [[Safety Funding and Formal Studies (HSIP SS4A RSA)]] — HSIP and SS4A structure, the 8-step Road Safety Audit, and the EIT's role
 **Concepts to spawn as encountered:**
-- KABCO Scale · *planned*
-- Crash Rate Calculation (inside 5-yr note) · *planned*
 - High Injury Network · *planned*
 - Vision Zero vs Safe System Approach · *planned*
-- Road Safety Audit · *planned*
 - Systemic vs Spot Safety · *planned*
 - Before-After Study (EB!) · *planned*
 - Crash Diagram · *planned*

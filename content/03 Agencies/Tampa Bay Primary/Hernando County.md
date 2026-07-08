@@ -3,28 +3,32 @@ tags: [type/reference, domain/agency]
 type: county
 fdot-district: 7
 link: "https://www.hernandocounty.us/living-here/roadways/ (Public Works - Roadways)"
-last-checked:
+last-checked: 2026-07-08
+description: Verified public sources for Hernando traffic study methodology, design guidelines, ROW permits, and MPO count/LOS data.
 ---
-> [!todo] Scaffold sheet
-> Agency contacts, submittal requirements, and quirks not yet compiled. Structure is ready — fill on first project contact.
+**Role/jurisdiction:** Suburban/rural county; smaller review shop. Unincorporated county roads (Spring Hill, etc.) — the City of Brooksville handles its own streets; Weeki Wachee is nominal. Public Works / Engineering carries most of the transportation load: **Traffic Engineering** (signals, signs/markings, crash records, data collection, development/site plan review support) and **Development Review** (subdivision and permit review against the design guidelines) sit inside the Engineering Department; zoning/site plans run through Development Services (Planning & Zoning). The MPO is the bi-county **Hernando/Citrus MPO**, staffed within the county's Building & Development pages.
 
-**Role/jurisdiction:** Suburban/rural county; smaller review shop.
-**Known starting points** `#status/verify`:
-- (none yet — run [[Workflow - Research and Source Vetting]])
-- Official site: [Hernando County Public Works - Roadways](https://www.hernandocounty.us/living-here/roadways/)
+**Known starting points** (resolved 2026-07-08 unless tagged):
+- The county *does* publish a TIA methodology — a short **Guidance for Traffic Study Methodology** (effective 2019-08-01), linked below. Thresholds and methodology-statement pre-approval live there.
+- Count and LOS data are published through the **Hernando/Citrus MPO**, not a county counts page.
+- The county website was restructured (~2025): old `/departments/...` URLs are still in search indexes but many 404 — use the `/county-government/` and `/living-here/` paths below.
+- Confirm FDOT vs. County maintenance per corridor — US 19, SR 50, US 41 and Cortez Blvd segments are state roads (FDOT District 7) `#status/verify` per corridor.
+
 ## Collect (link each as found; date it)
-- TIA/TIS guidelines:
-- Parking study guidelines / parking code (with section #):
-- Traffic calming program/guidelines:
-- Complete Streets policy · Vision Zero / Safety Action Plan:
-- Roadway design standards / standard details:
-- Access management standards:
-- Traffic count requirements (seasonal factors accepted?):
-- Crash/safety dashboard:
-- GIS / open data portal:
-- Signal timing procedures & maintaining agency:
-- Development review process & submittal requirements:
-- Permit forms (ROW, driveway):
-- Example projects (ours & public):
+- **TIA/TIS guidelines:** [Guidance for Traffic Study Methodology Requirements for Roadway Operations and Concurrency (PDF)](https://www.hernandocounty.us/media/suolpg01/traffic-study-guidance-doc-final-2019-8-01-19.pdf) — effective **2019-08-01**. Study triggered if any of: PM peak-hour trips ≥ **50** (latest ITE, fitted curve preferred); project trips ≥ **5%** of the LOS D (county) / LOS C (state) AADT service volume from the FDOT Generalized LOS tables; or existing volume ≥ **90%** of the adopted LOS standard. Methodology Statement must be approved by Engineering **and** Planning before study work (studies done first are "at the petitioner's own risk"); study is two-part (concurrency + operations); pass-by capped at 10% unless the County Engineer approves more; ties into the Certificate of Concurrency process. (checked 2026-07-08)
+- **Parking study guidelines / parking code (with section #):** Code of Ordinances, **Appendix A (Zoning), Article II, § 4 — "General regulations for vehicles"** (off-street parking space and access, plus loading standards) — [Appendix A, Art. II on Municode](https://library.municode.com/fl/hernando_county/codes/code_of_ordinances?nodeId=PTIICOOR_APXAZO_ARTIIGERE). Shared parking is allowed where demands differ, with spaces set by the administrative official "after the submission of a parking study" — so a parking study path exists in code, but no county parking-study guideline document is published; scope it with Planning. (checked 2026-07-08)
+- **Traffic calming program/guidelines:** not published online — no traffic calming program, speed hump policy, or criteria document found. Traffic Engineering lists "residential traffic control" among its duties, so a request-driven process likely exists — request from Traffic Engineering. (checked 2026-07-08)
+- **Complete Streets policy · Vision Zero / Safety Action Plan:** no county-adopted Complete Streets policy, Vision Zero plan, or SS4A Safety Action Plan found for the county or the Hernando/Citrus MPO `#status/verify` — request from the county/MPO. Closest published item: the MPO's "Complete Streets: Policy and Implementation Guide Update" (2026) listed on [MPO Counts, Studies and Reports](https://www.hernandocounty.us/building-development/metropolitan-planning-organization/mpo-counts-studies-and-reports/). (checked 2026-07-08)
+- **Roadway design standards / standard details:** [Hernando County Facility Design Guidelines (PDF)](https://www.hernandocounty.us/media/kfuh2use/facility-design-guidelines.pdf) — uniform minimum standards for all public roads/streets, medians, drainage, driveways, sidewalks/curb ramps, and traffic control in the county; incorporates FDOT/AASHTO/FHWA/ITE references (FDOT 2007–2008 editions "or latest"; the posted PDF carries no revision date on its face — confirm currency with the County Engineer `#status/verify`). Includes turn lane, driveway, sidewalk, and subdivision street sections. Linked from the [Engineering Department page](https://www.hernandocounty.us/county-government/engineering/). (checked 2026-07-08)
+- **Access management standards:** no standalone access management policy found online. Working set: driveway/connection design standards in the Facility Design Guidelines (turn lanes; driveways; residential lots may not drive directly onto collectors/arterials), Code **Chapter 24 — Roads and Bridges** ([Municode](https://library.municode.com/fl/hernando_county/codes/code_of_ordinances?nodeId=PTIICOOR_CH24ROBR_ARTIINGE)), and the ROW Use Permit process below. FDOT access permits govern the state roads. (checked 2026-07-08)
+- **Traffic count requirements (seasonal factors accepted?):** count data is published by the **Hernando/Citrus MPO** — [MPO Counts, Studies and Reports](https://www.hernandocounty.us/building-development/metropolitan-planning-organization/mpo-counts-studies-and-reports/): archived Hernando counts 2009–2021 (PDF + map) and current **Major Roadway Network LOS analysis** with 2025 & 2030 LOS forecast dashboards (June 2026 postings). County Traffic Engineering also runs its own data collection — request recent counts directly. The 2019 traffic study guidance is silent on seasonal adjustment — confirm acceptance of FDOT seasonal factors with the County Engineer at methodology `#status/verify`. (checked 2026-07-08)
+- **Crash/safety dashboard:** none published — no county or MPO crash dashboard found online. Traffic Engineering maintains crash records — request from the county (Signal Four Analytics requires agency login). (checked 2026-07-08)
+- **GIS / open data portal:** [Hernando County Central GIS](https://gis.hernandopa-fl.us/) — parcels, addressing, road centerlines, boundaries, aerials; downloads as shapefiles/GeoJSON plus ready-made PDF maps. (Server refuses non-browser clients — 503 to curl; confirmed live via search index + Wayback capture 2026-02-12.) (checked 2026-07-08)
+- **Signal timing procedures & maintaining agency:** Public Works' traffic control team maintains **85 signalized intersections**, school zone signals/markings, and 400+ street lights — [Road and Traffic Maintenance](https://www.hernandocounty.us/living-here/roadways/road-and-traffic-maintenance/). Brooksville's own Public Works page lists traffic signals among its Streets duties, so who maintains signals inside the city (and on state roads like SR 50/US 19) needs corridor-level confirmation `#status/verify`. No signal timing procedures document published — request from Traffic Engineering. (checked 2026-07-08)
+- **Development review process & submittal requirements:** [Planning & Zoning (Development Services)](https://www.hernandocounty.us/building-development/building/planning-and-zoning/) — zoning/site plan review; forms and fee schedules at [Applications & Fees](https://www.hernandocounty.us/building-development/building/planning-and-zoning/applications-fees/). Permit applications are submitted online (the county announced a transition to a new "Civic Access" online permitting system — confirm the current portal link when submitting `#status/verify`). Engineering's Development Review division reviews subdivisions/site plans against the Facility Design Guidelines; traffic methodology sign-off per the 2019 guidance above. (checked 2026-07-08)
+- **Permit forms (ROW, driveway):** [Right of Way Use Permit](https://www.hernandocounty.us/living-here/roadways/right-of-way-use-permit/) — Public Works permit for work in county ROW; requires a fee plus a financial guarantee sized to the work (cash or irrevocable letter of credit), one-year responsibility period on the work; homeowner requests for residential driveway construction/modification are exempted from the heavier requirements. (checked 2026-07-08)
+- **Example projects (ours & public):** ours live in the private vault (see callout below); no county-published example traffic studies found online. (checked 2026-07-08)
 
 > [!tip] Contacts, review-comment history, and institutional notes live in the private vault — never on the public site.
+
+**See also:** [[MOC - Agencies]] · [[Citrus County]] · [[Pasco County]]

@@ -10,6 +10,7 @@ import SourceLink from "./quartz/components/SourceLink"
 const explorerOptions = {
   title: "All sheets",
   folderDefaultState: "collapsed" as const,
+  filterFn: (node: any) => node.slugSegment !== "tags" && node.slugSegment !== "404",
   sortFn: (a: any, b: any) => {
     if (!a.isFolder && a.displayName === "START HERE") return -1
     if (!b.isFolder && b.displayName === "START HERE") return 1

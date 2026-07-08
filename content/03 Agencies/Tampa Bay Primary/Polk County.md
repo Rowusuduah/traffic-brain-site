@@ -3,25 +3,32 @@ tags: [type/reference, domain/agency]
 type: county
 fdot-district: 1
 link: "https://www.polkfl.gov/public-safety/roads-and-drainage/traffic-engineering-and-operations/ (Traffic Engineering & Operations)"
-last-checked:
+last-checked: 2026-07-08
+description: County agency one-pager — verified public sources for unincorporated Polk review (LDC Appendix C TIS), calming, permits, and data.
 ---
-**Role/jurisdiction:** Large county between Tampa & Orlando; prior corridor safety work context in this county.
-**Known starting points** `#status/verify`:
-- Polk TPO handles planning — see [[Polk TPO]]
-- County land development code parking ratios — locate section
+**Role/jurisdiction:** Large county between Tampa & Orlando; prior corridor safety work context in this county. Unincorporated county roads only — Lakeland, Winter Haven, and the other municipalities review their own. Development review runs through the **Land Development Division** (Planning & Development, Bartow); roadway operations through the **Roads & Drainage Division** (Public Safety) — [Roads & Drainage](https://www.polkfl.gov/public-safety/roads-and-drainage/) maintains 2,750+ centerline miles. FDOT District 1 for state roads.
+
+**Known starting points** (resolved 2026-07-08 unless tagged):
+- Polk TPO handles planning — see [[Polk TPO]]. The TPO is unusually load-bearing here: it approves count data for major traffic studies (LDC Appendix C) and hosts the countywide safety/Complete Streets programs.
+- County land development code parking ratios — located: LDC Chapter 7, **§ 708** (rates, Table 7.10), § 709 (design), § 710 (alternative parking strategies). Note § 720 is landscaping, not parking.
+- Unlike Hillsborough (mobility fees), Polk still runs **transportation concurrency** — the TIA process is packaged as a Concurrency Determination under LDC § 703 + Appendix C.
+- Always confirm FDOT vs. County maintenance per corridor — US 17/92, US 27, SR 60 etc. are FDOT District 1 `#status/verify` per corridor.
+
 ## Collect (link each as found; date it)
-- TIA/TIS guidelines:
-- Parking study guidelines / parking code (with section #):
-- Traffic calming program/guidelines:
-- Complete Streets policy · Vision Zero / Safety Action Plan:
-- Roadway design standards / standard details:
-- Access management standards:
-- Traffic count requirements (seasonal factors accepted?):
-- Crash/safety dashboard:
-- GIS / open data portal:
-- Signal timing procedures & maintaining agency:
-- Development review process & submittal requirements:
-- Permit forms (ROW, driveway):
-- Example projects (ours & public):
+- **TIA/TIS guidelines:** LDC **Appendix C — Traffic Impact Study Methodology and Procedures** ([Municode](https://library.municode.com/fl/polk_county/codes/land_development_code?nodeId=APXCPOCOTRIMSTMEPR) · [direct PDF](https://mcclibrary.blob.core.usgovcloudapi.net/codecontent/17014/396084/014_Appendix%20C%20-%20Traffic%20Impact%20Study%20Methodology%20and%20Procedures.pdf)) — adopted 3/01/00, last revised **June 2009** (Ord. 09-023). Applies to development approvals in the unincorporated county; tiered by size: >50 and ≤750 ADT → **Minor Traffic Review** with any Final/Preliminary Concurrency Determination; larger projects → major TIS with TPO pre-application conference. County handout: [Minor Traffic Study form (PD LDC 703 C, revised 2026-01-22)](https://www.polkfl.gov/wp-content/uploads/2026/01/ADA_Minor-Traffic-Study-Final_012326_Revised.pdf) — ITE trip generation, Directly Accessed Segment on the Concurrency Determination Network. (checked 2026-07-08)
+- **Parking study guidelines / parking code (with section #):** LDC Chapter 7 ([Municode](https://library.municode.com/fl/polk_county/codes/land_development_code?nodeId=CH7SIDEST) · [direct PDF](https://mcclibrary.blob.core.usgovcloudapi.net/codecontent/17014/396084/008_Chapter%207%20-%20Site%20Development%20Standards.pdf)) — **§ 708 Parking Space Requirements** (minimums per Table 7.10; a parking study is required for uses not in the table), **§ 709 Parking Area Design**, **§ 710 Alternative Parking Strategies** (the reduction path: parking study, deferred parking plan, or TDM plan, approved by the Director). (checked 2026-07-08)
+- **Traffic calming program/guidelines:** [Residential Traffic Calming Policy (PDF)](https://www.polkfl.gov/wp-content/uploads/2023/08/Traffic-Calming-Policy.pdf) — Roads & Drainage. Eligibility: local residential **paved** road, posted ≤ 30 mph, documented speeding, volumes > 10 trips/residence/day; petition must carry a **66% "yes"** from residents adjacent to the segment. [Request/petition form (rev. 2023-08-22)](https://www.polkfl.gov/wp-content/uploads/2023/08/Traffic-Calming-Petition-Form-8-22-2023.pdf); program overview on the [Traffic Engineering & Operations page](https://www.polkfl.gov/public-safety/roads-and-drainage/traffic-engineering-and-operations/). (checked 2026-07-08)
+- **Complete Streets policy · Vision Zero / Safety Action Plan:** both live at the **TPO**, not the county. [Vision Zero Polk](https://polktpo.com/plans-and-projects/vision-zero-polk/) — SS4A-funded ($720k FY22 grant) countywide **Vision Zero Action Plan in progress** (engagement site: [polkvisionzero.mysocialpinpoint.com](https://polkvisionzero.mysocialpinpoint.com/)); [Bicycle & Pedestrian Safety Action Plans](https://polktpo.com/plans-and-projects/vision-zero-polk/pedestrian-safety-action-plans/) (2016, jointly updated 2020); [TPO Complete Streets](https://polktpo.com/plans-and-projects/vision-zero-polk/complete-streets/) (corridor action plans since 2012; annual CS project priorities). No county-adopted standalone Complete Streets policy found online `#status/verify`. (checked 2026-07-08)
+- **Roadway design standards / standard details:** LDC **Chapter 8 — Subdivisions** ([Municode](https://library.municode.com/fl/polk_county/codes/land_development_code?nodeId=CH8SU)) — § 820 Subdivision Design Standards, § 823 Right-of-Way Requirements, **§ 824 Roadway Design**, which requires design/construction per LDC **Appendix A — Technical Standards Manual** ([Municode](https://library.municode.com/fl/polk_county/codes/land_development_code?nodeId=APXAPOCOTESTMA)). No standalone county roadway design manual published outside the LDC (searched 2026-07-08). (checked 2026-07-08)
+- **Access management standards:** LDC **§ 705 — Access to County Transportation System** (Ch. 7; last rev. 7/10/18, Ord. 18-047) — minimum access/frontage and connection standards for ingress/egress to public and private roads; § 821 (Access) and § 822 (Road Frontage) in Ch. 8 for subdivisions. State roads: FDOT connection permits. (checked 2026-07-08)
+- **Traffic count requirements (seasonal factors accepted?):** Appendix C requires **peak season/peak hour** analysis — "intersection volumes shall be adjusted to peak season" — and the **TPO approves all count data for major studies**. Published volumes: TPO [Roadway Network Database](https://polktpo.com/what-we-do/our-planning-documents/roadway-network-database) (AADT + peak hour LOS on ~425 arterial/collector segments). The county Traffic Data group runs tube counts for its own investigations but publishes no public count database. (checked 2026-07-08)
+- **Crash/safety dashboard:** not published by the county — no county crash dashboard found online (checked 2026-07-08). Use TPO [Vision Zero Polk](https://polktpo.com/plans-and-projects/vision-zero-polk/) materials (incl. the Vision Zero Conditions Assessment Study) or Signal Four Analytics (agency login).
+- **GIS / open data portal:** [Polk County Public Data Portal (ArcGIS Hub)](https://polk-county-geoportal-open-data-polk-bocc-gis.hub.arcgis.com/) — downloadable GIS data (CSV/KML/GeoJSON, GeoServices/WMS APIs); interactive viewer at [gis.polk-county.net](https://gis.polk-county.net/). (checked 2026-07-08)
+- **Signal timing procedures & maintaining agency:** Roads & Drainage **Traffic Engineering & Operations** ([page](https://www.polkfl.gov/public-safety/roads-and-drainage/traffic-engineering-and-operations/)) — IMSA-certified Traffic Signal group maintains **~300 signals and school-zone beacons** plus 100+ lighted intersections; the county ITS monitors **78 intersections** with remote timing adjustments and school-zone scheduling. Signal trouble: (863) 535-2200. No written signal-timing procedures document published online — request from Roads & Drainage. (checked 2026-07-08)
+- **Development review process & submittal requirements:** [Land Development Division](https://www.polkfl.gov/government/planning-and-development/land-development/) — coordinates all applications for the **Development Review Committee** (meets Thursdays 8:30 a.m., County Administration Building, Bartow), Planning Commission, and BoCC; electronic submittal via the [Polk County Access Portal (Accela)](https://aca-prod.accela.com/POLKCO/Default.aspx); Land Development applications help line (863) 534-6449. (checked 2026-07-08)
+- **Permit forms (ROW, driveway):** [Right-of-Way Permitting — Project Engineering](https://www.polkfl.gov/public-safety/roads-and-drainage/project-engineering/) — ROW **use** permits (utility work in county ROW) are issued only to registered utility companies, agri-chemical companies, and municipalities, via the Inspection & Testing section, (863) 535-2321. Driveway/access connections are governed by LDC § 705–706 (ROW Use Permits) and handled through development/building permitting — confirm the issuing desk for a standalone residential driveway `#status/verify`. (checked 2026-07-08)
+- **Example projects (ours & public):** ours live in the private vault (see callout below); no county-published example TIA submittals found online.
 
 > [!tip] Contacts, review-comment history, and institutional notes live in the private vault — never on the public site.
+
+**See also:** [[MOC - Agencies]] · [[Polk TPO]] · [[Hillsborough County]]

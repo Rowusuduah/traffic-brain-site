@@ -3,26 +3,36 @@ tags: [type/reference, domain/agency]
 type: mpo
 fdot-district: 7
 link: "https://planhillsborough.org/"
-last-checked:
+last-checked: 2026-07-08
+description: MPO one-pager — Hillsborough TPO via Plan Hillsborough; Access 2050 LRTP, traffic count database, Vision Zero and Speed Management plans.
 ---
-**Role/jurisdiction:** MPO for Hillsborough (Tampa, Plant City, Temple Terrace + county).
-**Known starting points** `#status/verify`:
-- LRTP, TIP, crash/Vision Zero data products
-- Non-motorized & count data programs — check data portal
+**Role/jurisdiction:** MPO for all of Hillsborough County (Tampa, Plant City, Temple Terrace + unincorporated county, plus THEA and HART). Staffed through **Plan Hillsborough**, the shared agency that also houses the City-County Planning Commission — keep the two hats straight (TPO = transportation planning/funding; Planning Commission = comp-plan/land-use findings). Not a permitting or development-review agency, but the region's best **data shop**: consolidated traffic counts, crash/Vision Zero products, LOS reporting.
+
+**Known starting points** (resolved 2026-07-08 unless tagged):
+- LRTP is **Access 2050**, adopted by the TPO Board 2024-11-06, amended August 2025.
+- The TPO — not the county — maintains the consolidated current + historical **traffic count database** for all major roads (the county publishes no public count database; see [[Hillsborough County]]).
+- **Vision Zero Action Plan** (program launched December 2017) and the follow-on **Speed Management Plan** are TPO products that cover every jurisdiction in the county — cite them for safety context anywhere in Hillsborough.
+- Congestion + crash screening now runs as one framework: the **Crash Mitigation and Congestion Management Process (CMCMP)**.
+- Committee circuit a consultant sees: TPO Board, TAC, CAC, BPAC, **Livable Roadways Committee** (streetscape/complete-streets design review), ITS Committee, Policy Committee, TDCB.
+
 ## Collect (link each as found; date it)
-- TIA/TIS guidelines:
-- Parking study guidelines / parking code (with section #):
-- Traffic calming program/guidelines:
-- Complete Streets policy · Vision Zero / Safety Action Plan:
-- Roadway design standards / standard details:
-- Access management standards:
-- Traffic count requirements (seasonal factors accepted?):
-- Crash/safety dashboard:
-- GIS / open data portal:
-- Signal timing procedures & maintaining agency:
-- Development review process & submittal requirements:
-- Permit forms (ROW, driveway):
-- Example projects (ours & public):
+- **LRTP:** [2050 LRTP — Access 2050](https://planhillsborough.org/2050lrtp/) — adopted 2024-11-06; [full plan as amended August 2025 (PDF)](https://planhillsborough.org/wp-content/uploads/2025/11/Access-2050-Long-Range-Transportation-Plan-Amended-AUG-2025_ADA.pdf), plus executive summary and fact sheet on the page; technical studies and outreach results archived in the [Plan Hillsborough Digital Library](https://digitalcollections.hcplc.org/digital/collection/p16054coll15). (checked 2026-07-08)
+- **TIP:** [Transportation Improvement Program](https://planhillsborough.org/transportation-improvement-program-tip/) — [FY26–30 TIP (adopted June 2025, PDF)](https://planhillsborough.org/wp-content/uploads/2025/06/Hillsborough-TIP-06.11.25_Adopted_web-optimized.pdf) in effect through 2026-09-30; [FY27–31 TIP (adopted June 2026, PDF)](https://planhillsborough.org/wp-content/uploads/2026/06/FY27-31-TIP_06.10.26_optimized-for-web.pdf) effective 2026-10-01. Interactive **TIP mapping tool** on the page (click segments for project type/timing). Revisions: administrative *modifications* (cost changes < 20% and < $2M, funding-source or date changes) vs. formal *amendments* (adds/deletes, major cost changes) heard at board/committee meetings. (checked 2026-07-08)
+- **Committees / board process:** [TPO page](https://planhillsborough.org/tpo/) — Board, **TAC** (technical review of studies/plans/programs), **CAC**, **BPAC** (also convenes as a tri-county forum with Pasco MPO and Forward Pinellas on regionally significant bike/ped projects), **Livable Roadways Committee** (the design/complete-streets review committee corridor work gets presented to), **ITS Committee**, **Policy Committee**, **TDCB**. Meeting agendas/packets via the [TPO calendar](https://planhillsborough.org/calendar/category/tpo/). (checked 2026-07-08)
+- **Funding roles (TA / SS4A / priorities):** project priorities feed the TIP through the TPO's annual priority-setting (List of Priority Projects reviewed by TAC/CAC/board); Transportation Alternatives set-aside candidates are prioritized through the same process — no standalone TA program page found, confirm the current cycle with TPO staff `#status/verify`. SS4A: local governments apply (e.g., Hillsborough County Public Works presented its SS4A program to the TPO, Oct 2024); the TPO's Vision Zero data products underpin those applications. (checked 2026-07-08)
+- **TIA/TIS guidelines:** not a TPO function — no development traffic review. Unincorporated county: TTM via [[Hillsborough County]]; inside city limits: Tampa/Plant City/Temple Terrace processes. (checked 2026-07-08)
+- **Parking study guidelines / parking code (with section #):** none — parking codes are city/county. (checked 2026-07-08)
+- **Traffic calming program/guidelines:** none — calming programs belong to the county and cities, but the TPO's [Speed Management Plan (PDF)](https://planhillsborough.org/wp-content/uploads/2023/06/SpeedManagementPlan.pdf) is the countywide speed-policy context worth citing in calming/speed studies. (checked 2026-07-08)
+- **Complete Streets policy · Vision Zero / Safety Action Plan:** [Vision Zero](https://planhillsborough.org/vision-zero/) — [Vision Zero Action Plan (PDF)](https://planhillsborough.org/wp-content/uploads/2023/06/VisionZeroActionPlan.pdf) (program launched December 2017; four action tracks incl. "Paint Saves Lives") + Speed Management Plan (above); of the top 50 high-injury corridors, eight received corridor-level treatment studies. Vision Zero corridor studies and Safe Access to Parks plans are in the [Digital Library](https://digitalcollections.hcplc.org/digital/collection/p16054coll15). Complete streets work runs through the Livable Roadways Committee and LRTP/TIP programming rather than a published TPO design policy. (checked 2026-07-08)
+- **Roadway design standards / standard details:** none — the TPO publishes no design standards; use FDOT, county (Transportation Design Manual/TTM), or city standards per maintaining agency. (checked 2026-07-08)
+- **Access management standards:** none — FDOT D7 or county/city codes. (checked 2026-07-08)
+- **Traffic count requirements (seasonal factors accepted?):** N/A as a reviewer, but the primary local **count source**: [Traffic Counts](https://planhillsborough.org/traffic-counts/) — consolidated database for all major roads. Products: [Spring 2024 Traffic Counts Report (PDF)](https://planhillsborough.org/wp-content/uploads/2024/06/Hillsborough-TPO-Traffic-Counts-Spring-2024_Final-Report_v2.pdf) (48-hr counts at 440 locations; ADT, AADT, peak hour, 15-min volumes by direction, LOS); [Historical AADT report 1995–2021 (PDF)](https://planhillsborough.org/wp-content/uploads/2023/01/AADT_Historical_Formatted-for-web.pdf); [Multimodal Counts Report (PDF)](https://planhillsborough.org/wp-content/uploads/2024/04/Multimodal-Counts-Report_FINAL.pdf) (late 2023 — peds/bikes/vehicles over 24 hrs at 80 High Injury Network locations); count-station history spreadsheet on the page. ADT→AADT factoring is done in the reports — check the report methodology for the factor source before citing seasonally adjusted values `#status/verify`. See [[County & MPO Count Programs (Tampa Bay)]]. (checked 2026-07-08)
+- **Crash/safety dashboard:** no public TPO crash dashboard found online — crash analysis is published as reports/studies, not a live dashboard. Use: [CMCMP](https://planhillsborough.org/crash-mitigation-and-congestion-management-process-cmcmp/) (combined crash + congestion screening, built on Signal Four Analytics — agency login), Vision Zero materials above, [Transportation Level of Service report](https://planhillsborough.org/level-of-service/), and [State of the System reports](https://planhillsborough.org/state-of-the-system/) for trends. (checked 2026-07-08)
+- **GIS / open data portal:** [GIS Maps & Data Files](https://planhillsborough.org/gis-maps-data-files/) — commonly requested PDF maps, shapefiles, and data for Tampa, Temple Terrace, Plant City, and the unincorporated county (future/existing land use, community plan areas); interactive apps hosted at gis.tpcmaps.org, e.g. the [Planning Information Map App (PIMA)](https://gis.tpcmaps.org/apps/Production/pima/). County infrastructure data lives on the county GeoHub (see [[Hillsborough County]]). (checked 2026-07-08)
+- **Signal timing procedures & maintaining agency:** N/A — signals are operated by Hillsborough County Public Works, the City of Tampa, and FDOT; the TPO's role is limited to ITS planning via its ITS Committee. (checked 2026-07-08)
+- **Development review process & submittal requirements:** none at the TPO — no development submittals. Note the sister agency: the Planning Commission (same Plan Hillsborough staff) issues comprehensive-plan consistency findings for the county and three cities, which is a separate track from any traffic study. (checked 2026-07-08)
+- **Permit forms (ROW, driveway):** none — no permitting authority. (checked 2026-07-08)
+- **Example projects (ours & public):** [TPO current projects](https://planhillsborough.org/tpo-current-projects/) — e.g., Florida Ave / Tampa–Highland one-way pair study (with City of Tampa and FDOT, roughly I-275 to Hillsborough Ave) and the Henderson Blvd / Manhattan Ave corridor vision; completed Vision Zero corridor studies (incl. the Waters Ave & Sligh Ave Vision Zero Streets Study) in the [Digital Library](https://digitalcollections.hcplc.org/digital/collection/p16054coll15). Ours live in the private vault. (checked 2026-07-08)
 
 > [!tip] Contacts, review-comment history, and institutional notes live in the private vault — never on the public site.
 

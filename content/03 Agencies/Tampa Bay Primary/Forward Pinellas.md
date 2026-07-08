@@ -3,25 +3,36 @@ tags: [type/reference, domain/agency]
 type: mpo
 fdot-district: 7
 link: "https://forwardpinellas.org/"
-last-checked:
+last-checked: 2026-07-08
+description: MPO one-pager — Pinellas MPO + countywide land-use authority; Advantage Pinellas 2050 LRTP, count maps, Safe Streets Pinellas Vision Zero.
 ---
-**Role/jurisdiction:** Pinellas MPO + countywide land-use authority (unique dual role).
-**Known starting points** `#status/verify`:
-- Publishes safety action plans, complete streets grants — good funding-context knowledge
+**Role/jurisdiction:** Pinellas MPO + countywide land-use authority (unique dual role — the MPO and the Pinellas Planning Council operate as one agency). Plans and programs federal/state transportation funding for all 25 Pinellas local governments plus PSTA, local airports, and the Port of St. Petersburg, and administers the Countywide Plan (land-use map amendments). It does **not** review TIAs, issue permits, set design standards, or operate roads — that work sits with [[Pinellas County]], the cities, and FDOT District 7.
+
+**Known starting points** (resolved 2026-07-08 unless tagged):
+- LRTP is **Advantage Pinellas 2050**, approved by the Forward Pinellas Board November 2024.
+- One of the few Tampa Bay agencies with its own **countywide traffic count program** — annual AADT count map published as a PDF (120+ recurring locations), plus a permanent trail count program.
+- **Safe Streets Pinellas** is the countywide Vision Zero effort (action plan adopted 2021; update underway 2025–2027 under a $400k USDOT SS4A planning grant, including a public crash dashboard).
+- **Complete Streets grant program** — competitive planning + construction money to local governments; a real funding lever for corridor projects.
+- Committee circuit a consultant sees: Board, TCC, CAC, BPAC, PAC (the technical committee for its Pinellas Planning Council role), STSC, LCB.
+
 ## Collect (link each as found; date it)
-- TIA/TIS guidelines:
-- Parking study guidelines / parking code (with section #):
-- Traffic calming program/guidelines:
-- Complete Streets policy · Vision Zero / Safety Action Plan:
-- Roadway design standards / standard details:
-- Access management standards:
-- Traffic count requirements (seasonal factors accepted?):
-- Crash/safety dashboard:
-- GIS / open data portal:
-- Signal timing procedures & maintaining agency:
-- Development review process & submittal requirements:
-- Permit forms (ROW, driveway):
-- Example projects (ours & public):
+- **LRTP:** [Advantage Pinellas 2050 LRTP](https://forwardpinellas.org/guiding-plans/long-range-transportation-plan/) — approved November 2024; full document, appendices, survey report, and environmental justice report on the [document portal page](https://forwardpinellas.org/document-portal/advantage-pinellas-2050-long-range-transportation-plan/); interactive [story map](https://storymaps.arcgis.com/stories/c4de3e6bc15a4f0b8aa3e08680d4f77b). Companion: [Advantage Pinellas Active Transportation Plan](https://forwardpinellas.org/guiding-plans/advantage-pinellas-active-transportation/). (checked 2026-07-08)
+- **TIP:** [Transportation Improvement Program](https://forwardpinellas.org/programs/transportation-improvement-program/) — adopted annually by July 1; current **FY2027–2031 TIP adopted June 2026** ([full document + executive summary](https://forwardpinellas.org/document-portal/transportation-improvement-program-tip-2027-2031/)); interactive TIP map dashboard on the program page for browsing the 5-year project list. Covers FDOT, all 25 local governments, PSTA, airports, and the port. (checked 2026-07-08)
+- **Committees / board process:** [Advisory Committees](https://forwardpinellas.org/advisory-committees/) — **TCC** (agency planners/engineers — technical review of TIP/plans), **CAC**, **BPAC** (agencies + law enforcement + citizens), **PAC** (Planners Advisory Committee — technical input when the board acts as the Pinellas Planning Council), **School Transportation Safety Committee**, **Local Coordinating Board** (TD program), **Pinellas Trail Security Task Force**. [Agendas & minutes](https://forwardpinellas.org/agendas/). (checked 2026-07-08)
+- **Funding programs (TA / SS4A / local):** [Complete Streets Program](https://forwardpinellas.org/programs/complete-streets-program/) — competitive awards to local governments (historically up to $100k for concept plans and $1.5M for construction; $6.5M+ awarded over the program's first four years, alongside Transportation Alternatives and multimodal priority-list slots). SS4A: **$400,000 planning grant** to update the Safe Streets Pinellas Action Plan ([announcement](https://forwardpinellas.org/pinellas/safe-streets-update/)). TA set-aside candidates flow through Forward Pinellas priority-setting with the committees/board — confirm current call-for-projects cycle before advising a client `#status/verify`. (checked 2026-07-08)
+- **TIA/TIS guidelines:** not an MPO function — no TIA/TIS review or guidelines published. Development traffic review sits with Pinellas County and the municipalities; Forward Pinellas touches development only via Countywide Plan land-use amendments (below). (checked 2026-07-08)
+- **Parking study guidelines / parking code (with section #):** none — parking codes are county/municipal. (checked 2026-07-08)
+- **Traffic calming program/guidelines:** none — traffic calming is run by the county and cities; Safe Streets Pinellas provides the countywide safety/countermeasure context. (checked 2026-07-08)
+- **Complete Streets policy · Vision Zero / Safety Action Plan:** [Safe Streets Pinellas](https://forwardpinellas.org/safestreets/) — Vision Zero program, action plan first adopted **2021** with a target of zero deaths/serious injuries by 2045 ([The Action Plan](https://forwardpinellas.org/safestreets/the-action-plan/)). SS4A-funded update in progress: refreshed High Injury Network, new High-Risk Network, near-miss data collection, and a public crash dashboard; community workshops from spring 2026 ([update announcement](https://forwardpinellas.org/pinellas/safe-streets-update/)). Complete Streets implemented through the [Complete Streets Program](https://forwardpinellas.org/programs/complete-streets-program/) grants rather than a design standard. (checked 2026-07-08)
+- **Roadway design standards / standard details:** none — the MPO publishes no design standards; use FDOT (state roads), Pinellas County, or city standards per maintaining agency. (checked 2026-07-08)
+- **Access management standards:** none — FDOT D7 (state roads) or county/city codes. (checked 2026-07-08)
+- **Traffic count requirements (seasonal factors accepted?):** N/A as a reviewer, but a first-stop **count data source**: [Traffic Count Maps](https://forwardpinellas.org/document-portal/traffic-count-maps/) — annual countywide AADT count-location maps (PDF), years 2014–2024 posted (page last updated 2025-08-25); 120+ locations counted on a recurring cycle. Also the [Trail Count Program](https://forwardpinellas.org/programs/trail-count-program) (monthly data from 8 permanent trail counter stations) and the [Congestion Management Process](https://forwardpinellas.org/programs/congestion-management-process/). State roads: FDOT Traffic Online. See [[County & MPO Count Programs (Tampa Bay)]]. (checked 2026-07-08)
+- **Crash/safety dashboard:** none live yet — a public-facing crash dashboard is a stated deliverable of the SS4A-funded Safe Streets Pinellas update; re-check after the spring 2026 workshops `#status/verify`. Interim: collision assessment appendix of the 2021 action plan; Signal Four Analytics (agency login) for raw crash records. (checked 2026-07-08)
+- **GIS / open data portal:** no standalone Forward Pinellas open-data hub found — GIS products are published per-plan (e.g., [Countywide Plan Map (GIS)](https://forwardpinellas.org/document-portal/countywide-plan-map-gis/), LRTP story map, TIP dashboard; agency works in ArcGIS Online). For countywide spatial data use [Pinellas County Enterprise GIS open data](https://new-pinellas-egis.opendata.arcgis.com/). (checked 2026-07-08)
+- **Signal timing procedures & maintaining agency:** N/A — signals are operated by Pinellas County, the cities, and FDOT; the MPO has no operations role. (checked 2026-07-08)
+- **Development review process & submittal requirements:** land-use only — amendments to the [Countywide Plan](https://forwardpinellas.org/guiding-plans/countywide-plan/) map/rules go through Forward Pinellas (PAC review → board acting as the Pinellas Planning Council/Countywide Planning Authority process). Relevant when a development needs a countywide land-use category change; no traffic-study submittal requirements of its own. (checked 2026-07-08)
+- **Permit forms (ROW, driveway):** none — no permitting authority. (checked 2026-07-08)
+- **Example projects (ours & public):** [Alternate U.S. 19 corridor studies](https://forwardpinellas.org/projects/alternate-u-s-19-studies/) — joint Forward Pinellas/FDOT D7 corridor planning, ~28.9 mi in two concurrent segments (Park St N–Belleair Rd; Belleair Rd–Pasco line), mobility + safety + land-use coordination; a good template for corridor-study scope in Pinellas. Complete Streets grant awardees (St. Petersburg, Largo, county corridors) are public examples of funded concept plans. Ours live in the private vault. (checked 2026-07-08)
 
 > [!tip] Contacts, review-comment history, and institutional notes live in the private vault — never on the public site.
 

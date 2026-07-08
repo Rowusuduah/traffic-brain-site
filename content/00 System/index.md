@@ -13,5 +13,6 @@ description: "How the vault works — capture routines, lessons-learned system, 
 - [[Questions for Senior Engineers]] — batched questions that pass the 3-source test before they're asked.
 - [[Skill Tracker]] — Know / Learning / Need columns, moved monthly; "did it unassisted on a project" = Know.
 - [[Standards Update Tracker]] — the quarterly re-check table for FDM, Standard Plans, TEM, Greenbook, and the rest.
+- [[Verification Queue]] — every `#status/verify` claim in the vault, tiered by how badly an error would bite; work it top down.
 - [[Plans - 30 to 90 to 3 Years]] — outcome-based horizons, reviewed at the monthly review.
 - [[Career Roadmap - EIT to Mastery]] — the five-stage trajectory from reliable producer to PE who owns work.
